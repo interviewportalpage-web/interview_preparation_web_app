@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import QuestionCard from "../components/QuestionCard";
 import Pagination from "../components/Pagination";
+import Footer from "../components/Footer";
 
 const PAGE_SIZE = 10;
 
@@ -48,6 +49,8 @@ export default function TechnologyPage() {
                     onPageChange={setPage}
                 />
             </main>
+
+            <Footer />
         </>
     );
 }
