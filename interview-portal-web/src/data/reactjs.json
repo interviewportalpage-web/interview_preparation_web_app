@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "answer": "React is a JavaScript library for building user interfaces."
+  },
+  {
+    "id": 2,
+    "question": "What is JSX?",
+    "answer": "JSX is JavaScript XML syntax used in React."
+  },
+  {
+    "id": 3,
+    "question": "What is Virtual DOM?",
+    "answer": "Virtual DOM is an in-memory representation of the real DOM."
+  }
+]
