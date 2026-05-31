@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function AboutUs() {
+  const navigate = useNavigate();
   return (
     <div className="page-container">
       <h1>About Us</h1>
@@ -18,6 +21,9 @@ function AboutUs() {
         Our goal is to provide high-quality learning resources that help
         candidates improve their technical skills and confidence.
       </p>
+      <button onClick={() => navigate("/")}>
+        Back
+      </button>
     </div>
   );
 }

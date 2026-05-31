@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 
 const technologies = [
-    "reactjs",
-    "angularjs",
+    "react",
+    "angular",
     "nodejs",
     "sql",
     "mongodb",
-    "dotnet core"
+    "dotnetcore"
 ];
 
 export default function TechnologyTabs() {

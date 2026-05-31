@@ -1,0 +1,752 @@
+[
+    {
+        "id": 1,
+        "question": "What is MongoDB?",
+        "answer": "MongoDB is a NoSQL document-oriented database that stores data in JSON-like documents."
+    },
+    {
+        "id": 2,
+        "question": "What type of database is MongoDB?",
+        "answer": "MongoDB is a NoSQL, document-based database."
+    },
+    {
+        "id": 3,
+        "question": "What is a document in MongoDB?",
+        "answer": "A document is a JSON-like structure used to store data in MongoDB."
+    },
+    {
+        "id": 4,
+        "question": "What is a collection in MongoDB?",
+        "answer": "A collection is a group of MongoDB documents, similar to a table in SQL."
+    },
+    {
+        "id": 5,
+        "question": "What is BSON in MongoDB?",
+        "answer": "BSON is Binary JSON, a format used internally by MongoDB to store documents."
+    },
+    {
+        "id": 6,
+        "question": "Difference between SQL and MongoDB?",
+        "answer": "SQL is relational and table-based, MongoDB is document-based and schema-less."
+    },
+    {
+        "id": 7,
+        "question": "What is schema-less database?",
+        "answer": "It means documents in a collection can have different structures."
+    },
+    {
+        "id": 8,
+        "question": "What is _id in MongoDB?",
+        "answer": "_id is a unique identifier for each document."
+    },
+    {
+        "id": 9,
+        "question": "What is MongoDB Compass?",
+        "answer": "MongoDB Compass is a GUI tool for managing MongoDB databases."
+    },
+    {
+        "id": 10,
+        "question": "What is Mongo Shell?",
+        "answer": "Mongo Shell is a command-line interface for interacting with MongoDB."
+    },
+    {
+        "id": 11,
+        "question": "What is CRUD in MongoDB?",
+        "answer": "CRUD stands for Create, Read, Update, Delete operations."
+    },
+    {
+        "id": 12,
+        "question": "How do you insert a document in MongoDB?",
+        "answer": "Using insertOne() or insertMany() methods."
+    },
+    {
+        "id": 13,
+        "question": "How do you find documents in MongoDB?",
+        "answer": "Using find() method."
+    },
+    {
+        "id": 14,
+        "question": "How do you update a document?",
+        "answer": "Using updateOne() or updateMany() methods."
+    },
+    {
+        "id": 15,
+        "question": "How do you delete a document?",
+        "answer": "Using deleteOne() or deleteMany() methods."
+    },
+    {
+        "id": 16,
+        "question": "What is projection in MongoDB?",
+        "answer": "Projection is selecting specific fields from documents."
+    },
+    {
+        "id": 17,
+        "question": "What is filter in MongoDB?",
+        "answer": "Filter is used to specify conditions in queries."
+    },
+    {
+        "id": 18,
+        "question": "What is aggregation in MongoDB?",
+        "answer": "Aggregation processes data records and returns computed results."
+    },
+    {
+        "id": 19,
+        "question": "What is aggregation pipeline?",
+        "answer": "A framework that processes documents in stages."
+    },
+    {
+        "id": 20,
+        "question": "What are aggregation stages?",
+        "answer": "$match, $group, $sort, $project, $limit, etc."
+    },
+    {
+        "id": 21,
+        "question": "What is $match?",
+        "answer": "Filters documents in aggregation pipeline."
+    },
+    {
+        "id": 22,
+        "question": "What is $group?",
+        "answer": "Groups documents by a field and performs aggregation."
+    },
+    {
+        "id": 23,
+        "question": "What is $project?",
+        "answer": "Reshapes documents and includes/excludes fields."
+    },
+    {
+        "id": 24,
+        "question": "What is $sort?",
+        "answer": "Sorts documents in ascending or descending order."
+    },
+    {
+        "id": 25,
+        "question": "What is $limit?",
+        "answer": "Limits number of documents returned."
+    },
+    {
+        "id": 26,
+        "question": "What is $skip?",
+        "answer": "Skips a number of documents."
+    },
+    {
+        "id": 27,
+        "question": "What is indexing in MongoDB?",
+        "answer": "Indexing improves query performance."
+    },
+    {
+        "id": 28,
+        "question": "What are types of indexes in MongoDB?",
+        "answer": "Single field, compound, text, hashed, geospatial indexes."
+    },
+    {
+        "id": 29,
+        "question": "What is compound index?",
+        "answer": "Index on multiple fields."
+    },
+    {
+        "id": 30,
+        "question": "What is text index?",
+        "answer": "Used for full-text search."
+    },
+    {
+        "id": 31,
+        "question": "What is geospatial index?",
+        "answer": "Used for location-based queries."
+    },
+    {
+        "id": 32,
+        "question": "What is replica set?",
+        "answer": "A group of MongoDB servers maintaining same data."
+    },
+    {
+        "id": 33,
+        "question": "Why replica sets are used?",
+        "answer": "For high availability and data redundancy."
+    },
+    {
+        "id": 34,
+        "question": "What is primary node?",
+        "answer": "Node that handles write operations."
+    },
+    {
+        "id": 35,
+        "question": "What is secondary node?",
+        "answer": "Node that replicates data from primary."
+    },
+    {
+        "id": 36,
+        "question": "What is sharding?",
+        "answer": "Horizontal partitioning of data across servers."
+    },
+    {
+        "id": 37,
+        "question": "Why sharding is used?",
+        "answer": "To handle large-scale data and high traffic."
+    },
+    {
+        "id": 38,
+        "question": "What is shard key?",
+        "answer": "Field used to distribute data across shards."
+    },
+    {
+        "id": 39,
+        "question": "What is MongoDB Atlas?",
+        "answer": "Cloud-managed MongoDB service."
+    },
+    {
+        "id": 40,
+        "question": "What is write concern?",
+        "answer": "Defines level of acknowledgment for write operations."
+    },
+    {
+        "id": 41,
+        "question": "What is read concern?",
+        "answer": "Defines consistency level of read operations."
+    },
+    {
+        "id": 42,
+        "question": "What is journaling?",
+        "answer": "Mechanism to ensure data durability."
+    },
+    {
+        "id": 43,
+        "question": "What is oplog?",
+        "answer": "Operation log used for replication."
+    },
+    {
+        "id": 44,
+        "question": "What is embedding in MongoDB?",
+        "answer": "Storing related data inside a single document."
+    },
+    {
+        "id": 45,
+        "question": "What is referencing in MongoDB?",
+        "answer": "Storing references between documents using IDs."
+    },
+    {
+        "id": 46,
+        "question": "Embedding vs referencing?",
+        "answer": "Embedding stores nested data, referencing stores links."
+    },
+    {
+        "id": 47,
+        "question": "What is schema design in MongoDB?",
+        "answer": "Structuring documents for performance and scalability."
+    },
+    {
+        "id": 48,
+        "question": "When to use embedding?",
+        "answer": "When data is frequently accessed together."
+    },
+    {
+        "id": 49,
+        "question": "When to use referencing?",
+        "answer": "When data is large or shared across documents."
+    },
+    {
+        "id": 50,
+        "question": "What is data modeling in MongoDB?",
+        "answer": "Designing structure of documents and collections."
+    },
+    {
+        "id": 51,
+        "question": "What is atomicity in MongoDB?",
+        "answer": "Operations on a single document are atomic."
+    },
+    {
+        "id": 52,
+        "question": "Does MongoDB support transactions?",
+        "answer": "Yes, multi-document ACID transactions are supported."
+    },
+    {
+        "id": 53,
+        "question": "What is TTL index?",
+        "answer": "Automatically deletes documents after a certain time."
+    },
+    {
+        "id": 54,
+        "question": "What is capped collection?",
+        "answer": "Fixed-size collection that overwrites old data."
+    },
+    {
+        "id": 55,
+        "question": "What is gridFS?",
+        "answer": "Used for storing large files in MongoDB."
+    },
+    {
+        "id": 56,
+        "question": "What is BSON size limit?",
+        "answer": "Maximum document size is 16MB."
+    },
+    {
+        "id": 57,
+        "question": "What is explain() in MongoDB?",
+        "answer": "Shows query execution plan."
+    },
+    {
+        "id": 58,
+        "question": "How to optimize MongoDB queries?",
+        "answer": "Use indexing, projections, and avoid full scans."
+    },
+    {
+        "id": 59,
+        "question": "What is $lookup?",
+        "answer": "Performs join between collections."
+    },
+    {
+        "id": 60,
+        "question": "What is $unwind?",
+        "answer": "Deconstructs array fields into separate documents."
+    },
+    {
+        "id": 61,
+        "question": "What is schema validation?",
+        "answer": "Rules to enforce structure in MongoDB collections."
+    },
+    {
+        "id": 62,
+        "question": "What is difference between MongoDB and MySQL?",
+        "answer": "MongoDB is NoSQL, MySQL is relational."
+    },
+    {
+        "id": 63,
+        "question": "What is horizontal scaling?",
+        "answer": "Adding more servers instead of upgrading one."
+    },
+    {
+        "id": 64,
+        "question": "What is vertical scaling?",
+        "answer": "Increasing power of a single server."
+    },
+    {
+        "id": 65,
+        "question": "What is change stream?",
+        "answer": "Real-time data change notifications."
+    },
+    {
+        "id": 66,
+        "question": "What is aggregation performance tuning?",
+        "answer": "Using indexes and reducing pipeline stages."
+    },
+    {
+        "id": 67,
+        "question": "What is multikey index?",
+        "answer": "Index created on array fields."
+    },
+    {
+        "id": 68,
+        "question": "What is partial index?",
+        "answer": "Index on subset of documents."
+    },
+    {
+        "id": 69,
+        "question": "What is sparse index?",
+        "answer": "Index only for documents containing the field."
+    },
+    {
+        "id": 70,
+        "question": "What is data consistency in MongoDB?",
+        "answer": "Ensures data remains accurate across replica sets."
+    },
+    {
+        "id": 71,
+        "question": "What is eventual consistency?",
+        "answer": "Data becomes consistent over time across nodes."
+    },
+    {
+        "id": 72,
+        "question": "What is high availability?",
+        "answer": "System remains operational even if nodes fail."
+    },
+    {
+        "id": 73,
+        "question": "What is backup strategy in MongoDB?",
+        "answer": "Using snapshots, replica sets, and Atlas backups."
+    },
+    {
+        "id": 74,
+        "question": "What is restore in MongoDB?",
+        "answer": "Recovering data from backup."
+    },
+    {
+        "id": 75,
+        "question": "What is oplog replay?",
+        "answer": "Replaying operations from oplog for recovery."
+    },
+    {
+        "id": 76,
+        "question": "What is data replication lag?",
+        "answer": "Delay between primary and secondary nodes."
+    },
+    {
+        "id": 77,
+        "question": "What is read preference?",
+        "answer": "Controls from which node reads happen."
+    },
+    {
+        "id": 78,
+        "question": "What is write concern majority?",
+        "answer": "Ensures writes are acknowledged by majority nodes."
+    },
+    {
+        "id": 79,
+        "question": "What is MongoDB performance bottleneck?",
+        "answer": "Poor indexing, large scans, or inefficient schema design."
+    },
+    {
+        "id": 80,
+        "question": "What is best practice for MongoDB schema design?",
+        "answer": "Use embedding for fast reads and referencing for large relationships."
+    },
+    {
+        "id": 81,
+        "question": "What is aggregation pipeline optimization?",
+        "answer": "Reducing stages and using indexed $match early."
+    },
+    {
+        "id": 82,
+        "question": "What is query planner?",
+        "answer": "Component that chooses best execution plan."
+    },
+    {
+        "id": 83,
+        "question": "What is MongoDB cursor?",
+        "answer": "Pointer used to iterate query results."
+    },
+    {
+        "id": 84,
+        "question": "What is batch size in MongoDB?",
+        "answer": "Number of documents returned per query batch."
+    },
+    {
+        "id": 85,
+        "question": "What is aggregation vs find()?",
+        "answer": "Aggregation is for complex operations, find is for simple queries."
+    },
+    {
+        "id": 86,
+        "question": "What is data duplication in MongoDB?",
+        "answer": "Storing same data in multiple documents for performance."
+    },
+    {
+        "id": 87,
+        "question": "What is schema flexibility advantage?",
+        "answer": "Allows dynamic data structure changes."
+    },
+    {
+        "id": 88,
+        "question": "What is schema flexibility disadvantage?",
+        "answer": "Can lead to inconsistent data."
+    },
+    {
+        "id": 89,
+        "question": "What is MongoDB use case?",
+        "answer": "Real-time apps, analytics, and scalable systems."
+    },
+    {
+        "id": 90,
+        "question": "When not to use MongoDB?",
+        "answer": "When strong relational consistency is required."
+    },
+    {
+        "id": 91,
+        "question": "What is JSON vs BSON?",
+        "answer": "BSON is binary format used internally, JSON is readable format."
+    },
+    {
+        "id": 92,
+        "question": "What is index cardinality?",
+        "answer": "Uniqueness of values in an index."
+    },
+    {
+        "id": 93,
+        "question": "What is covered query?",
+        "answer": "Query that is fully satisfied using index only."
+    },
+    {
+        "id": 94,
+        "question": "What is index hit?",
+        "answer": "When query uses index instead of scanning table."
+    },
+    {
+        "id": 95,
+        "question": "What is schema migration in MongoDB?",
+        "answer": "Updating document structure across collections."
+    },
+    {
+        "id": 96,
+        "question": "What is aggregation $facet?",
+        "answer": "Runs multiple pipelines in parallel."
+    },
+    {
+        "id": 97,
+        "question": "What is $bucket?",
+        "answer": "Groups data into ranges."
+    },
+    {
+        "id": 98,
+        "question": "What is $merge?",
+        "answer": "Writes aggregation results into a collection."
+    },
+    {
+        "id": 99,
+        "question": "What is MongoDB security?",
+        "answer": "Authentication, authorization, encryption, and network security."
+    },
+    {
+        "id": 100,
+        "question": "What are best practices for MongoDB interviews?",
+        "answer": "Focus on schema design, indexing, aggregation pipeline, replication, and sharding."
+    },
+    {
+        "id": 101,
+        "question": "How do you find the second highest salary in MongoDB?",
+        "answer": "Use aggregation with $group, $sort, and $skip: group salaries, sort descending, skip 1, limit 1."
+    },
+    {
+        "id": 102,
+        "question": "How do you find duplicate records in MongoDB?",
+        "answer": "Use $group on the field and filter where count > 1."
+    },
+    {
+        "id": 103,
+        "question": "How do you remove duplicates in MongoDB?",
+        "answer": "Use aggregation with $group and keep one document using $first, then delete others."
+    },
+    {
+        "id": 104,
+        "question": "How do you find top 3 salaries in each department?",
+        "answer": "Use $group + $push + $unwind + $sort + $group or $setWindowFields in modern MongoDB."
+    },
+    {
+        "id": 105,
+        "question": "How do you implement ranking in MongoDB?",
+        "answer": "Use $setWindowFields with $rank or $denseRank."
+    },
+    {
+        "id": 106,
+        "question": "How do you find users who never placed an order?",
+        "answer": "Use $lookup and filter where joined orders array is empty."
+    },
+    {
+        "id": 107,
+        "question": "How do you find customers with multiple orders?",
+        "answer": "Use $group by customerId and $count > 1."
+    },
+    {
+        "id": 108,
+        "question": "How do you find most frequent value in MongoDB?",
+        "answer": "Use $group + $sort by count descending + $limit 1."
+    },
+    {
+        "id": 109,
+        "question": "How do you calculate running sum in MongoDB?",
+        "answer": "Use $setWindowFields with $sum window operator."
+    },
+    {
+        "id": 110,
+        "question": "How do you calculate moving average in MongoDB?",
+        "answer": "Use $setWindowFields with $avg and window range."
+    },
+    {
+        "id": 111,
+        "question": "How do you find last 5 records in MongoDB?",
+        "answer": "Use $sort descending and $limit 5."
+    },
+    {
+        "id": 112,
+        "question": "How do you find first and last document per user?",
+        "answer": "Use $group with $first and $last operators."
+    },
+    {
+        "id": 113,
+        "question": "How do you find employees with salary greater than department average?",
+        "answer": "Use $group to compute avg and then $match using $lookup or pipeline."
+    },
+    {
+        "id": 114,
+        "question": "How do you join two collections in MongoDB?",
+        "answer": "Use $lookup aggregation stage."
+    },
+    {
+        "id": 115,
+        "question": "What is $lookup used for?",
+        "answer": "It performs left outer join between collections."
+    },
+    {
+        "id": 116,
+        "question": "How do you flatten array in MongoDB?",
+        "answer": "Use $unwind aggregation stage."
+    },
+    {
+        "id": 117,
+        "question": "How do you find missing numbers in a sequence?",
+        "answer": "Generate expected range using $range and compare using $setDifference."
+    },
+    {
+        "id": 118,
+        "question": "How do you find consecutive login days?",
+        "answer": "Use $setWindowFields with lag comparison or grouping logic."
+    },
+    {
+        "id": 119,
+        "question": "How do you detect duplicate transactions?",
+        "answer": "Use $group by transactionId and filter count > 1."
+    },
+    {
+        "id": 120,
+        "question": "How do you find users active every day for a week?",
+        "answer": "Use $group with date range filtering and $addToSet for unique days."
+    },
+    {
+        "id": 121,
+        "question": "How do you optimize MongoDB queries?",
+        "answer": "Use indexing, projection, early $match, and avoid full collection scans."
+    },
+    {
+        "id": 122,
+        "question": "What is covered query in MongoDB?",
+        "answer": "Query fully satisfied using only indexes."
+    },
+    {
+        "id": 123,
+        "question": "How do you improve aggregation performance?",
+        "answer": "Place $match early and reduce document size using $project."
+    },
+    {
+        "id": 124,
+        "question": "What is index usage in MongoDB?",
+        "answer": "Indexes speed up data retrieval by avoiding full scans."
+    },
+    {
+        "id": 125,
+        "question": "How do you find slow queries?",
+        "answer": "Use explain() and MongoDB profiler."
+    },
+    {
+        "id": 126,
+        "question": "What is explain() in MongoDB?",
+        "answer": "Shows execution plan of a query."
+    },
+    {
+        "id": 127,
+        "question": "What is sharding in MongoDB?",
+        "answer": "Splitting data across multiple servers for scalability."
+    },
+    {
+        "id": 128,
+        "question": "What is shard key?",
+        "answer": "Field used to distribute data across shards."
+    },
+    {
+        "id": 129,
+        "question": "What happens if shard key is poorly chosen?",
+        "answer": "It causes uneven data distribution and performance issues."
+    },
+    {
+        "id": 130,
+        "question": "What is replica set election?",
+        "answer": "Process of selecting a new primary node when failure occurs."
+    },
+    {
+        "id": 131,
+        "question": "What is read preference?",
+        "answer": "Controls from which replica node reads are served."
+    },
+    {
+        "id": 132,
+        "question": "What is write concern?",
+        "answer": "Defines acknowledgment level for write operations."
+    },
+    {
+        "id": 133,
+        "question": "What is majority write concern?",
+        "answer": "Write is acknowledged by majority of replica set members."
+    },
+    {
+        "id": 134,
+        "question": "What is change stream in MongoDB?",
+        "answer": "Provides real-time data change notifications."
+    },
+    {
+        "id": 135,
+        "question": "Where are change streams used?",
+        "answer": "Real-time apps like notifications, dashboards, and analytics."
+    },
+    {
+        "id": 136,
+        "question": "What is embedding in MongoDB?",
+        "answer": "Storing related data inside same document."
+    },
+    {
+        "id": 137,
+        "question": "What is referencing in MongoDB?",
+        "answer": "Storing related data using references (ObjectId)."
+    },
+    {
+        "id": 138,
+        "question": "When should you use embedding?",
+        "answer": "When data is frequently accessed together."
+    },
+    {
+        "id": 139,
+        "question": "When should you use referencing?",
+        "answer": "When data is large or shared across multiple documents."
+    },
+    {
+        "id": 140,
+        "question": "Embedding vs referencing performance?",
+        "answer": "Embedding is faster for reads, referencing is better for updates."
+    },
+    {
+        "id": 141,
+        "question": "What is $facet in MongoDB?",
+        "answer": "Runs multiple aggregation pipelines in parallel."
+    },
+    {
+        "id": 142,
+        "question": "What is $bucket?",
+        "answer": "Groups data into defined ranges."
+    },
+    {
+        "id": 143,
+        "question": "What is $merge?",
+        "answer": "Writes aggregation output into a collection."
+    },
+    {
+        "id": 144,
+        "question": "What is MongoDB transaction?",
+        "answer": "Supports ACID multi-document operations."
+    },
+    {
+        "id": 145,
+        "question": "When do you need transactions in MongoDB?",
+        "answer": "When multiple documents must be updated atomically."
+    },
+    {
+        "id": 146,
+        "question": "What is TTL index?",
+        "answer": "Automatically deletes documents after expiration time."
+    },
+    {
+        "id": 147,
+        "question": "What is capped collection?",
+        "answer": "Fixed-size collection that overwrites old data."
+    },
+    {
+        "id": 148,
+        "question": "What is GridFS?",
+        "answer": "Stores large files like videos in MongoDB."
+    },
+    {
+        "id": 149,
+        "question": "What is data modeling in MongoDB?",
+        "answer": "Designing schema for performance and scalability."
+    },
+    {
+        "id": 150,
+        "question": "What are best MongoDB interview strategies?",
+        "answer": "Focus on aggregation pipeline, indexing, schema design, replication, and real-world problem solving."
+    }
+]

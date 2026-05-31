@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function TermsConditions() {
+  const navigate = useNavigate();
   return (
     <div className="page-container">
       <h1>Terms & Conditions</h1>
@@ -25,6 +28,9 @@ function TermsConditions() {
       <p>
         We may modify these terms at any time without prior notice.
       </p>
+      <button onClick={() => navigate("/")}>
+        Back
+      </button>
     </div>
   );
 }

@@ -1,0 +1,1252 @@
+[
+    {
+        "id": 1,
+        "question": "What is SQL?",
+        "answer": "SQL (Structured Query Language) is used to store, retrieve, and manage data in relational databases."
+    },
+    {
+        "id": 2,
+        "question": "What is a database?",
+        "answer": "A database is an organized collection of structured data."
+    },
+    {
+        "id": 3,
+        "question": "What is a table in SQL?",
+        "answer": "A table is a collection of related data organized in rows and columns."
+    },
+    {
+        "id": 4,
+        "question": "What is a row in SQL?",
+        "answer": "A row represents a single record in a table."
+    },
+    {
+        "id": 5,
+        "question": "What is a column in SQL?",
+        "answer": "A column represents a field or attribute in a table."
+    },
+    {
+        "id": 6,
+        "question": "What is a primary key?",
+        "answer": "A primary key uniquely identifies each record in a table."
+    },
+    {
+        "id": 7,
+        "question": "Can a primary key be NULL?",
+        "answer": "No, a primary key cannot contain NULL values."
+    },
+    {
+        "id": 8,
+        "question": "What is a foreign key?",
+        "answer": "A foreign key is a column that links one table to another table's primary key."
+    },
+    {
+        "id": 9,
+        "question": "What is a unique key?",
+        "answer": "A unique key ensures all values in a column are unique."
+    },
+    {
+        "id": 10,
+        "question": "Difference between primary key and unique key?",
+        "answer": "Primary key does not allow NULL and identifies records; unique key allows NULL and ensures uniqueness."
+    },
+    {
+        "id": 11,
+        "question": "What is normalization?",
+        "answer": "Normalization is the process of organizing data to reduce redundancy."
+    },
+    {
+        "id": 12,
+        "question": "What are normal forms?",
+        "answer": "Normal forms are rules for database normalization (1NF, 2NF, 3NF, BCNF)."
+    },
+    {
+        "id": 13,
+        "question": "What is denormalization?",
+        "answer": "Denormalization is adding redundancy to improve query performance."
+    },
+    {
+        "id": 14,
+        "question": "What is a constraint in SQL?",
+        "answer": "Constraints define rules for data in a table (e.g., NOT NULL, UNIQUE)."
+    },
+    {
+        "id": 15,
+        "question": "What is NOT NULL constraint?",
+        "answer": "Ensures that a column cannot have NULL values."
+    },
+    {
+        "id": 16,
+        "question": "What is DEFAULT constraint?",
+        "answer": "Assigns a default value if no value is provided."
+    },
+    {
+        "id": 17,
+        "question": "What is CHECK constraint?",
+        "answer": "Ensures that values in a column satisfy a specific condition."
+    },
+    {
+        "id": 18,
+        "question": "What is SQL JOIN?",
+        "answer": "JOIN is used to combine rows from two or more tables."
+    },
+    {
+        "id": 19,
+        "question": "What are types of JOIN?",
+        "answer": "INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN."
+    },
+    {
+        "id": 20,
+        "question": "What is INNER JOIN?",
+        "answer": "Returns records that have matching values in both tables."
+    },
+    {
+        "id": 21,
+        "question": "What is LEFT JOIN?",
+        "answer": "Returns all records from the left table and matching records from the right table."
+    },
+    {
+        "id": 22,
+        "question": "What is RIGHT JOIN?",
+        "answer": "Returns all records from the right table and matching records from the left table."
+    },
+    {
+        "id": 23,
+        "question": "What is FULL JOIN?",
+        "answer": "Returns all records when there is a match in either table."
+    },
+    {
+        "id": 24,
+        "question": "What is CROSS JOIN?",
+        "answer": "Returns Cartesian product of two tables."
+    },
+    {
+        "id": 25,
+        "question": "What is SELF JOIN?",
+        "answer": "A table joined with itself."
+    },
+    {
+        "id": 26,
+        "question": "What is SELECT statement?",
+        "answer": "Used to retrieve data from a database."
+    },
+    {
+        "id": 27,
+        "question": "What is WHERE clause?",
+        "answer": "Filters records based on a condition."
+    },
+    {
+        "id": 28,
+        "question": "Difference between WHERE and HAVING?",
+        "answer": "WHERE filters rows before grouping; HAVING filters after grouping."
+    },
+    {
+        "id": 29,
+        "question": "What is GROUP BY?",
+        "answer": "Groups rows that have the same values in columns."
+    },
+    {
+        "id": 30,
+        "question": "What is ORDER BY?",
+        "answer": "Sorts query results in ascending or descending order."
+    },
+    {
+        "id": 31,
+        "question": "What is DISTINCT keyword?",
+        "answer": "Removes duplicate values from results."
+    },
+    {
+        "id": 32,
+        "question": "What is LIMIT in SQL?",
+        "answer": "Restricts number of rows returned."
+    },
+    {
+        "id": 33,
+        "question": "What is an index?",
+        "answer": "An index improves the speed of data retrieval operations."
+    },
+    {
+        "id": 34,
+        "question": "What are types of indexes?",
+        "answer": "Primary index, unique index, clustered index, non-clustered index."
+    },
+    {
+        "id": 35,
+        "question": "What is a view?",
+        "answer": "A view is a virtual table based on SQL query results."
+    },
+    {
+        "id": 36,
+        "question": "What is a stored procedure?",
+        "answer": "A stored procedure is a precompiled set of SQL statements."
+    },
+    {
+        "id": 37,
+        "question": "What is a trigger?",
+        "answer": "A trigger is automatically executed when an event occurs in a table."
+    },
+    {
+        "id": 38,
+        "question": "What is ACID property?",
+        "answer": "Atomicity, Consistency, Isolation, Durability in transactions."
+    },
+    {
+        "id": 39,
+        "question": "What is a transaction?",
+        "answer": "A transaction is a sequence of operations performed as a single unit."
+    },
+    {
+        "id": 40,
+        "question": "What is COMMIT in SQL?",
+        "answer": "Saves all changes made in a transaction."
+    },
+    {
+        "id": 41,
+        "question": "What is ROLLBACK?",
+        "answer": "Undoes changes made in a transaction."
+    },
+    {
+        "id": 42,
+        "question": "What is SAVEPOINT?",
+        "answer": "Sets a point within a transaction to which you can roll back."
+    },
+    {
+        "id": 43,
+        "question": "What is NULL value?",
+        "answer": "NULL represents missing or unknown data."
+    },
+    {
+        "id": 44,
+        "question": "Difference between DELETE, TRUNCATE, DROP?",
+        "answer": "DELETE removes rows, TRUNCATE removes all rows, DROP removes table completely."
+    },
+    {
+        "id": 45,
+        "question": "What is alias in SQL?",
+        "answer": "Alias gives a temporary name to a column or table."
+    },
+    {
+        "id": 46,
+        "question": "What is subquery?",
+        "answer": "A query inside another query."
+    },
+    {
+        "id": 47,
+        "question": "What is correlated subquery?",
+        "answer": "A subquery that depends on outer query."
+    },
+    {
+        "id": 48,
+        "question": "What is UNION?",
+        "answer": "Combines results of two SELECT queries and removes duplicates."
+    },
+    {
+        "id": 49,
+        "question": "Difference between UNION and UNION ALL?",
+        "answer": "UNION removes duplicates; UNION ALL keeps duplicates."
+    },
+    {
+        "id": 50,
+        "question": "What is EXISTS in SQL?",
+        "answer": "Checks if a subquery returns any results."
+    },
+    {
+        "id": 51,
+        "question": "What is query optimization in SQL?",
+        "answer": "Query optimization is the process of improving SQL query performance by reducing execution time and resource usage."
+    },
+    {
+        "id": 52,
+        "question": "What is an execution plan?",
+        "answer": "An execution plan shows how SQL engine executes a query step by step."
+    },
+    {
+        "id": 53,
+        "question": "What is indexing and why is it important?",
+        "answer": "Indexing improves data retrieval speed by allowing faster search instead of scanning full tables."
+    },
+    {
+        "id": 54,
+        "question": "What are disadvantages of indexes?",
+        "answer": "Indexes take extra storage space and slow down insert, update, and delete operations."
+    },
+    {
+        "id": 55,
+        "question": "What is clustered index?",
+        "answer": "A clustered index determines the physical order of data in a table."
+    },
+    {
+        "id": 56,
+        "question": "What is non-clustered index?",
+        "answer": "A non-clustered index is a separate structure that points to table rows."
+    },
+    {
+        "id": 57,
+        "question": "Difference between clustered and non-clustered index?",
+        "answer": "Clustered index sorts actual data, non-clustered index stores pointers to data."
+    },
+    {
+        "id": 58,
+        "question": "What is composite index?",
+        "answer": "An index created on multiple columns."
+    },
+    {
+        "id": 59,
+        "question": "What is normalization?",
+        "answer": "Normalization organizes data to reduce redundancy and improve integrity."
+    },
+    {
+        "id": 60,
+        "question": "What are normal forms?",
+        "answer": "Rules for structuring database: 1NF, 2NF, 3NF, BCNF."
+    },
+    {
+        "id": 61,
+        "question": "What is 1NF?",
+        "answer": "First Normal Form ensures each column contains atomic values."
+    },
+    {
+        "id": 62,
+        "question": "What is 2NF?",
+        "answer": "Second Normal Form removes partial dependency."
+    },
+    {
+        "id": 63,
+        "question": "What is 3NF?",
+        "answer": "Third Normal Form removes transitive dependency."
+    },
+    {
+        "id": 64,
+        "question": "What is BCNF?",
+        "answer": "Boyce-Codd Normal Form is a stricter version of 3NF."
+    },
+    {
+        "id": 65,
+        "question": "What is denormalization?",
+        "answer": "Denormalization adds redundancy to improve read performance."
+    },
+    {
+        "id": 66,
+        "question": "When should you denormalize data?",
+        "answer": "When read performance is more important than write efficiency."
+    },
+    {
+        "id": 67,
+        "question": "What is join optimization?",
+        "answer": "Improving join performance using indexes, filtering, and proper join order."
+    },
+    {
+        "id": 68,
+        "question": "Which join is fastest?",
+        "answer": "INNER JOIN is generally faster because it returns only matching rows."
+    },
+    {
+        "id": 69,
+        "question": "What is LEFT JOIN performance issue?",
+        "answer": "It may return large datasets including unmatched rows, increasing cost."
+    },
+    {
+        "id": 70,
+        "question": "What is self join used for?",
+        "answer": "To compare rows within the same table."
+    },
+    {
+        "id": 71,
+        "question": "What is GROUP BY used for?",
+        "answer": "It groups rows with same values for aggregation."
+    },
+    {
+        "id": 72,
+        "question": "What is HAVING used for?",
+        "answer": "It filters grouped records after aggregation."
+    },
+    {
+        "id": 73,
+        "question": "Difference between WHERE and HAVING in performance?",
+        "answer": "WHERE filters early (faster), HAVING filters after grouping (slower)."
+    },
+    {
+        "id": 74,
+        "question": "What are aggregate functions?",
+        "answer": "Functions like COUNT, SUM, AVG, MIN, MAX."
+    },
+    {
+        "id": 75,
+        "question": "What is COUNT(*) vs COUNT(column)?",
+        "answer": "COUNT(*) counts all rows, COUNT(column) ignores NULL values."
+    },
+    {
+        "id": 76,
+        "question": "What is subquery optimization?",
+        "answer": "Replacing subqueries with joins or indexed queries for better performance."
+    },
+    {
+        "id": 77,
+        "question": "What is correlated subquery?",
+        "answer": "A subquery that executes once per row of outer query."
+    },
+    {
+        "id": 78,
+        "question": "Why are correlated subqueries slow?",
+        "answer": "They execute repeatedly for each row."
+    },
+    {
+        "id": 79,
+        "question": "What is EXISTS vs IN?",
+        "answer": "EXISTS is faster for large datasets; IN is simpler but slower in some cases."
+    },
+    {
+        "id": 80,
+        "question": "What is UNION performance issue?",
+        "answer": "UNION removes duplicates which adds sorting overhead."
+    },
+    {
+        "id": 81,
+        "question": "When to use UNION ALL?",
+        "answer": "When duplicates are allowed and performance is important."
+    },
+    {
+        "id": 82,
+        "question": "What is indexing strategy?",
+        "answer": "Choosing correct columns for indexing based on query patterns."
+    },
+    {
+        "id": 83,
+        "question": "What is a covering index?",
+        "answer": "An index that contains all columns required by a query."
+    },
+    {
+        "id": 84,
+        "question": "What is index selectivity?",
+        "answer": "Measure of how unique index values are."
+    },
+    {
+        "id": 85,
+        "question": "What is a slow query?",
+        "answer": "A query that takes long execution time due to poor optimization."
+    },
+    {
+        "id": 86,
+        "question": "How do you find slow queries?",
+        "answer": "Using execution plans and database monitoring tools."
+    },
+    {
+        "id": 87,
+        "question": "What is table scan?",
+        "answer": "Scanning entire table instead of using index."
+    },
+    {
+        "id": 88,
+        "question": "Why is table scan bad?",
+        "answer": "It increases time complexity and reduces performance."
+    },
+    {
+        "id": 89,
+        "question": "What is database locking?",
+        "answer": "Mechanism to control concurrent data access."
+    },
+    {
+        "id": 90,
+        "question": "What are types of locks?",
+        "answer": "Shared lock and exclusive lock."
+    },
+    {
+        "id": 91,
+        "question": "What is deadlock?",
+        "answer": "A situation where two transactions block each other."
+    },
+    {
+        "id": 92,
+        "question": "How do you prevent deadlocks?",
+        "answer": "By keeping consistent locking order and minimizing transaction time."
+    },
+    {
+        "id": 93,
+        "question": "What is transaction isolation?",
+        "answer": "Level of visibility of transaction changes to other transactions."
+    },
+    {
+        "id": 94,
+        "question": "What are isolation levels?",
+        "answer": "Read Uncommitted, Read Committed, Repeatable Read, Serializable."
+    },
+    {
+        "id": 95,
+        "question": "What is dirty read?",
+        "answer": "Reading uncommitted data from another transaction."
+    },
+    {
+        "id": 96,
+        "question": "What is phantom read?",
+        "answer": "New rows appear in repeated reads of the same query."
+    },
+    {
+        "id": 97,
+        "question": "What is non-repeatable read?",
+        "answer": "Same query returns different results in a transaction."
+    },
+    {
+        "id": 98,
+        "question": "What is database partitioning?",
+        "answer": "Splitting large tables into smaller parts for performance."
+    },
+    {
+        "id": 99,
+        "question": "What is horizontal partitioning?",
+        "answer": "Splitting rows across multiple tables or databases."
+    },
+    {
+        "id": 100,
+        "question": "What is vertical partitioning?",
+        "answer": "Splitting columns of a table into separate tables."
+    },
+    {
+        "id": 101,
+        "question": "What is a Window Function in SQL?",
+        "answer": "A window function performs calculations across a set of rows related to the current row without collapsing rows."
+    },
+    {
+        "id": 102,
+        "question": "What is the difference between GROUP BY and Window Functions?",
+        "answer": "GROUP BY reduces rows, while window functions retain original rows and add computed values."
+    },
+    {
+        "id": 103,
+        "question": "What is ROW_NUMBER()?",
+        "answer": "ROW_NUMBER() assigns a unique sequential number to rows in a result set."
+    },
+    {
+        "id": 104,
+        "question": "What is RANK()?",
+        "answer": "RANK() assigns rank to rows and leaves gaps in ranking when there are ties."
+    },
+    {
+        "id": 105,
+        "question": "What is DENSE_RANK()?",
+        "answer": "DENSE_RANK() assigns ranks without gaps when ties occur."
+    },
+    {
+        "id": 106,
+        "question": "Difference between RANK and DENSE_RANK?",
+        "answer": "RANK skips numbers after ties, DENSE_RANK does not skip numbers."
+    },
+    {
+        "id": 107,
+        "question": "What is NTILE()?",
+        "answer": "NTILE() divides rows into equal buckets or groups."
+    },
+    {
+        "id": 108,
+        "question": "What is PARTITION BY?",
+        "answer": "PARTITION BY divides result set into groups for window functions."
+    },
+    {
+        "id": 109,
+        "question": "What is ORDER BY in window functions?",
+        "answer": "It defines the order of rows within each partition."
+    },
+    {
+        "id": 110,
+        "question": "What is a CTE?",
+        "answer": "A Common Table Expression is a temporary result set used in a query."
+    },
+    {
+        "id": 111,
+        "question": "Why use CTEs?",
+        "answer": "CTEs improve readability and simplify complex queries."
+    },
+    {
+        "id": 112,
+        "question": "What is a recursive CTE?",
+        "answer": "A CTE that references itself to process hierarchical data."
+    },
+    {
+        "id": 113,
+        "question": "Where are recursive CTEs used?",
+        "answer": "Used in hierarchical data like org charts and tree structures."
+    },
+    {
+        "id": 114,
+        "question": "What is a subquery vs CTE?",
+        "answer": "CTE improves readability and can be reused; subquery is embedded inside a query."
+    },
+    {
+        "id": 115,
+        "question": "What is LEAD() function?",
+        "answer": "LEAD() accesses next row’s value in a result set."
+    },
+    {
+        "id": 116,
+        "question": "What is LAG() function?",
+        "answer": "LAG() accesses previous row’s value."
+    },
+    {
+        "id": 117,
+        "question": "Use case of LAG()?",
+        "answer": "Used to compare current row with previous row values."
+    },
+    {
+        "id": 118,
+        "question": "What is FIRST_VALUE()?",
+        "answer": "Returns first value in a partition."
+    },
+    {
+        "id": 119,
+        "question": "What is LAST_VALUE()?",
+        "answer": "Returns last value in a partition."
+    },
+    {
+        "id": 120,
+        "question": "What is frame clause in window functions?",
+        "answer": "Defines subset of rows within partition for calculations."
+    },
+    {
+        "id": 121,
+        "question": "What is an analytical query?",
+        "answer": "A query used to perform calculations on datasets for insights."
+    },
+    {
+        "id": 122,
+        "question": "What is ranking problem in SQL interviews?",
+        "answer": "Finding top N records per group using window functions."
+    },
+    {
+        "id": 123,
+        "question": "How do you find top 3 salaries per department?",
+        "answer": "Use DENSE_RANK() partitioned by department ordered by salary descending."
+    },
+    {
+        "id": 124,
+        "question": "What is moving average in SQL?",
+        "answer": "Average calculated over a sliding window of rows."
+    },
+    {
+        "id": 125,
+        "question": "How do you calculate moving average?",
+        "answer": "Using AVG() over a window frame with ROWS BETWEEN clause."
+    },
+    {
+        "id": 126,
+        "question": "What is cumulative sum?",
+        "answer": "Running total calculated using SUM() OVER() function."
+    },
+    {
+        "id": 127,
+        "question": "What is percentile in SQL?",
+        "answer": "A value below which a percentage of data falls."
+    },
+    {
+        "id": 128,
+        "question": "What is PERCENT_RANK()?",
+        "answer": "It calculates relative rank of rows as a percentage."
+    },
+    {
+        "id": 129,
+        "question": "What is difference between ROW_NUMBER and RANK?",
+        "answer": "ROW_NUMBER gives unique sequence; RANK allows ties."
+    },
+    {
+        "id": 130,
+        "question": "What is data aggregation in analytics?",
+        "answer": "Summarizing data using aggregate functions like SUM, AVG."
+    },
+    {
+        "id": 131,
+        "question": "What is pivot in SQL?",
+        "answer": "Transforming rows into columns."
+    },
+    {
+        "id": 132,
+        "question": "What is unpivot?",
+        "answer": "Transforming columns into rows."
+    },
+    {
+        "id": 133,
+        "question": "What is materialized view?",
+        "answer": "A stored query result that is periodically updated."
+    },
+    {
+        "id": 134,
+        "question": "Difference between view and materialized view?",
+        "answer": "View is dynamic; materialized view stores data physically."
+    },
+    {
+        "id": 135,
+        "question": "What is indexing strategy for analytics queries?",
+        "answer": "Use composite indexes and covering indexes for faster reads."
+    },
+    {
+        "id": 136,
+        "question": "What is query plan caching?",
+        "answer": "Reusing execution plans to improve performance."
+    },
+    {
+        "id": 137,
+        "question": "What is parameter sniffing?",
+        "answer": "Database uses cached execution plan based on first parameter values."
+    },
+    {
+        "id": 138,
+        "question": "What is skewed data problem?",
+        "answer": "Uneven distribution of data causing performance issues."
+    },
+    {
+        "id": 139,
+        "question": "What is slow query optimization?",
+        "answer": "Improving query using indexes, joins, and reducing scans."
+    },
+    {
+        "id": 140,
+        "question": "What is EXPLAIN ANALYZE?",
+        "answer": "Shows execution plan and actual query performance."
+    },
+    {
+        "id": 141,
+        "question": "What is top-N query optimization?",
+        "answer": "Efficiently retrieving top N records using indexes or ranking functions."
+    },
+    {
+        "id": 142,
+        "question": "What is recursive hierarchy query?",
+        "answer": "Query used to traverse parent-child relationships."
+    },
+    {
+        "id": 143,
+        "question": "How do you find employee hierarchy?",
+        "answer": "Using recursive CTE to traverse manager-employee relationships."
+    },
+    {
+        "id": 144,
+        "question": "What is time-series data in SQL?",
+        "answer": "Data indexed by time for trend analysis."
+    },
+    {
+        "id": 145,
+        "question": "How do you analyze time-series data?",
+        "answer": "Using window functions like LAG, LEAD, and moving averages."
+    },
+    {
+        "id": 146,
+        "question": "What is deduplication in SQL?",
+        "answer": "Removing duplicate rows using ROW_NUMBER or DISTINCT."
+    },
+    {
+        "id": 147,
+        "question": "How do you remove duplicates efficiently?",
+        "answer": "Using ROW_NUMBER partitioned by columns and deleting duplicates."
+    },
+    {
+        "id": 148,
+        "question": "What is anti-join?",
+        "answer": "Finding records in one table not present in another."
+    },
+    {
+        "id": 149,
+        "question": "What is performance tuning for large tables?",
+        "answer": "Using indexing, partitioning, and query optimization."
+    },
+    {
+        "id": 150,
+        "question": "What are best practices for advanced SQL queries?",
+        "answer": "Use window functions, proper indexing, avoid subqueries, and optimize joins."
+    },
+    {
+        "id": 151,
+        "question": "How do you find the second highest salary in SQL?",
+        "answer": "Use subquery or DENSE_RANK() to filter salary with rank = 2."
+    },
+    {
+        "id": 152,
+        "question": "How do you find the Nth highest salary?",
+        "answer": "Use DENSE_RANK() or LIMIT with OFFSET depending on SQL dialect."
+    },
+    {
+        "id": 153,
+        "question": "How do you find duplicate records in a table?",
+        "answer": "Use GROUP BY with HAVING COUNT(*) > 1."
+    },
+    {
+        "id": 154,
+        "question": "How do you delete duplicate rows in SQL?",
+        "answer": "Use ROW_NUMBER() partitioned by duplicate columns and delete where row number > 1."
+    },
+    {
+        "id": 155,
+        "question": "How do you find employees with same salary?",
+        "answer": "Group by salary and filter COUNT(*) > 1."
+    },
+    {
+        "id": 156,
+        "question": "How do you find the top 3 salaries in each department?",
+        "answer": "Use DENSE_RANK() partitioned by department ordered by salary DESC."
+    },
+    {
+        "id": 157,
+        "question": "How do you find the department with highest average salary?",
+        "answer": "Use GROUP BY department and ORDER BY AVG(salary) DESC LIMIT 1."
+    },
+    {
+        "id": 158,
+        "question": "How do you find employees who joined in last 30 days?",
+        "answer": "Use DATE_SUB or interval functions based on current date."
+    },
+    {
+        "id": 159,
+        "question": "How do you find consecutive login days?",
+        "answer": "Use LAG() and date difference logic."
+    },
+    {
+        "id": 160,
+        "question": "How do you find customers who never placed an order?",
+        "answer": "Use LEFT JOIN and filter NULL in orders table."
+    },
+    {
+        "id": 161,
+        "question": "How do you find the most repeated value in a column?",
+        "answer": "Use GROUP BY and ORDER BY COUNT(*) DESC LIMIT 1."
+    },
+    {
+        "id": 162,
+        "question": "How do you find second most repeated value?",
+        "answer": "Use DENSE_RANK() over COUNT aggregation."
+    },
+    {
+        "id": 163,
+        "question": "How do you swap two columns values in SQL?",
+        "answer": "Use CASE or temporary variable logic depending on DB."
+    },
+    {
+        "id": 164,
+        "question": "How do you find employees with salary greater than average?",
+        "answer": "Use subquery with AVG(salary)."
+    },
+    {
+        "id": 165,
+        "question": "How do you find departments with more than 5 employees?",
+        "answer": "Use GROUP BY department HAVING COUNT(*) > 5."
+    },
+    {
+        "id": 166,
+        "question": "How do you find highest salary without MAX()?",
+        "answer": "Use ORDER BY salary DESC LIMIT 1."
+    },
+    {
+        "id": 167,
+        "question": "How do you find employees whose salary is same as manager?",
+        "answer": "Self join employee table with manager relation."
+    },
+    {
+        "id": 168,
+        "question": "How do you find missing numbers in a sequence?",
+        "answer": "Use recursive CTE or compare expected vs actual sequence."
+    },
+    {
+        "id": 169,
+        "question": "How do you find gaps in dates?",
+        "answer": "Use LAG() to compare consecutive dates."
+    },
+    {
+        "id": 170,
+        "question": "How do you find the last record in a table?",
+        "answer": "Use ORDER BY primary key DESC LIMIT 1."
+    },
+    {
+        "id": 171,
+        "question": "How do you get the first record in a table?",
+        "answer": "Use ORDER BY primary key ASC LIMIT 1."
+    },
+    {
+        "id": 172,
+        "question": "How do you find employees with no manager?",
+        "answer": "Filter where manager_id IS NULL."
+    },
+    {
+        "id": 173,
+        "question": "How do you find hierarchical data?",
+        "answer": "Use recursive CTE for parent-child relationships."
+    },
+    {
+        "id": 174,
+        "question": "How do you calculate running total?",
+        "answer": "Use SUM() OVER(ORDER BY column)."
+    },
+    {
+        "id": 175,
+        "question": "How do you calculate moving average?",
+        "answer": "Use AVG() OVER with ROWS BETWEEN clause."
+    },
+    {
+        "id": 176,
+        "question": "How do you find percentage contribution per row?",
+        "answer": "Divide row value by SUM() OVER()."
+    },
+    {
+        "id": 177,
+        "question": "How do you find rank of employees by salary?",
+        "answer": "Use RANK() or DENSE_RANK() OVER(ORDER BY salary DESC)."
+    },
+    {
+        "id": 178,
+        "question": "How do you find first and last salary in department?",
+        "answer": "Use FIRST_VALUE and LAST_VALUE window functions."
+    },
+    {
+        "id": 179,
+        "question": "How do you find customers with multiple orders?",
+        "answer": "Use GROUP BY customer HAVING COUNT(order_id) > 1."
+    },
+    {
+        "id": 180,
+        "question": "How do you find products never sold?",
+        "answer": "Use LEFT JOIN between products and orders tables."
+    },
+    {
+        "id": 181,
+        "question": "How do you find employees earning top 10 salaries?",
+        "answer": "Use ORDER BY salary DESC LIMIT 10 or DENSE_RANK()."
+    },
+    {
+        "id": 182,
+        "question": "How do you find the difference between two dates?",
+        "answer": "Use DATEDIFF function."
+    },
+    {
+        "id": 183,
+        "question": "How do you find age from date of birth?",
+        "answer": "Use YEAR(CURDATE()) - YEAR(dob)."
+    },
+    {
+        "id": 184,
+        "question": "How do you find the most active user?",
+        "answer": "Use GROUP BY user_id ORDER BY COUNT(*) DESC."
+    },
+    {
+        "id": 185,
+        "question": "How do you find users who logged in every day for a week?",
+        "answer": "Use grouping and date difference logic with window functions."
+    },
+    {
+        "id": 186,
+        "question": "How do you find duplicate email records?",
+        "answer": "Use GROUP BY email HAVING COUNT(*) > 1."
+    },
+    {
+        "id": 187,
+        "question": "How do you update duplicate records?",
+        "answer": "Use ROW_NUMBER() and update where row_number > 1."
+    },
+    {
+        "id": 188,
+        "question": "How do you optimize a slow SQL query?",
+        "answer": "Add indexes, avoid full scans, reduce joins, and use execution plan analysis."
+    },
+    {
+        "id": 189,
+        "question": "How do you find unused indexes?",
+        "answer": "Use database monitoring tools or index usage statistics."
+    },
+    {
+        "id": 190,
+        "question": "How do you find employees with same hire date?",
+        "answer": "Group by hire_date having COUNT(*) > 1."
+    },
+    {
+        "id": 191,
+        "question": "How do you find second highest salary per department?",
+        "answer": "Use DENSE_RANK() partitioned by department."
+    },
+    {
+        "id": 192,
+        "question": "How do you find percentage increase in salary?",
+        "answer": "((new_salary - old_salary) / old_salary) * 100."
+    },
+    {
+        "id": 193,
+        "question": "How do you find employees without orders?",
+        "answer": "LEFT JOIN employees with orders and filter NULL."
+    },
+    {
+        "id": 194,
+        "question": "How do you find last 3 records inserted?",
+        "answer": "ORDER BY id DESC LIMIT 3."
+    },
+    {
+        "id": 195,
+        "question": "How do you find top 1 record per group?",
+        "answer": "Use ROW_NUMBER() partitioned by group."
+    },
+    {
+        "id": 196,
+        "question": "How do you find salary difference between employees?",
+        "answer": "Use LAG() function."
+    },
+    {
+        "id": 197,
+        "question": "How do you find repeated transactions?",
+        "answer": "Group by transaction fields and count > 1."
+    },
+    {
+        "id": 198,
+        "question": "How do you find customers with no activity in last 6 months?",
+        "answer": "Use date filter with LEFT JOIN or NOT EXISTS."
+    },
+    {
+        "id": 199,
+        "question": "How do you find highest salary employee details?",
+        "answer": "Use ORDER BY salary DESC LIMIT 1 or subquery with MAX()."
+    },
+    {
+        "id": 200,
+        "question": "What are best SQL interview strategies for product companies?",
+        "answer": "Focus on window functions, joins, aggregation, optimization, and solving pattern-based SQL problems."
+    },
+    {
+        "id": 201,
+        "question": "How do you find the median salary in SQL?",
+        "answer": "Use window functions like ROW_NUMBER() and COUNT() to locate the middle row(s) and compute median."
+    },
+    {
+        "id": 202,
+        "question": "How do you find median per department?",
+        "answer": "Use PARTITION BY department with ROW_NUMBER() and COUNT() logic."
+    },
+    {
+        "id": 203,
+        "question": "How do you find mode (most frequent value) in SQL?",
+        "answer": "Use GROUP BY column ORDER BY COUNT(*) DESC LIMIT 1."
+    },
+    {
+        "id": 204,
+        "question": "How do you find employees whose salary is above 90th percentile?",
+        "answer": "Use PERCENT_RANK() or NTILE() window functions."
+    },
+    {
+        "id": 205,
+        "question": "How do you find customers who bought all products?",
+        "answer": "Use GROUP BY customer HAVING COUNT(DISTINCT product) = total products."
+    },
+    {
+        "id": 206,
+        "question": "How do you find consecutive rows in SQL?",
+        "answer": "Use LAG() or LEAD() with date or id comparison."
+    },
+    {
+        "id": 207,
+        "question": "How do you find streaks in login data?",
+        "answer": "Use ROW_NUMBER() with date difference grouping technique."
+    },
+    {
+        "id": 208,
+        "question": "How do you find longest consecutive sequence?",
+        "answer": "Use window functions with grouping based on row_number and date difference."
+    },
+    {
+        "id": 209,
+        "question": "How do you find gaps in sequences?",
+        "answer": "Compare expected sequence vs actual using recursive CTE or LEAD/LAG."
+    },
+    {
+        "id": 210,
+        "question": "How do you find first non-null value?",
+        "answer": "Use COALESCE() function."
+    },
+    {
+        "id": 211,
+        "question": "How do you replace NULL values in SQL?",
+        "answer": "Use COALESCE() or IFNULL() depending on database."
+    },
+    {
+        "id": 212,
+        "question": "How do you pivot data in SQL without PIVOT keyword?",
+        "answer": "Use CASE statements with GROUP BY."
+    },
+    {
+        "id": 213,
+        "question": "How do you unpivot data?",
+        "answer": "Use UNION ALL to convert columns into rows."
+    },
+    {
+        "id": 214,
+        "question": "How do you find employees earning above department average?",
+        "answer": "Use subquery or AVG() OVER(PARTITION BY department)."
+    },
+    {
+        "id": 215,
+        "question": "How do you find running difference between rows?",
+        "answer": "Use LAG() function to compare current and previous row."
+    },
+    {
+        "id": 216,
+        "question": "How do you find cumulative percentage?",
+        "answer": "Use SUM() OVER() divided by total sum."
+    },
+    {
+        "id": 217,
+        "question": "How do you find top 1% users?",
+        "answer": "Use NTILE(100) or PERCENT_RANK()."
+    },
+    {
+        "id": 218,
+        "question": "How do you find duplicate rows with all columns?",
+        "answer": "Use GROUP BY all columns HAVING COUNT(*) > 1."
+    },
+    {
+        "id": 219,
+        "question": "How do you delete duplicates but keep latest record?",
+        "answer": "Use ROW_NUMBER() ordered by timestamp DESC and delete where rn > 1."
+    },
+    {
+        "id": 220,
+        "question": "How do you find second highest salary without LIMIT?",
+        "answer": "Use DENSE_RANK() and filter rank = 2."
+    },
+    {
+        "id": 221,
+        "question": "How do you find employees who never got promotion?",
+        "answer": "Use LEFT JOIN between employee and promotion tables and filter NULL."
+    },
+    {
+        "id": 222,
+        "question": "How do you find overlapping date ranges?",
+        "answer": "Compare start_date and end_date using BETWEEN or join conditions."
+    },
+    {
+        "id": 223,
+        "question": "How do you merge overlapping intervals?",
+        "answer": "Use window functions with grouping based on start/end logic."
+    },
+    {
+        "id": 224,
+        "question": "How do you find maximum salary gap between employees?",
+        "answer": "Use MAX(salary) - MIN(salary) or LAG() difference logic."
+    },
+    {
+        "id": 225,
+        "question": "How do you find highest salary without using MAX or ORDER BY?",
+        "answer": "Use self join where no salary is greater than current salary."
+    },
+    {
+        "id": 226,
+        "question": "How do you find records existing in both tables?",
+        "answer": "Use INNER JOIN or INTERSECT."
+    },
+    {
+        "id": 227,
+        "question": "How do you find records in one table but not another?",
+        "answer": "Use LEFT JOIN with NULL filter or NOT EXISTS."
+    },
+    {
+        "id": 228,
+        "question": "How do you handle large dataset performance issues?",
+        "answer": "Use indexing, partitioning, query optimization, and avoid full table scans."
+    },
+    {
+        "id": 229,
+        "question": "How do you optimize JOIN performance?",
+        "answer": "Ensure indexed join keys, reduce dataset size before join, and use proper join order."
+    },
+    {
+        "id": 230,
+        "question": "How do you find duplicate combinations of multiple columns?",
+        "answer": "Use GROUP BY multiple columns HAVING COUNT(*) > 1."
+    },
+    {
+        "id": 231,
+        "question": "How do you find latest record per user?",
+        "answer": "Use ROW_NUMBER() partitioned by user_id ordered by timestamp DESC."
+    },
+    {
+        "id": 232,
+        "question": "How do you find first purchase of each customer?",
+        "answer": "Use MIN(date) or ROW_NUMBER() partitioned by customer_id."
+    },
+    {
+        "id": 233,
+        "question": "How do you calculate year-over-year growth?",
+        "answer": "Use LAG() and percentage difference formula."
+    },
+    {
+        "id": 234,
+        "question": "How do you find rolling sum of last 7 days?",
+        "answer": "Use SUM() OVER(ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)."
+    },
+    {
+        "id": 235,
+        "question": "How do you detect anomalies in SQL data?",
+        "answer": "Use statistical thresholds like AVG ± standard deviation."
+    },
+    {
+        "id": 236,
+        "question": "How do you find average per group excluding outliers?",
+        "answer": "Filter extreme values using percentile or standard deviation."
+    },
+    {
+        "id": 237,
+        "question": "How do you find top 3 records per group using joins?",
+        "answer": "Use self join with COUNT of higher values."
+    },
+    {
+        "id": 238,
+        "question": "How do you simulate ranking without window functions?",
+        "answer": "Use correlated subqueries counting higher values."
+    },
+    {
+        "id": 239,
+        "question": "How do you find employees earning same salary rank?",
+        "answer": "Use GROUP BY salary and COUNT employees per salary."
+    },
+    {
+        "id": 240,
+        "question": "How do you find records with NULL values in multiple columns?",
+        "answer": "Use WHERE col1 IS NULL OR col2 IS NULL."
+    },
+    {
+        "id": 241,
+        "question": "How do you replace multiple NULL columns at once?",
+        "answer": "Use COALESCE across all columns."
+    },
+    {
+        "id": 242,
+        "question": "How do you find percentage contribution of each row?",
+        "answer": "Divide value by SUM() OVER() * 100."
+    },
+    {
+        "id": 243,
+        "question": "How do you identify duplicate transactions in financial data?",
+        "answer": "Use GROUP BY transaction_id and timestamp with COUNT(*) > 1."
+    },
+    {
+        "id": 244,
+        "question": "How do you ensure query scalability?",
+        "answer": "Use indexing, partitioning, caching, and efficient joins."
+    },
+    {
+        "id": 245,
+        "question": "How do you handle slow aggregation queries?",
+        "answer": "Use pre-aggregation, materialized views, or indexed columns."
+    },
+    {
+        "id": 246,
+        "question": "How do you find last 5 transactions per user?",
+        "answer": "Use ROW_NUMBER() partitioned by user_id ordered by timestamp DESC."
+    },
+    {
+        "id": 247,
+        "question": "How do you find earliest and latest event per user?",
+        "answer": "Use MIN() and MAX() or FIRST_VALUE and LAST_VALUE."
+    },
+    {
+        "id": 248,
+        "question": "How do you find users with increasing order purchases?",
+        "answer": "Use LAG() to compare consecutive order values."
+    },
+    {
+        "id": 249,
+        "question": "How do you find duplicate email registrations across tables?",
+        "answer": "Use JOIN or UNION with GROUP BY email HAVING COUNT(*) > 1."
+    },
+    {
+        "id": 250,
+        "question": "What is your approach to solving SQL interview problems?",
+        "answer": "Understand requirements, identify patterns (join, window, aggregation), write step-by-step logic, and optimize query performance."
+    }
+]

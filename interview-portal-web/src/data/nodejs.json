@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 1,
+        "question": "What is Node.js?",
+        "answer": "Node.js is a JavaScript runtime built on Chrome's V8 engine that allows JavaScript to run on the server side."
+    },
+    {
+        "id": 2,
+        "question": "What are the advantages of Node.js?",
+        "answer": "Non-blocking I/O, event-driven architecture, scalability, fast execution, and a large package ecosystem."
+    },
+    {
+        "id": 3,
+        "question": "What is the V8 Engine?",
+        "answer": "V8 is Google's JavaScript engine that compiles JavaScript into machine code for fast execution."
+    },
+    {
+        "id": 4,
+        "question": "What is the Event Loop?",
+        "answer": "The Event Loop is a mechanism that allows Node.js to perform non-blocking asynchronous operations."
+    },
+    {
+        "id": 5,
+        "question": "What is single-threaded architecture in Node.js?",
+        "answer": "Node.js uses a single main thread to handle requests while delegating asynchronous operations to the system."
+    },
+    {
+        "id": 6,
+        "question": "What is non-blocking I/O?",
+        "answer": "Non-blocking I/O allows operations to run asynchronously without blocking the execution thread."
+    },
+    {
+        "id": 7,
+        "question": "What is blocking I/O?",
+        "answer": "Blocking I/O prevents further code execution until the operation completes."
+    },
+    {
+        "id": 8,
+        "question": "What are callbacks?",
+        "answer": "Callbacks are functions passed as arguments and executed after an asynchronous operation completes."
+    },
+    {
+        "id": 9,
+        "question": "What is callback hell?",
+        "answer": "Callback hell occurs when multiple nested callbacks make code difficult to read and maintain."
+    },
+    {
+        "id": 10,
+        "question": "What are Promises?",
+        "answer": "Promises represent the eventual completion or failure of an asynchronous operation."
+    },
+    {
+        "id": 11,
+        "question": "What are the states of a Promise?",
+        "answer": "Pending, Fulfilled, and Rejected."
+    },
+    {
+        "id": 12,
+        "question": "What is async/await?",
+        "answer": "async/await provides a cleaner syntax for working with Promises."
+    },
+    {
+        "id": 13,
+        "question": "What is the difference between callbacks and Promises?",
+        "answer": "Promises provide better readability, chaining, and error handling than callbacks."
+    },
+    {
+        "id": 14,
+        "question": "What is the difference between Promises and async/await?",
+        "answer": "async/await is syntactic sugar over Promises that makes asynchronous code look synchronous."
+    },
+    {
+        "id": 15,
+        "question": "What is process in Node.js?",
+        "answer": "process is a global object that provides information and control over the current Node.js process."
+    },
+    {
+        "id": 16,
+        "question": "What is process.nextTick()?",
+        "answer": "process.nextTick() schedules a callback to execute before the next event loop iteration."
+    },
+    {
+        "id": 17,
+        "question": "What is setImmediate()?",
+        "answer": "setImmediate() schedules a callback to run during the check phase of the event loop."
+    },
+    {
+        "id": 18,
+        "question": "What is the difference between setTimeout() and setImmediate()?",
+        "answer": "setTimeout schedules execution after a delay, while setImmediate executes during the event loop's check phase."
+    },
+    {
+        "id": 19,
+        "question": "What is a Buffer?",
+        "answer": "A Buffer is a temporary memory area used for handling binary data."
+    },
+    {
+        "id": 20,
+        "question": "What are Streams?",
+        "answer": "Streams process data piece by piece instead of loading everything into memory."
+    },
+    {
+        "id": 21,
+        "question": "What are the types of Streams?",
+        "answer": "Readable, Writable, Duplex, and Transform streams."
+    },
+    {
+        "id": 22,
+        "question": "What is a Readable Stream?",
+        "answer": "A stream used to read data from a source."
+    },
+    {
+        "id": 23,
+        "question": "What is a Writable Stream?",
+        "answer": "A stream used to write data to a destination."
+    },
+    {
+        "id": 24,
+        "question": "What is a Duplex Stream?",
+        "answer": "A stream that supports both reading and writing."
+    },
+    {
+        "id": 25,
+        "question": "What is a Transform Stream?",
+        "answer": "A stream that modifies data while reading and writing."
+    },
+    {
+        "id": 26,
+        "question": "What is piping in Streams?",
+        "answer": "Piping connects streams so data flows automatically from one stream to another."
+    },
+    {
+        "id": 27,
+        "question": "What are Node.js modules?",
+        "answer": "Modules are reusable blocks of code that can be imported into applications."
+    },
+    {
+        "id": 28,
+        "question": "What is CommonJS?",
+        "answer": "CommonJS is the default module system used by Node.js."
+    },
+    {
+        "id": 29,
+        "question": "What are ES Modules?",
+        "answer": "ES Modules are the standardized JavaScript module system using import and export."
+    },
+    {
+        "id": 30,
+        "question": "Difference between require and import?",
+        "answer": "require is CommonJS syntax, while import is ES Module syntax."
+    },
+    {
+        "id": 31,
+        "question": "What is npm?",
+        "answer": "npm is the default package manager for Node.js."
+    },
+    {
+        "id": 32,
+        "question": "What is package.json?",
+        "answer": "package.json stores project metadata, dependencies, and scripts."
+    },
+    {
+        "id": 33,
+        "question": "What is package-lock.json?",
+        "answer": "package-lock.json records exact dependency versions for reproducible installations."
+    },
+    {
+        "id": 34,
+        "question": "What is Express.js?",
+        "answer": "Express.js is a lightweight web framework for building Node.js applications and APIs."
+    },
+    {
+        "id": 35,
+        "question": "What is middleware in Express?",
+        "answer": "Middleware functions execute during the request-response cycle."
+    },
+    {
+        "id": 36,
+        "question": "What is application-level middleware?",
+        "answer": "Middleware attached to the Express application using app.use()."
+    },
+    {
+        "id": 37,
+        "question": "What is router-level middleware?",
+        "answer": "Middleware attached to Express Router instances."
+    },
+    {
+        "id": 38,
+        "question": "What is error-handling middleware?",
+        "answer": "Middleware specifically designed to handle application errors."
+    },
+    {
+        "id": 39,
+        "question": "What is routing in Express?",
+        "answer": "Routing determines how an application responds to client requests."
+    },
+    {
+        "id": 40,
+        "question": "What is Express Router?",
+        "answer": "Express Router helps organize routes into modular route handlers."
+    },
+    {
+        "id": 41,
+        "question": "What is REST API?",
+        "answer": "A REST API is a web service following REST architectural principles."
+    },
+    {
+        "id": 42,
+        "question": "What HTTP methods are commonly used in REST APIs?",
+        "answer": "GET, POST, PUT, PATCH, DELETE, and OPTIONS."
+    },
+    {
+        "id": 43,
+        "question": "What is the difference between PUT and PATCH?",
+        "answer": "PUT replaces a resource completely, while PATCH updates specific fields."
+    },
+    {
+        "id": 44,
+        "question": "What is status code 200?",
+        "answer": "200 indicates a successful request."
+    },
+    {
+        "id": 45,
+        "question": "What is status code 201?",
+        "answer": "201 indicates successful resource creation."
+    },
+    {
+        "id": 46,
+        "question": "What is status code 400?",
+        "answer": "400 indicates a bad client request."
+    },
+    {
+        "id": 47,
+        "question": "What is status code 401?",
+        "answer": "401 indicates authentication is required."
+    },
+    {
+        "id": 48,
+        "question": "What is status code 403?",
+        "answer": "403 indicates access is forbidden."
+    },
+    {
+        "id": 49,
+        "question": "What is status code 404?",
+        "answer": "404 indicates the requested resource was not found."
+    },
+    {
+        "id": 50,
+        "question": "What is status code 500?",
+        "answer": "500 indicates an internal server error."
+    },
+    {
+        "id": 51,
+        "question": "What is Express.js middleware?",
+        "answer": "Middleware is a function that executes during the request-response cycle and has access to req, res, and next."
+    },
+    {
+        "id": 52,
+        "question": "What are types of middleware in Express?",
+        "answer": "Application-level, router-level, error-handling, built-in, and third-party middleware."
+    },
+    {
+        "id": 53,
+        "question": "What is next() in Express middleware?",
+        "answer": "next() passes control to the next middleware function."
+    },
+    {
+        "id": 54,
+        "question": "What is body-parser in Express?",
+        "answer": "body-parser is middleware used to parse incoming request bodies."
+    },
+    {
+        "id": 55,
+        "question": "What is CORS?",
+        "answer": "CORS (Cross-Origin Resource Sharing) allows restricted resources to be requested from another domain."
+    },
+    {
+        "id": 56,
+        "question": "How do you enable CORS in Node.js?",
+        "answer": "By using the cors middleware package in Express."
+    },
+    {
+        "id": 57,
+        "question": "What is MongoDB?",
+        "answer": "MongoDB is a NoSQL database that stores data in JSON-like documents."
+    },
+    {
+        "id": 58,
+        "question": "What is Mongoose?",
+        "answer": "Mongoose is an ODM library for MongoDB in Node.js."
+    },
+    {
+        "id": 59,
+        "question": "What is a Schema in Mongoose?",
+        "answer": "A schema defines the structure of documents in MongoDB collections."
+    },
+    {
+        "id": 60,
+        "question": "What is a Model in Mongoose?",
+        "answer": "A model is a compiled schema used to interact with MongoDB collections."
+    },
+    {
+        "id": 61,
+        "question": "What is CRUD in Node.js?",
+        "answer": "CRUD stands for Create, Read, Update, and Delete operations on data."
+    },
+    {
+        "id": 62,
+        "question": "What is JWT?",
+        "answer": "JWT (JSON Web Token) is a compact token used for authentication and authorization."
+    },
+    {
+        "id": 63,
+        "question": "What are the parts of a JWT?",
+        "answer": "Header, Payload, and Signature."
+    },
+    {
+        "id": 64,
+        "question": "How does JWT authentication work?",
+        "answer": "Server generates a token, client stores it, and sends it with requests for verification."
+    },
+    {
+        "id": 65,
+        "question": "Where should JWT be stored?",
+        "answer": "Preferably in HTTP-only cookies for better security."
+    },
+    {
+        "id": 66,
+        "question": "What is authentication?",
+        "answer": "Authentication verifies the identity of a user."
+    },
+    {
+        "id": 67,
+        "question": "What is authorization?",
+        "answer": "Authorization determines what actions a user is allowed to perform."
+    },
+    {
+        "id": 68,
+        "question": "What is session-based authentication?",
+        "answer": "Authentication where server stores session data for logged-in users."
+    },
+    {
+        "id": 69,
+        "question": "Session vs JWT?",
+        "answer": "Sessions are server-side stored, JWT is stateless and stored on client side."
+    },
+    {
+        "id": 70,
+        "question": "What is bcrypt?",
+        "answer": "bcrypt is a library used to hash passwords securely."
+    },
+    {
+        "id": 71,
+        "question": "Why hash passwords?",
+        "answer": "To protect user credentials from being exposed in case of data breaches."
+    },
+    {
+        "id": 72,
+        "question": "What is salting in password hashing?",
+        "answer": "Salting adds random data to passwords before hashing to enhance security."
+    },
+    {
+        "id": 73,
+        "question": "What is cookie?",
+        "answer": "A cookie is a small piece of data stored in the user's browser."
+    },
+    {
+        "id": 74,
+        "question": "What are types of cookies?",
+        "answer": "Session cookies, persistent cookies, secure cookies, and HTTP-only cookies."
+    },
+    {
+        "id": 75,
+        "question": "What is cookie parsing?",
+        "answer": "Middleware used to read and parse cookies from HTTP requests."
+    },
+    {
+        "id": 76,
+        "question": "What is rate limiting?",
+        "answer": "Rate limiting restricts the number of requests a user can make in a given time."
+    },
+    {
+        "id": 77,
+        "question": "Why is rate limiting used?",
+        "answer": "To prevent abuse, DDoS attacks, and API overuse."
+    },
+    {
+        "id": 78,
+        "question": "What is helmet in Node.js?",
+        "answer": "Helmet is middleware that secures Express apps by setting HTTP headers."
+    },
+    {
+        "id": 79,
+        "question": "What is MVC architecture?",
+        "answer": "MVC separates application into Model, View, and Controller layers."
+    },
+    {
+        "id": 80,
+        "question": "What is RESTful API design?",
+        "answer": "A design style using HTTP methods and stateless communication for APIs."
+    },
+    {
+        "id": 81,
+        "question": "What is pagination?",
+        "answer": "Pagination divides large datasets into smaller pages."
+    },
+    {
+        "id": 82,
+        "question": "How do you implement pagination in Node.js?",
+        "answer": "Using limit and skip in database queries."
+    },
+    {
+        "id": 83,
+        "question": "What is filtering in APIs?",
+        "answer": "Filtering retrieves only specific data based on conditions."
+    },
+    {
+        "id": 84,
+        "question": "What is sorting in APIs?",
+        "answer": "Sorting arranges data in ascending or descending order."
+    },
+    {
+        "id": 85,
+        "question": "What is environment variable?",
+        "answer": "A variable used to store configuration values outside code."
+    },
+    {
+        "id": 86,
+        "question": "What is dotenv?",
+        "answer": "A package used to load environment variables from a .env file."
+    },
+    {
+        "id": 87,
+        "question": "Why use environment variables?",
+        "answer": "To secure sensitive data like API keys and database credentials."
+    },
+    {
+        "id": 88,
+        "question": "What is async error handling in Node.js?",
+        "answer": "Handling errors in asynchronous code using try/catch or .catch()."
+    },
+    {
+        "id": 89,
+        "question": "What is centralized error handling?",
+        "answer": "A global middleware that handles all application errors."
+    },
+    {
+        "id": 90,
+        "question": "What is Express error middleware?",
+        "answer": "Middleware that handles errors using four parameters (err, req, res, next)."
+    },
+    {
+        "id": 91,
+        "question": "What is logging in Node.js?",
+        "answer": "Logging records application events for debugging and monitoring."
+    },
+    {
+        "id": 92,
+        "question": "What are popular logging libraries?",
+        "answer": "Winston and Morgan."
+    },
+    {
+        "id": 93,
+        "question": "What is API versioning?",
+        "answer": "Maintaining different versions of APIs to support backward compatibility."
+    },
+    {
+        "id": 94,
+        "question": "Why is API versioning important?",
+        "answer": "To avoid breaking existing clients when APIs change."
+    },
+    {
+        "id": 95,
+        "question": "What is validation in Node.js?",
+        "answer": "Checking if input data meets required rules before processing."
+    },
+    {
+        "id": 96,
+        "question": "What is Joi?",
+        "answer": "Joi is a validation library used to validate request data."
+    },
+    {
+        "id": 97,
+        "question": "What is request validation middleware?",
+        "answer": "Middleware that validates incoming request data before processing."
+    },
+    {
+        "id": 98,
+        "question": "What is API security?",
+        "answer": "Protecting APIs from unauthorized access and attacks."
+    },
+    {
+        "id": 99,
+        "question": "What is SQL injection prevention?",
+        "answer": "Using parameterized queries and validation to prevent malicious input."
+    },
+    {
+        "id": 100,
+        "question": "What is XSS protection in Node.js?",
+        "answer": "Sanitizing user input and setting security headers to prevent cross-site scripting."
+    },
+    {
+        "id": 101,
+        "question": "What is the Event Loop in Node.js?",
+        "answer": "The Event Loop is a mechanism that allows Node.js to perform non-blocking asynchronous operations by handling callbacks in different phases."
+    },
+    {
+        "id": 102,
+        "question": "What are the phases of the Event Loop?",
+        "answer": "Timers, Pending Callbacks, Idle/Prepare, Poll, Check, and Close Callbacks."
+    },
+    {
+        "id": 103,
+        "question": "What happens in the Timers phase?",
+        "answer": "Callbacks scheduled by setTimeout and setInterval are executed."
+    },
+    {
+        "id": 104,
+        "question": "What happens in the Poll phase?",
+        "answer": "It retrieves new I/O events and executes I/O-related callbacks."
+    },
+    {
+        "id": 105,
+        "question": "What is the difference between process.nextTick and setImmediate?",
+        "answer": "process.nextTick runs before the next event loop phase, while setImmediate runs in the check phase."
+    },
+    {
+        "id": 106,
+        "question": "What are microtasks in Node.js?",
+        "answer": "Microtasks include Promise callbacks and process.nextTick, executed before moving to the next event loop phase."
+    },
+    {
+        "id": 107,
+        "question": "What is the difference between microtasks and macrotasks?",
+        "answer": "Microtasks run immediately after the current operation, while macrotasks are scheduled in the event loop phases."
+    },
+    {
+        "id": 108,
+        "question": "What are Streams in Node.js?",
+        "answer": "Streams are objects that allow reading or writing data in chunks instead of loading everything into memory."
+    },
+    {
+        "id": 109,
+        "question": "Why are Streams important?",
+        "answer": "They improve performance and memory efficiency for large data processing."
+    },
+    {
+        "id": 110,
+        "question": "What are types of Streams?",
+        "answer": "Readable, Writable, Duplex, and Transform streams."
+    },
+    {
+        "id": 111,
+        "question": "What is backpressure in Streams?",
+        "answer": "Backpressure occurs when the writable stream cannot process data as fast as it is being read."
+    },
+    {
+        "id": 112,
+        "question": "How do you handle backpressure?",
+        "answer": "By pausing the readable stream or using pipe() which manages flow automatically."
+    },
+    {
+        "id": 113,
+        "question": "What is Buffer in Node.js?",
+        "answer": "A Buffer is a temporary memory area used to handle binary data."
+    },
+    {
+        "id": 114,
+        "question": "When are Buffers used?",
+        "answer": "When working with binary data like file uploads, images, and network packets."
+    },
+    {
+        "id": 115,
+        "question": "What is clustering in Node.js?",
+        "answer": "Clustering allows Node.js to create multiple processes to utilize multi-core systems."
+    },
+    {
+        "id": 116,
+        "question": "Why is clustering needed?",
+        "answer": "Because Node.js is single-threaded and clustering improves CPU utilization."
+    },
+    {
+        "id": 117,
+        "question": "What is Worker Threads in Node.js?",
+        "answer": "Worker Threads allow running JavaScript in parallel threads for CPU-intensive tasks."
+    },
+    {
+        "id": 118,
+        "question": "Difference between Cluster and Worker Threads?",
+        "answer": "Cluster uses multiple processes, while Worker Threads use multiple threads within the same process."
+    },
+    {
+        "id": 119,
+        "question": "When should you use Worker Threads?",
+        "answer": "For CPU-heavy tasks like image processing, encryption, or data analysis."
+    },
+    {
+        "id": 120,
+        "question": "What is load balancing in Node.js?",
+        "answer": "Distributing incoming requests across multiple instances or processes."
+    },
+    {
+        "id": 121,
+        "question": "What is PM2?",
+        "answer": "PM2 is a process manager for Node.js applications with load balancing and monitoring features."
+    },
+    {
+        "id": 122,
+        "question": "What is memory leak in Node.js?",
+        "answer": "A memory leak occurs when memory is not released after it is no longer needed."
+    },
+    {
+        "id": 123,
+        "question": "How do you detect memory leaks?",
+        "answer": "Using heap snapshots, Chrome DevTools, and monitoring tools like PM2 or New Relic."
+    },
+    {
+        "id": 124,
+        "question": "How do you optimize Node.js performance?",
+        "answer": "Using caching, clustering, load balancing, stream processing, and efficient algorithms."
+    },
+    {
+        "id": 125,
+        "question": "What is caching?",
+        "answer": "Caching stores frequently used data in memory for faster retrieval."
+    },
+    {
+        "id": 126,
+        "question": "What is Redis?",
+        "answer": "Redis is an in-memory data store used for caching and message brokering."
+    },
+    {
+        "id": 127,
+        "question": "Why use Redis with Node.js?",
+        "answer": "To improve performance by reducing database load and caching frequently accessed data."
+    },
+    {
+        "id": 128,
+        "question": "What is message queue?",
+        "answer": "A system that stores messages between services for asynchronous processing."
+    },
+    {
+        "id": 129,
+        "question": "What is RabbitMQ?",
+        "answer": "RabbitMQ is a message broker used for asynchronous communication between services."
+    },
+    {
+        "id": 130,
+        "question": "What is Kafka?",
+        "answer": "Kafka is a distributed event streaming platform used for high-throughput messaging."
+    },
+    {
+        "id": 131,
+        "question": "Kafka vs RabbitMQ?",
+        "answer": "Kafka is better for high-throughput streaming, while RabbitMQ is better for traditional messaging."
+    },
+    {
+        "id": 132,
+        "question": "What are Microservices?",
+        "answer": "Microservices architecture breaks an application into independent services."
+    },
+    {
+        "id": 133,
+        "question": "Advantages of Microservices?",
+        "answer": "Scalability, flexibility, independent deployment, and fault isolation."
+    },
+    {
+        "id": 134,
+        "question": "What is API Gateway?",
+        "answer": "An API Gateway acts as a single entry point for microservices."
+    },
+    {
+        "id": 135,
+        "question": "What is service discovery?",
+        "answer": "A mechanism to dynamically locate services in a microservices architecture."
+    },
+    {
+        "id": 136,
+        "question": "What is horizontal scaling?",
+        "answer": "Adding more servers to handle increased load."
+    },
+    {
+        "id": 137,
+        "question": "What is vertical scaling?",
+        "answer": "Increasing resources of a single server like CPU or RAM."
+    },
+    {
+        "id": 138,
+        "question": "Which scaling is better for Node.js?",
+        "answer": "Horizontal scaling is preferred for distributed systems."
+    },
+    {
+        "id": 139,
+        "question": "What is stateless architecture?",
+        "answer": "A system where each request is independent and does not rely on previous requests."
+    },
+    {
+        "id": 140,
+        "question": "Why is Node.js good for microservices?",
+        "answer": "Because of its lightweight, event-driven, and fast execution model."
+    },
+    {
+        "id": 141,
+        "question": "What is API rate limiting?",
+        "answer": "Restricting the number of API requests a client can make in a given time."
+    },
+    {
+        "id": 142,
+        "question": "What is throttling?",
+        "answer": "Limiting the rate of requests to prevent system overload."
+    },
+    {
+        "id": 143,
+        "question": "What is debouncing?",
+        "answer": "Delaying execution until a certain time has passed without additional events."
+    },
+    {
+        "id": 144,
+        "question": "What is clustering strategy in production?",
+        "answer": "Using multiple Node.js worker processes to distribute incoming requests."
+    },
+    {
+        "id": 145,
+        "question": "What is graceful shutdown?",
+        "answer": "Closing server connections properly before shutting down the application."
+    },
+    {
+        "id": 146,
+        "question": "Why is graceful shutdown important?",
+        "answer": "To prevent data loss and ensure active requests are completed."
+    },
+    {
+        "id": 147,
+        "question": "What is logging strategy in production?",
+        "answer": "Centralized logging using tools like Winston, ELK stack, or cloud logging services."
+    },
+    {
+        "id": 148,
+        "question": "What is monitoring in Node.js?",
+        "answer": "Tracking application health, performance, and errors in real time."
+    },
+    {
+        "id": 149,
+        "question": "What tools are used for Node.js monitoring?",
+        "answer": "New Relic, Datadog, PM2, Prometheus, and Grafana."
+    },
+    {
+        "id": 150,
+        "question": "What are best practices for scalable Node.js applications?",
+        "answer": "Use clustering, caching, microservices, load balancing, async processing, and proper error handling."
+    },
+    {
+        "id": 151,
+        "question": "What is system design in Node.js context?",
+        "answer": "System design refers to designing scalable, reliable, and maintainable backend systems using Node.js and supporting technologies."
+    },
+    {
+        "id": 152,
+        "question": "How would you design a scalable Node.js backend?",
+        "answer": "Use microservices, load balancing, caching, clustering, database optimization, and message queues."
+    },
+    {
+        "id": 153,
+        "question": "What is API Gateway in microservices?",
+        "answer": "An API Gateway is a single entry point that routes requests to appropriate microservices."
+    },
+    {
+        "id": 154,
+        "question": "What is service orchestration?",
+        "answer": "Service orchestration manages communication and coordination between multiple microservices."
+    },
+    {
+        "id": 155,
+        "question": "What is service choreography?",
+        "answer": "Service choreography is decentralized communication between microservices without a central controller."
+    },
+    {
+        "id": 156,
+        "question": "What is CAP theorem?",
+        "answer": "CAP theorem states that a distributed system can only guarantee two of Consistency, Availability, and Partition Tolerance."
+    },
+    {
+        "id": 157,
+        "question": "How does CAP theorem affect Node.js backend design?",
+        "answer": "It helps decide trade-offs between consistency, availability, and partition tolerance in distributed systems."
+    },
+    {
+        "id": 158,
+        "question": "What is database indexing?",
+        "answer": "Indexing improves query performance by reducing data search time."
+    },
+    {
+        "id": 159,
+        "question": "Why is indexing important?",
+        "answer": "It speeds up data retrieval in large datasets."
+    },
+    {
+        "id": 160,
+        "question": "What are SQL vs NoSQL databases?",
+        "answer": "SQL databases are relational and structured; NoSQL databases are flexible and document-based."
+    },
+    {
+        "id": 161,
+        "question": "When should you use NoSQL in Node.js apps?",
+        "answer": "When dealing with unstructured data, scalability, and high write/read performance."
+    },
+    {
+        "id": 162,
+        "question": "What is database sharding?",
+        "answer": "Sharding splits a database into smaller parts across multiple servers."
+    },
+    {
+        "id": 163,
+        "question": "What is replication in databases?",
+        "answer": "Replication creates copies of database data across multiple servers for reliability."
+    },
+    {
+        "id": 164,
+        "question": "What is eventual consistency?",
+        "answer": "A system where data becomes consistent over time instead of instantly."
+    },
+    {
+        "id": 165,
+        "question": "What is ACID property?",
+        "answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability in transactions."
+    },
+    {
+        "id": 166,
+        "question": "What is BASE model?",
+        "answer": "Basically Available, Soft state, Eventually consistent—used in NoSQL systems."
+    },
+    {
+        "id": 167,
+        "question": "What is horizontal partitioning?",
+        "answer": "Dividing database rows across multiple servers."
+    },
+    {
+        "id": 168,
+        "question": "What is vertical partitioning?",
+        "answer": "Dividing database columns into different tables."
+    },
+    {
+        "id": 169,
+        "question": "What is caching strategy in large systems?",
+        "answer": "Using multi-level caching like browser cache, CDN, Redis, and database cache."
+    },
+    {
+        "id": 170,
+        "question": "What is CDN?",
+        "answer": "A Content Delivery Network that caches static assets closer to users."
+    },
+    {
+        "id": 171,
+        "question": "Why is CDN used in Node.js applications?",
+        "answer": "To reduce latency and improve content delivery speed."
+    },
+    {
+        "id": 172,
+        "question": "What is load balancing?",
+        "answer": "Distributing incoming traffic across multiple servers."
+    },
+    {
+        "id": 173,
+        "question": "Types of load balancing algorithms?",
+        "answer": "Round Robin, Least Connections, IP Hashing, Weighted Load Balancing."
+    },
+    {
+        "id": 174,
+        "question": "What is reverse proxy?",
+        "answer": "A server that forwards client requests to backend servers."
+    },
+    {
+        "id": 175,
+        "question": "What is NGINX used for?",
+        "answer": "It is used as a reverse proxy, load balancer, and static file server."
+    },
+    {
+        "id": 176,
+        "question": "What is Docker in Node.js deployment?",
+        "answer": "Docker packages applications into containers for consistent deployment."
+    },
+    {
+        "id": 177,
+        "question": "Why use Docker with Node.js?",
+        "answer": "To ensure portability, scalability, and environment consistency."
+    },
+    {
+        "id": 178,
+        "question": "What is Kubernetes?",
+        "answer": "Kubernetes is a container orchestration system for managing deployments at scale."
+    },
+    {
+        "id": 179,
+        "question": "What is CI/CD pipeline?",
+        "answer": "CI/CD automates build, test, and deployment processes."
+    },
+    {
+        "id": 180,
+        "question": "What are blue-green deployments?",
+        "answer": "A deployment strategy where two environments run simultaneously to reduce downtime."
+    },
+    {
+        "id": 181,
+        "question": "What is canary deployment?",
+        "answer": "Gradual release of updates to a small subset of users first."
+    },
+    {
+        "id": 182,
+        "question": "What is rollback strategy?",
+        "answer": "Reverting to a previous stable version in case of failure."
+    },
+    {
+        "id": 183,
+        "question": "What is fault tolerance?",
+        "answer": "System's ability to continue operating despite failures."
+    },
+    {
+        "id": 184,
+        "question": "What is retry mechanism?",
+        "answer": "Automatically retrying failed requests with backoff strategies."
+    },
+    {
+        "id": 185,
+        "question": "What is circuit breaker pattern?",
+        "answer": "Stops requests to failing services to prevent system overload."
+    },
+    {
+        "id": 186,
+        "question": "What is bulkhead pattern?",
+        "answer": "Isolates system components to prevent cascading failures."
+    },
+    {
+        "id": 187,
+        "question": "What is logging in distributed systems?",
+        "answer": "Centralized logging across multiple services for debugging."
+    },
+    {
+        "id": 188,
+        "question": "What is ELK stack?",
+        "answer": "Elasticsearch, Logstash, and Kibana for logging and monitoring."
+    },
+    {
+        "id": 189,
+        "question": "What is observability?",
+        "answer": "Ability to understand system behavior using logs, metrics, and traces."
+    },
+    {
+        "id": 190,
+        "question": "What are metrics in monitoring?",
+        "answer": "Quantitative data like CPU usage, response time, and error rate."
+    },
+    {
+        "id": 191,
+        "question": "What is distributed tracing?",
+        "answer": "Tracking requests across multiple microservices."
+    },
+    {
+        "id": 192,
+        "question": "What is OpenTelemetry?",
+        "answer": "A framework for collecting logs, metrics, and traces."
+    },
+    {
+        "id": 193,
+        "question": "What is API throttling?",
+        "answer": "Limiting request rate to prevent overload."
+    },
+    {
+        "id": 194,
+        "question": "What is caching invalidation?",
+        "answer": "Removing outdated cache data when source data changes."
+    },
+    {
+        "id": 195,
+        "question": "What is race condition?",
+        "answer": "When multiple processes access shared data leading to inconsistent results."
+    },
+    {
+        "id": 196,
+        "question": "How do you handle race conditions?",
+        "answer": "Using locks, atomic operations, or queue-based processing."
+    },
+    {
+        "id": 197,
+        "question": "What is idempotency in APIs?",
+        "answer": "Multiple identical requests produce the same result as one request."
+    },
+    {
+        "id": 198,
+        "question": "Why is idempotency important?",
+        "answer": "It prevents duplicate operations in case of retries."
+    },
+    {
+        "id": 199,
+        "question": "What is high availability system?",
+        "answer": "A system designed to remain operational with minimal downtime."
+    },
+    {
+        "id": 200,
+        "question": "What are best practices for designing large-scale Node.js systems?",
+        "answer": "Use microservices, caching, load balancing, monitoring, fault tolerance, and scalable database design."
+    },
+    {
+        "id": 201,
+        "question": "How would you design a scalable URL shortener like Bitly using Node.js?",
+        "answer": "Use hashing or base62 encoding, store mappings in a database, add caching (Redis), and scale using load balancers and microservices."
+    },
+    {
+        "id": 202,
+        "question": "How would you design a chat application like WhatsApp backend?",
+        "answer": "Use WebSockets for real-time communication, message queues for reliability, Redis for caching, and microservices for scalability."
+    },
+    {
+        "id": 203,
+        "question": "How would you handle millions of concurrent users in Node.js?",
+        "answer": "Use clustering, load balancing, horizontal scaling, caching, and stateless architecture."
+    },
+    {
+        "id": 204,
+        "question": "How would you design a file upload system?",
+        "answer": "Use streaming uploads, cloud storage like S3, chunked uploads, and background processing."
+    },
+    {
+        "id": 205,
+        "question": "How would you design a notification system?",
+        "answer": "Use event-driven architecture, message queues, and push services like Firebase or WebSockets."
+    },
+    {
+        "id": 206,
+        "question": "How would you handle spikes in traffic?",
+        "answer": "Use autoscaling, caching, load balancing, rate limiting, and CDN."
+    },
+    {
+        "id": 207,
+        "question": "How would you implement real-time analytics?",
+        "answer": "Use Kafka for streaming, Node.js consumers, and storage in data warehouses."
+    },
+    {
+        "id": 208,
+        "question": "How would you design an e-commerce backend?",
+        "answer": "Use microservices for users, orders, payments, inventory, caching, and database separation."
+    },
+    {
+        "id": 209,
+        "question": "How would you design a payment gateway system?",
+        "answer": "Use secure APIs, encryption, idempotency, transaction logs, and third-party payment integration."
+    },
+    {
+        "id": 210,
+        "question": "How would you ensure consistency in distributed systems?",
+        "answer": "Use distributed transactions, eventual consistency, and compensation mechanisms."
+    },
+    {
+        "id": 211,
+        "question": "How would you design a ride-sharing system like Uber backend?",
+        "answer": "Use geolocation indexing, real-time matching, microservices, and event-driven architecture."
+    },
+    {
+        "id": 212,
+        "question": "How would you design a food delivery system like Zomato/Swiggy?",
+        "answer": "Use location services, order microservices, real-time tracking, and message queues."
+    },
+    {
+        "id": 213,
+        "question": "How would you design a logging system for distributed applications?",
+        "answer": "Use centralized logging with ELK stack or cloud logging services."
+    },
+    {
+        "id": 214,
+        "question": "How would you handle authentication in microservices?",
+        "answer": "Use JWT tokens, API Gateway validation, and centralized auth service."
+    },
+    {
+        "id": 215,
+        "question": "How would you implement caching in a large system?",
+        "answer": "Use multi-level caching including Redis, CDN, and in-memory cache."
+    },
+    {
+        "id": 216,
+        "question": "How would you handle database scaling?",
+        "answer": "Use sharding, replication, indexing, and read-write separation."
+    },
+    {
+        "id": 217,
+        "question": "How would you design a search system like Google search autocomplete?",
+        "answer": "Use trie-based indexing, caching, and Elasticsearch."
+    },
+    {
+        "id": 218,
+        "question": "How would you ensure high availability of Node.js services?",
+        "answer": "Use redundancy, load balancing, failover systems, and health checks."
+    },
+    {
+        "id": 219,
+        "question": "How would you design an API rate limiting system?",
+        "answer": "Use Redis counters, token bucket or leaky bucket algorithms."
+    },
+    {
+        "id": 220,
+        "question": "How would you handle background job processing?",
+        "answer": "Use queues like BullMQ or RabbitMQ with worker processes."
+    },
+    {
+        "id": 221,
+        "question": "How would you design a video streaming backend?",
+        "answer": "Use chunked streaming, CDN, adaptive bitrate streaming, and storage optimization."
+    },
+    {
+        "id": 222,
+        "question": "How would you implement a recommendation system?",
+        "answer": "Use user behavior tracking, machine learning models, and caching frequently accessed results."
+    },
+    {
+        "id": 223,
+        "question": "How would you handle session management in distributed systems?",
+        "answer": "Use Redis or centralized session store instead of in-memory sessions."
+    },
+    {
+        "id": 224,
+        "question": "How would you prevent duplicate processing of requests?",
+        "answer": "Use idempotency keys and deduplication logic in backend services."
+    },
+    {
+        "id": 225,
+        "question": "How would you secure APIs in production?",
+        "answer": "Use HTTPS, JWT, rate limiting, input validation, and API gateways."
+    },
+    {
+        "id": 226,
+        "question": "How would you design a social media feed system?",
+        "answer": "Use fan-out architecture, caching, and database optimization."
+    },
+    {
+        "id": 227,
+        "question": "How would you handle file storage at scale?",
+        "answer": "Use cloud storage like AWS S3 with CDN integration."
+    },
+    {
+        "id": 228,
+        "question": "How would you design a multi-tenant system?",
+        "answer": "Use tenant isolation in database and application logic."
+    },
+    {
+        "id": 229,
+        "question": "How would you handle database failures?",
+        "answer": "Use replication, failover, backups, and retry mechanisms."
+    },
+    {
+        "id": 230,
+        "question": "How would you design a real-time multiplayer game backend?",
+        "answer": "Use WebSockets, low latency servers, and event-driven architecture."
+    },
+    {
+        "id": 231,
+        "question": "How would you handle API versioning in production?",
+        "answer": "Use URL versioning or header-based versioning."
+    },
+    {
+        "id": 232,
+        "question": "How would you implement feature toggles?",
+        "answer": "Use configuration-based flags or feature management services."
+    },
+    {
+        "id": 233,
+        "question": "How would you ensure zero downtime deployment?",
+        "answer": "Use rolling updates, blue-green deployment, and canary releases."
+    },
+    {
+        "id": 234,
+        "question": "How would you handle distributed caching consistency?",
+        "answer": "Use cache invalidation strategies and TTL-based expiration."
+    },
+    {
+        "id": 235,
+        "question": "How would you design a booking system (like airline tickets)?",
+        "answer": "Use locking mechanisms, transactional systems, and concurrency control."
+    },
+    {
+        "id": 236,
+        "question": "How would you handle concurrency issues in Node.js?",
+        "answer": "Use queues, locks, and atomic database operations."
+    },
+    {
+        "id": 237,
+        "question": "How would you design a fraud detection system?",
+        "answer": "Use real-time data streaming, rules engine, and machine learning models."
+    },
+    {
+        "id": 238,
+        "question": "How would you optimize cold start in Node.js serverless apps?",
+        "answer": "Reduce bundle size, use warm-up strategies, and optimize dependencies."
+    },
+    {
+        "id": 239,
+        "question": "How would you design an event-driven architecture?",
+        "answer": "Use message brokers like Kafka or RabbitMQ with loosely coupled services."
+    },
+    {
+        "id": 240,
+        "question": "How would you monitor system health in production?",
+        "answer": "Use metrics, logs, tracing, and alerting tools."
+    },
+    {
+        "id": 241,
+        "question": "How would you handle schema changes in production databases?",
+        "answer": "Use backward-compatible migrations and versioned schema updates."
+    },
+    {
+        "id": 242,
+        "question": "How would you design a global CDN-based system?",
+        "answer": "Use edge caching, geo-distributed servers, and content replication."
+    },
+    {
+        "id": 243,
+        "question": "How would you handle large-scale notification delivery?",
+        "answer": "Use queues, batching, and push notification services."
+    },
+    {
+        "id": 244,
+        "question": "How would you ensure data durability?",
+        "answer": "Use replication, backups, and distributed storage systems."
+    },
+    {
+        "id": 245,
+        "question": "How would you handle service downtime?",
+        "answer": "Use failover systems, retries, and circuit breakers."
+    },
+    {
+        "id": 246,
+        "question": "How would you design a real-time tracking system?",
+        "answer": "Use WebSockets, geolocation APIs, and streaming updates."
+    },
+    {
+        "id": 247,
+        "question": "How would you scale Node.js horizontally?",
+        "answer": "Use load balancers, clustering, and container orchestration."
+    },
+    {
+        "id": 248,
+        "question": "How would you design an audit logging system?",
+        "answer": "Store immutable logs in centralized storage with timestamps and user actions."
+    },
+    {
+        "id": 249,
+        "question": "How would you handle system degradation gracefully?",
+        "answer": "Use fallback services, caching, and partial responses."
+    },
+    {
+        "id": 250,
+        "question": "What is your approach to designing enterprise-grade Node.js systems?",
+        "answer": "Focus on scalability, reliability, security, observability, modular architecture, and automation."
+    },
+    {
+        "id": 251,
+        "question": "How would you design a fault-tolerant distributed Node.js system?",
+        "answer": "Use redundancy, load balancing, circuit breakers, retries, fallback mechanisms, and distributed logging."
+    },
+    {
+        "id": 252,
+        "question": "How do you handle partial failures in microservices?",
+        "answer": "Use retries, timeouts, circuit breakers, and graceful degradation strategies."
+    },
+    {
+        "id": 253,
+        "question": "What is eventual consistency and how do you handle it in Node.js systems?",
+        "answer": "Data is eventually consistent across systems; handled using event-driven architecture and message queues."
+    },
+    {
+        "id": 254,
+        "question": "How would you design a distributed locking system?",
+        "answer": "Use Redis-based locks (Redlock algorithm) or database-based locking mechanisms."
+    },
+    {
+        "id": 255,
+        "question": "What is the Redlock algorithm?",
+        "answer": "A distributed locking algorithm using multiple Redis instances to ensure safe locks."
+    },
+    {
+        "id": 256,
+        "question": "How would you ensure exactly-once processing in Node.js?",
+        "answer": "Use idempotency keys, deduplication tables, and message queue acknowledgments."
+    },
+    {
+        "id": 257,
+        "question": "What is at-least-once vs at-most-once processing?",
+        "answer": "At-least-once may duplicate messages; at-most-once may drop messages."
+    },
+    {
+        "id": 258,
+        "question": "How do you handle duplicate events in event-driven systems?",
+        "answer": "Use deduplication logic, event IDs, and idempotent consumers."
+    },
+    {
+        "id": 259,
+        "question": "What is backpressure in distributed systems?",
+        "answer": "When downstream systems cannot handle incoming request rate, causing slowdown or buffering."
+    },
+    {
+        "id": 260,
+        "question": "How do you manage backpressure in Node.js streams?",
+        "answer": "Use pause/resume methods or pipe(), which automatically manages flow control."
+    },
+    {
+        "id": 261,
+        "question": "How would you design a high-throughput logging system?",
+        "answer": "Use asynchronous logging, batching, Kafka, and centralized log storage like ELK."
+    },
+    {
+        "id": 262,
+        "question": "How would you design a real-time messaging queue system?",
+        "answer": "Use Kafka or RabbitMQ with partitioning, consumer groups, and persistence."
+    },
+    {
+        "id": 263,
+        "question": "How do you ensure ordering of messages in distributed systems?",
+        "answer": "Use partition keys in Kafka or sequence IDs with ordered queues."
+    },
+    {
+        "id": 264,
+        "question": "How do you handle scaling Kafka consumers?",
+        "answer": "By increasing partitions and consumer groups."
+    },
+    {
+        "id": 265,
+        "question": "What is hot partition problem in Kafka?",
+        "answer": "When one partition receives significantly more traffic than others."
+    },
+    {
+        "id": 266,
+        "question": "How do you optimize Node.js for CPU-intensive tasks?",
+        "answer": "Use Worker Threads, clustering, or offload tasks to microservices."
+    },
+    {
+        "id": 267,
+        "question": "When should you avoid Node.js?",
+        "answer": "For heavy CPU-bound operations requiring high parallel computation."
+    },
+    {
+        "id": 268,
+        "question": "How do you secure microservices communication?",
+        "answer": "Use mutual TLS, JWT tokens, API gateways, and service mesh."
+    },
+    {
+        "id": 269,
+        "question": "What is service mesh?",
+        "answer": "A dedicated infrastructure layer for service-to-service communication (e.g., Istio)."
+    },
+    {
+        "id": 270,
+        "question": "What is zero-trust architecture?",
+        "answer": "A security model where no service is trusted by default."
+    },
+    {
+        "id": 271,
+        "question": "How would you design a global-scale system like Netflix backend?",
+        "answer": "Use CDN, microservices, caching layers, distributed databases, and regional deployments."
+    },
+    {
+        "id": 272,
+        "question": "How would you reduce latency in a Node.js system?",
+        "answer": "Use caching, CDN, optimized queries, load balancing, and edge computing."
+    },
+    {
+        "id": 273,
+        "question": "How do you handle cascading failures?",
+        "answer": "Use circuit breakers, bulkheads, retries with backoff, and fallback responses."
+    },
+    {
+        "id": 274,
+        "question": "What is request collapsing?",
+        "answer": "Combining multiple similar requests into a single backend call."
+    },
+    {
+        "id": 275,
+        "question": "What is load shedding?",
+        "answer": "Dropping low-priority requests during high load."
+    },
+    {
+        "id": 276,
+        "question": "How would you design a multi-region system?",
+        "answer": "Use geo-distributed servers, replication, failover strategies, and DNS routing."
+    },
+    {
+        "id": 277,
+        "question": "What is CAP theorem trade-off in real systems?",
+        "answer": "Systems choose between consistency and availability under partition conditions."
+    },
+    {
+        "id": 278,
+        "question": "How do you handle schema evolution in distributed systems?",
+        "answer": "Use backward-compatible changes and versioned APIs."
+    },
+    {
+        "id": 279,
+        "question": "What is blue-green deployment failure scenario?",
+        "answer": "If traffic switching fails, rollback to previous stable environment."
+    },
+    {
+        "id": 280,
+        "question": "What is canary analysis?",
+        "answer": "Monitoring a small subset of traffic before full rollout."
+    },
+    {
+        "id": 281,
+        "question": "How do you handle cold start in serverless Node.js?",
+        "answer": "Reduce bundle size, keep functions warm, and optimize initialization time."
+    },
+    {
+        "id": 282,
+        "question": "How do you secure serverless Node.js applications?",
+        "answer": "Use IAM roles, API gateways, and input validation."
+    },
+    {
+        "id": 283,
+        "question": "What is multi-tenancy architecture?",
+        "answer": "A single system serving multiple customers with isolated data."
+    },
+    {
+        "id": 284,
+        "question": "How do you isolate tenants in Node.js applications?",
+        "answer": "Use separate schemas, databases, or logical partitioning."
+    },
+    {
+        "id": 285,
+        "question": "What is CQRS pattern?",
+        "answer": "Command Query Responsibility Segregation separates read and write models."
+    },
+    {
+        "id": 286,
+        "question": "What is event sourcing?",
+        "answer": "Storing state changes as a sequence of events instead of current state."
+    },
+    {
+        "id": 287,
+        "question": "How do you debug distributed Node.js systems?",
+        "answer": "Use distributed tracing tools like OpenTelemetry and centralized logging."
+    },
+    {
+        "id": 288,
+        "question": "What is chaos engineering?",
+        "answer": "Intentionally injecting failures to test system resilience."
+    },
+    {
+        "id": 289,
+        "question": "How would you design a fraud detection system?",
+        "answer": "Use real-time event processing, rules engine, and machine learning models."
+    },
+    {
+        "id": 290,
+        "question": "How do you ensure data integrity in distributed systems?",
+        "answer": "Use transactions, validation, and consistency checks."
+    },
+    {
+        "id": 291,
+        "question": "What is eventual consistency vs strong consistency?",
+        "answer": "Eventual consistency allows delayed sync; strong consistency ensures immediate sync."
+    },
+    {
+        "id": 292,
+        "question": "How do you handle retry storms?",
+        "answer": "Use exponential backoff, jitter, and circuit breakers."
+    },
+    {
+        "id": 293,
+        "question": "What is distributed transaction problem?",
+        "answer": "Maintaining ACID across multiple services is difficult in distributed systems."
+    },
+    {
+        "id": 294,
+        "question": "How do you handle large-scale API traffic spikes?",
+        "answer": "Use autoscaling, caching, rate limiting, and queue-based buffering."
+    },
+    {
+        "id": 295,
+        "question": "What is event replay?",
+        "answer": "Reprocessing stored events to rebuild system state."
+    },
+    {
+        "id": 296,
+        "question": "How do you design resilient Node.js APIs?",
+        "answer": "Use validation, retries, logging, caching, and proper error handling."
+    },
+    {
+        "id": 297,
+        "question": "What is graceful degradation?",
+        "answer": "System continues to work with reduced functionality during failures."
+    },
+    {
+        "id": 298,
+        "question": "How do you ensure observability in Node.js systems?",
+        "answer": "Use logs, metrics, and distributed tracing."
+    },
+    {
+        "id": 299,
+        "question": "How do you design for zero downtime systems?",
+        "answer": "Use blue-green deployment, rolling updates, and redundancy."
+    },
+    {
+        "id": 300,
+        "question": "What is your approach to designing enterprise-grade Node.js architecture?",
+        "answer": "Focus on scalability, resilience, observability, security, distributed systems design, and automation."
+    }
+]

@@ -1,0 +1,779 @@
+[
+  {
+    "id": 1,
+    "question": "What is .NET Core?",
+    "answer": ".NET Core is a cross-platform, open-source framework for building modern applications."
+  },
+  {
+    "id": 2,
+    "question": "What is ASP.NET Core?",
+    "answer": "ASP.NET Core is a web framework built on .NET Core for building web APIs and web applications."
+  },
+  {
+    "id": 3,
+    "question": "Difference between .NET Framework and .NET Core?",
+    "answer": ".NET Framework is Windows-only, while .NET Core is cross-platform and modular."
+  },
+  {
+    "id": 4,
+    "question": "What is CLR?",
+    "answer": "Common Language Runtime manages execution of .NET programs."
+  },
+  {
+    "id": 5,
+    "question": "What is CTS?",
+    "answer": "Common Type System defines how types are declared and used."
+  },
+  {
+    "id": 6,
+    "question": "What is CLS?",
+    "answer": "Common Language Specification defines rules for language interoperability."
+  },
+  {
+    "id": 7,
+    "question": "What is middleware in ASP.NET Core?",
+    "answer": "Middleware is a component that handles HTTP requests in a pipeline."
+  },
+  {
+    "id": 8,
+    "question": "What is request pipeline?",
+    "answer": "A sequence of middleware components that process HTTP requests."
+  },
+  {
+    "id": 9,
+    "question": "What is dependency injection?",
+    "answer": "A design pattern where dependencies are injected instead of created manually."
+  },
+  {
+    "id": 10,
+    "question": "Why is dependency injection used in ASP.NET Core?",
+    "answer": "It improves testability, modularity, and loose coupling."
+  },
+
+  {
+    "id": 11,
+    "question": "What is IServiceCollection?",
+    "answer": "Used to register services in dependency injection container."
+  },
+  {
+    "id": 12,
+    "question": "What is middleware ordering?",
+    "answer": "Order of middleware execution in request pipeline."
+  },
+  {
+    "id": 13,
+    "question": "What is Kestrel?",
+    "answer": "Cross-platform web server used by ASP.NET Core."
+  },
+  {
+    "id": 14,
+    "question": "What is routing in ASP.NET Core?",
+    "answer": "Maps incoming requests to controller actions."
+  },
+  {
+    "id": 15,
+    "question": "What is attribute routing?",
+    "answer": "Routing defined using attributes on controllers."
+  },
+
+  {
+    "id": 16,
+    "question": "What is conventional routing?",
+    "answer": "Routing defined in Startup.cs or Program.cs."
+  },
+  {
+    "id": 17,
+    "question": "What is Model in ASP.NET Core?",
+    "answer": "Represents application data structure."
+  },
+  {
+    "id": 18,
+    "question": "What is ViewModel?",
+    "answer": "Used to transfer data between view and controller."
+  },
+  {
+    "id": 19,
+    "question": "What is Controller?",
+    "answer": "Handles HTTP requests and returns responses."
+  },
+  {
+    "id": 20,
+    "question": "What is IActionResult?",
+    "answer": "Represents result of an action method."
+  },
+
+  {
+    "id": 21,
+    "question": "What is Web API in ASP.NET Core?",
+    "answer": "Framework for building RESTful services."
+  },
+  {
+    "id": 22,
+    "question": "What is REST?",
+    "answer": "Architectural style for web services using HTTP methods."
+  },
+  {
+    "id": 23,
+    "question": "Difference between GET and POST?",
+    "answer": "GET retrieves data, POST sends data."
+  },
+  {
+    "id": 24,
+    "question": "What is PUT vs PATCH?",
+    "answer": "PUT replaces entire resource, PATCH updates partial resource."
+  },
+  {
+    "id": 25,
+    "question": "What is status code 200?",
+    "answer": "Request successful."
+  },
+
+  {
+    "id": 26,
+    "question": "What is status code 404?",
+    "answer": "Resource not found."
+  },
+  {
+    "id": 27,
+    "question": "What is status code 500?",
+    "answer": "Internal server error."
+  },
+  {
+    "id": 28,
+    "question": "What is authentication?",
+    "answer": "Verifying user identity."
+  },
+  {
+    "id": 29,
+    "question": "What is authorization?",
+    "answer": "Checking user permissions."
+  },
+  {
+    "id": 30,
+    "question": "Difference between authentication and authorization?",
+    "answer": "Authentication verifies identity, authorization checks access rights."
+  },
+
+  {
+    "id": 31,
+    "question": "What is JWT?",
+    "answer": "JSON Web Token used for secure authentication."
+  },
+  {
+    "id": 32,
+    "question": "What is middleware authentication?",
+    "answer": "Middleware that validates user identity."
+  },
+  {
+    "id": 33,
+    "question": "What is Entity Framework Core?",
+    "answer": "ORM for database access in .NET Core."
+  },
+  {
+    "id": 34,
+    "question": "What is DbContext?",
+    "answer": "Main class for interacting with database."
+  },
+  {
+    "id": 35,
+    "question": "What is migration in EF Core?",
+    "answer": "Mechanism to update database schema."
+  },
+
+  {
+    "id": 36,
+    "question": "What is Code First approach?",
+    "answer": "Database is created from code models."
+  },
+  {
+    "id": 37,
+    "question": "What is Database First approach?",
+    "answer": "Models are generated from existing database."
+  },
+  {
+    "id": 38,
+    "question": "What is LINQ?",
+    "answer": "Language Integrated Query for data manipulation."
+  },
+  {
+    "id": 39,
+    "question": "What is async/await?",
+    "answer": "Used for asynchronous programming."
+  },
+  {
+    "id": 40,
+    "question": "Why use async programming?",
+    "answer": "Improves scalability and performance."
+  },
+
+  {
+    "id": 41,
+    "question": "What is Task in .NET?",
+    "answer": "Represents asynchronous operation."
+  },
+  {
+    "id": 42,
+    "question": "What is thread?",
+    "answer": "Smallest unit of execution."
+  },
+  {
+    "id": 43,
+    "question": "What is garbage collection?",
+    "answer": "Automatic memory management in .NET."
+  },
+  {
+    "id": 44,
+    "question": "What are value types?",
+    "answer": "Store data directly in memory."
+  },
+  {
+    "id": 45,
+    "question": "What are reference types?",
+    "answer": "Store reference to memory location."
+  },
+
+  {
+    "id": 46,
+    "question": "What is boxing?",
+    "answer": "Converting value type to reference type."
+  },
+  {
+    "id": 47,
+    "question": "What is unboxing?",
+    "answer": "Converting reference type back to value type."
+  },
+  {
+    "id": 48,
+    "question": "What is SOLID principle?",
+    "answer": "Set of five design principles for object-oriented programming."
+  },
+  {
+    "id": 49,
+    "question": "What is repository pattern?",
+    "answer": "Abstracts data access logic."
+  },
+  {
+    "id": 50,
+    "question": "What is unit of work pattern?",
+    "answer": "Manages database transactions across repositories."
+  },
+
+  {
+    "id": 51,
+    "question": "What is caching?",
+    "answer": "Storing data temporarily for faster access."
+  },
+  {
+    "id": 52,
+    "question": "Types of caching in ASP.NET Core?",
+    "answer": "In-memory caching and distributed caching."
+  },
+  {
+    "id": 53,
+    "question": "What is session state?",
+    "answer": "Stores user data across requests."
+  },
+  {
+    "id": 54,
+    "question": "What is middleware pipeline execution order?",
+    "answer": "Middleware executes in the order it is registered."
+  },
+  {
+    "id": 55,
+    "question": "What is exception handling middleware?",
+    "answer": "Handles errors globally in request pipeline."
+  },
+
+  {
+    "id": 56,
+    "question": "What is logging in ASP.NET Core?",
+    "answer": "Recording application events and errors."
+  },
+  {
+    "id": 57,
+    "question": "What is Serilog?",
+    "answer": "Popular logging library for .NET applications."
+  },
+  {
+    "id": 58,
+    "question": "What is configuration in .NET Core?",
+    "answer": "Managing app settings using appsettings.json."
+  },
+  {
+    "id": 59,
+    "question": "What is environment in ASP.NET Core?",
+    "answer": "Defines runtime environment like Development or Production."
+  },
+  {
+    "id": 60,
+    "question": "What is Swagger?",
+    "answer": "Tool for API documentation and testing."
+  },
+
+  {
+    "id": 61,
+    "question": "What is CORS?",
+    "answer": "Cross-Origin Resource Sharing policy."
+  },
+  {
+    "id": 62,
+    "question": "Why do we need CORS?",
+    "answer": "To allow frontend apps to access APIs from different domains."
+  },
+  {
+    "id": 63,
+    "question": "What is dependency injection lifetime?",
+    "answer": "Transient, Scoped, Singleton."
+  },
+  {
+    "id": 64,
+    "question": "What is Singleton service?",
+    "answer": "Single instance throughout application lifetime."
+  },
+  {
+    "id": 65,
+    "question": "What is Scoped service?",
+    "answer": "One instance per request."
+  },
+
+  {
+    "id": 66,
+    "question": "What is Transient service?",
+    "answer": "New instance every time it is requested."
+  },
+  {
+    "id": 67,
+    "question": "What is middleware custom creation?",
+    "answer": "Creating custom logic in request pipeline."
+  },
+  {
+    "id": 68,
+    "question": "What is minimal API?",
+    "answer": "Lightweight way to build APIs in ASP.NET Core."
+  },
+  {
+    "id": 69,
+    "question": "What is performance optimization in .NET Core?",
+    "answer": "Using async calls, caching, and efficient DB queries."
+  },
+  {
+    "id": 70,
+    "question": "What is microservices architecture?",
+    "answer": "Breaking application into small independent services."
+  },
+
+  {
+    "id": 71,
+    "question": "What is Docker used for in .NET Core?",
+    "answer": "Containerizing applications for deployment."
+  },
+  {
+    "id": 72,
+    "question": "What is Kubernetes?",
+    "answer": "Container orchestration platform."
+  },
+  {
+    "id": 73,
+    "question": "What is API versioning?",
+    "answer": "Managing different versions of APIs."
+  },
+  {
+    "id": 74,
+    "question": "What is health check in ASP.NET Core?",
+    "answer": "Monitors application health status."
+  },
+  {
+    "id": 75,
+    "question": "What is middleware short-circuiting?",
+    "answer": "Stopping request pipeline early."
+  },
+
+  {
+    "id": 76,
+    "question": "What is distributed system?",
+    "answer": "System where components run on multiple servers."
+  },
+  {
+    "id": 77,
+    "question": "What is API gateway?",
+    "answer": "Single entry point for microservices."
+  },
+  {
+    "id": 78,
+    "question": "What is load balancing?",
+    "answer": "Distributing traffic across servers."
+  },
+  {
+    "id": 79,
+    "question": "What is reverse proxy?",
+    "answer": "Server that forwards requests to backend services."
+  },
+  {
+    "id": 80,
+    "question": "What is thread safety?",
+    "answer": "Ensuring safe execution in multi-threaded environment."
+  },
+
+  {
+    "id": 81,
+    "question": "What is race condition?",
+    "answer": "When multiple threads access shared data simultaneously."
+  },
+  {
+    "id": 82,
+    "question": "What is deadlock?",
+    "answer": "Two processes waiting for each other."
+  },
+  {
+    "id": 83,
+    "question": "What is async vs sync?",
+    "answer": "Async does not block execution, sync does."
+  },
+  {
+    "id": 84,
+    "question": "What is memory leak?",
+    "answer": "Memory not released properly."
+  },
+  {
+    "id": 85,
+    "question": "What is IDisposable?",
+    "answer": "Interface for releasing unmanaged resources."
+  },
+
+  {
+    "id": 86,
+    "question": "What is garbage collector generations?",
+    "answer": "Gen 0, Gen 1, Gen 2 memory management."
+  },
+  {
+    "id": 87,
+    "question": "What is optimization in EF Core?",
+    "answer": "Using AsNoTracking and efficient queries."
+  },
+  {
+    "id": 88,
+    "question": "What is lazy loading?",
+    "answer": "Loading data only when needed."
+  },
+  {
+    "id": 89,
+    "question": "What is eager loading?",
+    "answer": "Loading related data immediately."
+  },
+  {
+    "id": 90,
+    "question": "What is explicit loading?",
+    "answer": "Manually loading related data."
+  },
+
+  {
+    "id": 91,
+    "question": "What is distributed caching?",
+    "answer": "Shared cache across multiple servers."
+  },
+  {
+    "id": 92,
+    "question": "What is Redis used for in .NET Core?",
+    "answer": "High-performance distributed caching."
+  },
+  {
+    "id": 93,
+    "question": "What is API throttling?",
+    "answer": "Limiting number of requests."
+  },
+  {
+    "id": 94,
+    "question": "What is rate limiting?",
+    "answer": "Controlling request frequency per user."
+  },
+  {
+    "id": 95,
+    "question": "What is logging middleware?",
+    "answer": "Middleware to log requests and responses."
+  },
+
+  {
+    "id": 96,
+    "question": "What is global exception handling?",
+    "answer": "Centralized error handling in middleware."
+  },
+  {
+    "id": 97,
+    "question": "What is API security best practice?",
+    "answer": "Use JWT, HTTPS, and proper authorization."
+  },
+  {
+    "id": 98,
+    "question": "What is clean architecture?",
+    "answer": "Separation of concerns in layers."
+  },
+  {
+    "id": 99,
+    "question": "What is test-driven development?",
+    "answer": "Writing tests before writing code."
+  },
+  {
+    "id": 100,
+    "question": "What are best practices for .NET Core interviews?",
+    "answer": "Master DI, middleware, EF Core, async programming, and system design concepts."
+  },
+  {
+    "id": 101,
+    "question": "How do you design a scalable login system in ASP.NET Core?",
+    "answer": "Use JWT authentication, refresh tokens, secure password hashing, and store sessions in distributed cache if needed."
+  },
+  {
+    "id": 102,
+    "question": "How do you implement JWT authentication in ASP.NET Core?",
+    "answer": "Configure authentication middleware, generate token on login, and validate it using JWT bearer middleware."
+  },
+  {
+    "id": 103,
+    "question": "How do you design an order management system?",
+    "answer": "Use layered architecture with controllers, services, repositories, and database with proper indexing and transactions."
+  },
+  {
+    "id": 104,
+    "question": "How do you handle high traffic APIs in .NET Core?",
+    "answer": "Use caching, load balancing, async programming, and horizontal scaling."
+  },
+  {
+    "id": 105,
+    "question": "How do you prevent overloading backend APIs?",
+    "answer": "Use rate limiting, throttling, and API gateway policies."
+  },
+
+  {
+    "id": 106,
+    "question": "How do you design a payment system?",
+    "answer": "Use microservices, database transactions, retry mechanisms, and idempotency keys."
+  },
+  {
+    "id": 107,
+    "question": "What is idempotency in APIs?",
+    "answer": "Ensuring same request produces same result even if executed multiple times."
+  },
+  {
+    "id": 108,
+    "question": "How do you handle retries in API failures?",
+    "answer": "Use exponential backoff and retry policies like Polly."
+  },
+  {
+    "id": 109,
+    "question": "How do you design a notification system?",
+    "answer": "Use background services, message queues like RabbitMQ, and event-driven architecture."
+  },
+  {
+    "id": 110,
+    "question": "How do you implement background jobs in .NET Core?",
+    "answer": "Use HostedService or Hangfire for scheduled/background processing."
+  },
+
+  {
+    "id": 111,
+    "question": "How do you design a file upload system?",
+    "answer": "Store files in cloud storage (S3/Azure Blob), save metadata in database."
+  },
+  {
+    "id": 112,
+    "question": "How do you handle large file uploads?",
+    "answer": "Use chunked uploads and streaming instead of loading full file in memory."
+  },
+  {
+    "id": 113,
+    "question": "How do you design a chat system backend?",
+    "answer": "Use SignalR for real-time communication and store messages in NoSQL or SQL."
+  },
+  {
+    "id": 114,
+    "question": "What is SignalR used for?",
+    "answer": "Real-time communication like chat and notifications."
+  },
+  {
+    "id": 115,
+    "question": "How do you scale SignalR applications?",
+    "answer": "Use Redis backplane or Azure SignalR service."
+  },
+
+  {
+    "id": 116,
+    "question": "How do you design an e-commerce backend?",
+    "answer": "Separate services for users, products, orders, payments with microservices architecture."
+  },
+  {
+    "id": 117,
+    "question": "How do you implement caching in ASP.NET Core?",
+    "answer": "Use IMemoryCache or distributed cache like Redis."
+  },
+  {
+    "id": 118,
+    "question": "What is cache invalidation?",
+    "answer": "Updating or removing stale cached data."
+  },
+  {
+    "id": 119,
+    "question": "How do you handle distributed transactions?",
+    "answer": "Use saga pattern or eventual consistency approach."
+  },
+  {
+    "id": 120,
+    "question": "What is saga pattern?",
+    "answer": "Managing distributed transactions using compensating actions."
+  },
+
+  {
+    "id": 121,
+    "question": "How do you design a search system?",
+    "answer": "Use Elasticsearch or database full-text search with indexing."
+  },
+  {
+    "id": 122,
+    "question": "How do you optimize EF Core queries?",
+    "answer": "Use AsNoTracking, include only required fields, and avoid N+1 queries."
+  },
+  {
+    "id": 123,
+    "question": "What is N+1 problem?",
+    "answer": "Inefficient querying where multiple queries are executed for related data."
+  },
+  {
+    "id": 124,
+    "question": "How do you solve N+1 problem?",
+    "answer": "Use eager loading with Include() or joins."
+  },
+  {
+    "id": 125,
+    "question": "How do you design logging system?",
+    "answer": "Use Serilog with centralized logging (ELK stack or cloud logging)."
+  },
+
+  {
+    "id": 126,
+    "question": "How do you monitor production .NET apps?",
+    "answer": "Use Application Insights, Prometheus, or cloud monitoring tools."
+  },
+  {
+    "id": 127,
+    "question": "How do you handle exceptions globally?",
+    "answer": "Use custom exception middleware."
+  },
+  {
+    "id": 128,
+    "question": "How do you design a multi-tenant system?",
+    "answer": "Use tenantId-based filtering or separate databases per tenant."
+  },
+  {
+    "id": 129,
+    "question": "What is database sharding in backend systems?",
+    "answer": "Splitting database horizontally across multiple servers."
+  },
+  {
+    "id": 130,
+    "question": "How do you design scalable APIs?",
+    "answer": "Use stateless APIs, caching, load balancing, and microservices."
+  },
+
+  {
+    "id": 131,
+    "question": "How do you secure ASP.NET Core APIs?",
+    "answer": "Use JWT, OAuth, HTTPS, input validation, and role-based authorization."
+  },
+  {
+    "id": 132,
+    "question": "What is OAuth2?",
+    "answer": "Authorization framework for secure delegated access."
+  },
+  {
+    "id": 133,
+    "question": "What is OpenID Connect?",
+    "answer": "Authentication layer built on top of OAuth2."
+  },
+  {
+    "id": 134,
+    "question": "How do you prevent SQL injection in EF Core?",
+    "answer": "Use parameterized queries and LINQ."
+  },
+  {
+    "id": 135,
+    "question": "How do you handle concurrency in .NET Core?",
+    "answer": "Use optimistic concurrency with row versioning."
+  },
+
+  {
+    "id": 136,
+    "question": "What is optimistic concurrency?",
+    "answer": "Assumes no conflict and checks before saving changes."
+  },
+  {
+    "id": 137,
+    "question": "What is pessimistic concurrency?",
+    "answer": "Locks data during transaction."
+  },
+  {
+    "id": 138,
+    "question": "How do you design an audit logging system?",
+    "answer": "Store changes in separate audit tables or event logs."
+  },
+  {
+    "id": 139,
+    "question": "How do you handle versioning in APIs?",
+    "answer": "Use URL versioning or header-based versioning."
+  },
+  {
+    "id": 140,
+    "question": "What is clean architecture in .NET?",
+    "answer": "Separation into domain, application, infrastructure, and API layers."
+  },
+
+  {
+    "id": 141,
+    "question": "How do you implement CQRS?",
+    "answer": "Separate read and write models for scalability."
+  },
+  {
+    "id": 142,
+    "question": "What is MediatR used for?",
+    "answer": "Implementing CQRS and mediator pattern in .NET."
+  },
+  {
+    "id": 143,
+    "question": "How do you design a high availability system?",
+    "answer": "Use load balancers, replicas, failover mechanisms, and distributed caching."
+  },
+  {
+    "id": 144,
+    "question": "What is circuit breaker pattern?",
+    "answer": "Stops repeated calls to failing services."
+  },
+  {
+    "id": 145,
+    "question": "What is bulkhead pattern?",
+    "answer": "Isolates system components to prevent total failure."
+  },
+
+  {
+    "id": 146,
+    "question": "How do you handle memory leaks in .NET Core?",
+    "answer": "Dispose unmanaged resources and avoid long-lived references."
+  },
+  {
+    "id": 147,
+    "question": "How do you improve API performance?",
+    "answer": "Use caching, async calls, compression, and indexing."
+  },
+  {
+    "id": 148,
+    "question": "What is response compression?",
+    "answer": "Reducing payload size using middleware compression."
+  },
+  {
+    "id": 149,
+    "question": "What is Kestrel role in performance?",
+    "answer": "High-performance web server for ASP.NET Core."
+  },
+  {
+    "id": 150,
+    "question": "What are key skills for .NET Core interviews?",
+    "answer": "Strong knowledge of APIs, middleware, EF Core, authentication, caching, and system design."
+  }
+]

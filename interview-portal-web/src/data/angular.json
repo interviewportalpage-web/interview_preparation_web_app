@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 1,
+        "question": "What is Angular?",
+        "answer": "Angular is a TypeScript-based frontend framework developed by Google for building scalable single-page applications."
+    },
+    {
+        "id": 2,
+        "question": "What are the key features of Angular?",
+        "answer": "Components, TypeScript, Dependency Injection, Routing, RxJS, Forms, Directives, Pipes, and Change Detection."
+    },
+    {
+        "id": 3,
+        "question": "What is the difference between AngularJS and Angular?",
+        "answer": "AngularJS is JavaScript-based and MVC-oriented, while Angular is TypeScript-based and component-driven with improved performance and tooling."
+    },
+    {
+        "id": 4,
+        "question": "What is TypeScript?",
+        "answer": "TypeScript is a superset of JavaScript that adds static typing and advanced language features."
+    },
+    {
+        "id": 5,
+        "question": "What is a Component in Angular?",
+        "answer": "A Component is the basic building block of Angular applications that controls a part of the UI."
+    },
+    {
+        "id": 6,
+        "question": "What are Angular Modules?",
+        "answer": "Modules organize application functionality into cohesive blocks of code."
+    },
+    {
+        "id": 7,
+        "question": "What is AppModule?",
+        "answer": "AppModule is the root module that bootstraps an Angular application."
+    },
+    {
+        "id": 8,
+        "question": "What is a Decorator?",
+        "answer": "A Decorator is a special TypeScript function that adds metadata to classes, methods, or properties."
+    },
+    {
+        "id": 9,
+        "question": "What is @Component?",
+        "answer": "@Component is a decorator used to define Angular components."
+    },
+    {
+        "id": 10,
+        "question": "What is Data Binding?",
+        "answer": "Data Binding synchronizes data between the component and the template."
+    },
+    {
+        "id": 11,
+        "question": "What are the types of Data Binding?",
+        "answer": "Interpolation, Property Binding, Event Binding, and Two-Way Binding."
+    },
+    {
+        "id": 12,
+        "question": "What is Interpolation?",
+        "answer": "Interpolation displays component data in templates using {{ }} syntax."
+    },
+    {
+        "id": 13,
+        "question": "What is Property Binding?",
+        "answer": "Property Binding binds component data to DOM element properties using [] syntax."
+    },
+    {
+        "id": 14,
+        "question": "What is Event Binding?",
+        "answer": "Event Binding listens to DOM events using () syntax."
+    },
+    {
+        "id": 15,
+        "question": "What is Two-Way Binding?",
+        "answer": "Two-Way Binding synchronizes component data and UI using [(ngModel)]."
+    },
+    {
+        "id": 16,
+        "question": "What is ngModel?",
+        "answer": "ngModel is a directive that enables two-way data binding."
+    },
+    {
+        "id": 17,
+        "question": "What are Directives?",
+        "answer": "Directives are classes that modify the behavior or appearance of DOM elements."
+    },
+    {
+        "id": 18,
+        "question": "What are the types of Directives?",
+        "answer": "Component, Structural, and Attribute Directives."
+    },
+    {
+        "id": 19,
+        "question": "What is *ngIf?",
+        "answer": "ngIf conditionally adds or removes elements from the DOM."
+    },
+    {
+        "id": 20,
+        "question": "What is *ngFor?",
+        "answer": "ngFor is used to iterate over collections in templates."
+    },
+    {
+        "id": 21,
+        "question": "What is ngSwitch?",
+        "answer": "ngSwitch conditionally displays elements based on matching expressions."
+    },
+    {
+        "id": 22,
+        "question": "What are Pipes?",
+        "answer": "Pipes transform data before displaying it in templates."
+    },
+    {
+        "id": 23,
+        "question": "What are built-in Pipes?",
+        "answer": "DatePipe, CurrencyPipe, PercentPipe, UpperCasePipe, LowerCasePipe, and AsyncPipe."
+    },
+    {
+        "id": 24,
+        "question": "What is a Custom Pipe?",
+        "answer": "A Custom Pipe is a user-defined transformation for template data."
+    },
+    {
+        "id": 25,
+        "question": "What is Dependency Injection?",
+        "answer": "Dependency Injection provides required services to classes automatically."
+    },
+    {
+        "id": 26,
+        "question": "What is a Service?",
+        "answer": "A Service is a reusable class that contains business logic and shared functionality."
+    },
+    {
+        "id": 27,
+        "question": "What is @Injectable?",
+        "answer": "@Injectable marks a class as available for dependency injection."
+    },
+    {
+        "id": 28,
+        "question": "What is providedIn: 'root'?",
+        "answer": "It registers a service as a singleton available throughout the application."
+    },
+    {
+        "id": 29,
+        "question": "What is Routing?",
+        "answer": "Routing enables navigation between different views in an Angular application."
+    },
+    {
+        "id": 30,
+        "question": "What is RouterModule?",
+        "answer": "RouterModule provides routing functionality for Angular applications."
+    },
+    {
+        "id": 31,
+        "question": "What is routerLink?",
+        "answer": "routerLink is a directive used to navigate between routes."
+    },
+    {
+        "id": 32,
+        "question": "What is router-outlet?",
+        "answer": "router-outlet acts as a placeholder where routed components are displayed."
+    },
+    {
+        "id": 33,
+        "question": "What is Lazy Loading?",
+        "answer": "Lazy Loading loads modules only when required to improve performance."
+    },
+    {
+        "id": 34,
+        "question": "What is Eager Loading?",
+        "answer": "Eager Loading loads all modules during application startup."
+    },
+    {
+        "id": 35,
+        "question": "What is Angular CLI?",
+        "answer": "Angular CLI is a command-line tool for creating and managing Angular applications."
+    },
+    {
+        "id": 36,
+        "question": "What is ng serve?",
+        "answer": "ng serve builds and runs the Angular application locally."
+    },
+    {
+        "id": 37,
+        "question": "What is ng build?",
+        "answer": "ng build compiles the application for deployment."
+    },
+    {
+        "id": 38,
+        "question": "What is AOT Compilation?",
+        "answer": "Ahead-of-Time compilation converts Angular templates into JavaScript during build time."
+    },
+    {
+        "id": 39,
+        "question": "What is JIT Compilation?",
+        "answer": "Just-in-Time compilation compiles templates in the browser during runtime."
+    },
+    {
+        "id": 40,
+        "question": "What is Change Detection?",
+        "answer": "Change Detection updates the view whenever application data changes."
+    },
+    {
+        "id": 41,
+        "question": "What is Zone.js?",
+        "answer": "Zone.js tracks asynchronous operations and triggers Angular change detection."
+    },
+    {
+        "id": 42,
+        "question": "What is View Encapsulation?",
+        "answer": "View Encapsulation controls CSS style isolation for components."
+    },
+    {
+        "id": 43,
+        "question": "What are lifecycle hooks?",
+        "answer": "Lifecycle hooks allow developers to execute logic at specific stages of a component's lifecycle."
+    },
+    {
+        "id": 44,
+        "question": "What is ngOnInit?",
+        "answer": "ngOnInit runs after Angular initializes component data-bound properties."
+    },
+    {
+        "id": 45,
+        "question": "What is ngOnDestroy?",
+        "answer": "ngOnDestroy runs before a component is destroyed and is used for cleanup."
+    },
+    {
+        "id": 46,
+        "question": "What is ngOnChanges?",
+        "answer": "ngOnChanges executes whenever input properties change."
+    },
+    {
+        "id": 47,
+        "question": "What is @Input?",
+        "answer": "@Input allows data to be passed from a parent component to a child component."
+    },
+    {
+        "id": 48,
+        "question": "What is @Output?",
+        "answer": "@Output allows child components to emit events to parent components."
+    },
+    {
+        "id": 49,
+        "question": "What is EventEmitter?",
+        "answer": "EventEmitter is used with @Output to emit custom events."
+    },
+    {
+        "id": 50,
+        "question": "What is Content Projection?",
+        "answer": "Content Projection allows external content to be inserted into a component using ng-content."
+    },
+    {
+        "id": 51,
+        "question": "What is RxJS?",
+        "answer": "RxJS is a reactive programming library used in Angular for handling asynchronous data streams using Observables."
+    },
+    {
+        "id": 52,
+        "question": "What is an Observable?",
+        "answer": "An Observable is a stream of data that can emit multiple values over time."
+    },
+    {
+        "id": 53,
+        "question": "What is the difference between Observable and Promise?",
+        "answer": "Promises return a single value and cannot be canceled, while Observables can emit multiple values and support cancellation."
+    },
+    {
+        "id": 54,
+        "question": "How do you subscribe to an Observable?",
+        "answer": "Using the subscribe() method."
+    },
+    {
+        "id": 55,
+        "question": "Why should subscriptions be unsubscribed?",
+        "answer": "To prevent memory leaks when components are destroyed."
+    },
+    {
+        "id": 56,
+        "question": "What is the Async Pipe?",
+        "answer": "The Async Pipe automatically subscribes and unsubscribes from Observables in templates."
+    },
+    {
+        "id": 57,
+        "question": "What is a Subject in RxJS?",
+        "answer": "A Subject is both an Observable and an Observer that can emit values to multiple subscribers."
+    },
+    {
+        "id": 58,
+        "question": "What is BehaviorSubject?",
+        "answer": "BehaviorSubject stores the latest value and immediately emits it to new subscribers."
+    },
+    {
+        "id": 59,
+        "question": "What is ReplaySubject?",
+        "answer": "ReplaySubject replays previous emitted values to new subscribers."
+    },
+    {
+        "id": 60,
+        "question": "What is AsyncSubject?",
+        "answer": "AsyncSubject emits only the last value when the Observable completes."
+    },
+    {
+        "id": 61,
+        "question": "What is the map operator in RxJS?",
+        "answer": "map transforms emitted values into new values."
+    },
+    {
+        "id": 62,
+        "question": "What is switchMap?",
+        "answer": "switchMap cancels previous inner subscriptions and switches to a new Observable."
+    },
+    {
+        "id": 63,
+        "question": "What is mergeMap?",
+        "answer": "mergeMap subscribes to all inner Observables simultaneously."
+    },
+    {
+        "id": 64,
+        "question": "What is concatMap?",
+        "answer": "concatMap executes inner Observables sequentially."
+    },
+    {
+        "id": 65,
+        "question": "What is exhaustMap?",
+        "answer": "exhaustMap ignores new emissions until the current Observable completes."
+    },
+    {
+        "id": 66,
+        "question": "What is debounceTime?",
+        "answer": "debounceTime delays emissions until a specified period of inactivity."
+    },
+    {
+        "id": 67,
+        "question": "What is distinctUntilChanged?",
+        "answer": "It prevents duplicate consecutive emissions."
+    },
+    {
+        "id": 68,
+        "question": "What is forkJoin?",
+        "answer": "forkJoin waits for all Observables to complete and returns their last emitted values."
+    },
+    {
+        "id": 69,
+        "question": "What is combineLatest?",
+        "answer": "combineLatest emits the latest values from multiple Observables whenever any source emits."
+    },
+    {
+        "id": 70,
+        "question": "What is catchError?",
+        "answer": "catchError handles errors within an Observable stream."
+    },
+    {
+        "id": 71,
+        "question": "What are Angular Forms?",
+        "answer": "Angular provides Template-Driven Forms and Reactive Forms for handling user input."
+    },
+    {
+        "id": 72,
+        "question": "What is a Template-Driven Form?",
+        "answer": "A form managed primarily through template directives like ngModel."
+    },
+    {
+        "id": 73,
+        "question": "What is a Reactive Form?",
+        "answer": "A form managed through component code using FormControl and FormGroup."
+    },
+    {
+        "id": 74,
+        "question": "What is FormControl?",
+        "answer": "FormControl tracks the value and validation state of a form field."
+    },
+    {
+        "id": 75,
+        "question": "What is FormGroup?",
+        "answer": "FormGroup is a collection of FormControls."
+    },
+    {
+        "id": 76,
+        "question": "What is FormArray?",
+        "answer": "FormArray manages a dynamic list of form controls."
+    },
+    {
+        "id": 77,
+        "question": "What are Validators?",
+        "answer": "Validators enforce input rules such as required, email, minLength, and maxLength."
+    },
+    {
+        "id": 78,
+        "question": "How do you create a custom validator?",
+        "answer": "By creating a function that returns ValidationErrors or null."
+    },
+    {
+        "id": 79,
+        "question": "What is Async Validation?",
+        "answer": "Validation that depends on asynchronous operations such as API calls."
+    },
+    {
+        "id": 80,
+        "question": "How do you reset a Reactive Form?",
+        "answer": "Using formGroup.reset()."
+    },
+    {
+        "id": 81,
+        "question": "What is Angular Router?",
+        "answer": "Angular Router manages navigation between application views."
+    },
+    {
+        "id": 82,
+        "question": "What are Route Parameters?",
+        "answer": "Dynamic values passed through URLs."
+    },
+    {
+        "id": 83,
+        "question": "How do you access Route Parameters?",
+        "answer": "Using ActivatedRoute service."
+    },
+    {
+        "id": 84,
+        "question": "What is ActivatedRoute?",
+        "answer": "ActivatedRoute provides information about the currently active route."
+    },
+    {
+        "id": 85,
+        "question": "What are Route Guards?",
+        "answer": "Route Guards control navigation to routes based on conditions."
+    },
+    {
+        "id": 86,
+        "question": "What is CanActivate?",
+        "answer": "CanActivate determines whether a route can be activated."
+    },
+    {
+        "id": 87,
+        "question": "What is CanDeactivate?",
+        "answer": "CanDeactivate determines whether navigation away from a route is allowed."
+    },
+    {
+        "id": 88,
+        "question": "What is Resolve Guard?",
+        "answer": "Resolve loads required data before route activation."
+    },
+    {
+        "id": 89,
+        "question": "What is CanLoad?",
+        "answer": "CanLoad prevents lazy-loaded modules from loading when unauthorized."
+    },
+    {
+        "id": 90,
+        "question": "What is Route Resolver?",
+        "answer": "A service that fetches data before a route loads."
+    },
+    {
+        "id": 91,
+        "question": "What is HttpClient?",
+        "answer": "HttpClient is Angular's service for making HTTP requests."
+    },
+    {
+        "id": 92,
+        "question": "How do you perform a GET request?",
+        "answer": "Using httpClient.get()."
+    },
+    {
+        "id": 93,
+        "question": "How do you perform a POST request?",
+        "answer": "Using httpClient.post()."
+    },
+    {
+        "id": 94,
+        "question": "What is an HTTP Interceptor?",
+        "answer": "An Interceptor modifies HTTP requests and responses globally."
+    },
+    {
+        "id": 95,
+        "question": "Why are Interceptors used?",
+        "answer": "For authentication, logging, error handling, and request modification."
+    },
+    {
+        "id": 96,
+        "question": "How do you add JWT tokens using an Interceptor?",
+        "answer": "By cloning requests and attaching the Authorization header."
+    },
+    {
+        "id": 97,
+        "question": "What is Global Error Handling in Angular?",
+        "answer": "A centralized mechanism for handling application-wide errors."
+    },
+    {
+        "id": 98,
+        "question": "What is Change Detection?",
+        "answer": "Angular's mechanism for synchronizing component data with the view."
+    },
+    {
+        "id": 99,
+        "question": "What is ChangeDetectionStrategy.OnPush?",
+        "answer": "A strategy that runs change detection only when input references change or events occur."
+    },
+    {
+        "id": 100,
+        "question": "Why is OnPush used?",
+        "answer": "To improve performance by reducing unnecessary change detection cycles."
+    },
+    {
+        "id": 101,
+        "question": "What are Angular Lifecycle Hooks?",
+        "answer": "Lifecycle hooks are methods that allow developers to execute logic at specific stages of a component or directive lifecycle."
+    },
+    {
+        "id": 102,
+        "question": "What is ngOnChanges?",
+        "answer": "ngOnChanges is called whenever data-bound input properties change."
+    },
+    {
+        "id": 103,
+        "question": "What is ngOnInit?",
+        "answer": "ngOnInit runs once after Angular initializes component input properties."
+    },
+    {
+        "id": 104,
+        "question": "What is ngDoCheck?",
+        "answer": "ngDoCheck allows custom change detection logic."
+    },
+    {
+        "id": 105,
+        "question": "What is ngAfterContentInit?",
+        "answer": "ngAfterContentInit runs after Angular projects external content into the component."
+    },
+    {
+        "id": 106,
+        "question": "What is ngAfterContentChecked?",
+        "answer": "ngAfterContentChecked executes after Angular checks projected content."
+    },
+    {
+        "id": 107,
+        "question": "What is ngAfterViewInit?",
+        "answer": "ngAfterViewInit runs after Angular initializes the component view and child views."
+    },
+    {
+        "id": 108,
+        "question": "What is ngAfterViewChecked?",
+        "answer": "ngAfterViewChecked executes after Angular checks component views."
+    },
+    {
+        "id": 109,
+        "question": "What is ngOnDestroy?",
+        "answer": "ngOnDestroy is called before a component is destroyed and is commonly used for cleanup."
+    },
+    {
+        "id": 110,
+        "question": "What is the order of Angular lifecycle hooks?",
+        "answer": "ngOnChanges → ngOnInit → ngDoCheck → ngAfterContentInit → ngAfterContentChecked → ngAfterViewInit → ngAfterViewChecked → ngOnDestroy."
+    },
+    {
+        "id": 111,
+        "question": "What is @ViewChild?",
+        "answer": "@ViewChild provides access to child components, directives, or DOM elements from the component class."
+    },
+    {
+        "id": 112,
+        "question": "What is @ViewChildren?",
+        "answer": "@ViewChildren provides access to multiple child components or elements."
+    },
+    {
+        "id": 113,
+        "question": "What is @ContentChild?",
+        "answer": "@ContentChild accesses projected content inserted using ng-content."
+    },
+    {
+        "id": 114,
+        "question": "What is @ContentChildren?",
+        "answer": "@ContentChildren accesses multiple projected content elements."
+    },
+    {
+        "id": 115,
+        "question": "What is Content Projection?",
+        "answer": "Content Projection allows external content to be inserted into a component template using ng-content."
+    },
+    {
+        "id": 116,
+        "question": "What is Multi-slot Content Projection?",
+        "answer": "A technique that projects content into multiple designated locations within a component."
+    },
+    {
+        "id": 117,
+        "question": "How can components communicate in Angular?",
+        "answer": "Using @Input, @Output, services, RxJS Subjects, ViewChild, or state management libraries."
+    },
+    {
+        "id": 118,
+        "question": "What is parent-to-child communication?",
+        "answer": "Passing data from a parent component to a child component using @Input."
+    },
+    {
+        "id": 119,
+        "question": "What is child-to-parent communication?",
+        "answer": "Sending events from a child component to a parent component using @Output and EventEmitter."
+    },
+    {
+        "id": 120,
+        "question": "What is sibling component communication?",
+        "answer": "Communication between sibling components using a shared service and RxJS."
+    },
+    {
+        "id": 121,
+        "question": "What is Dependency Injection?",
+        "answer": "Dependency Injection is a design pattern where Angular provides required dependencies automatically."
+    },
+    {
+        "id": 122,
+        "question": "What is Injector?",
+        "answer": "Injector is responsible for creating and delivering dependencies."
+    },
+    {
+        "id": 123,
+        "question": "What is Hierarchical Dependency Injection?",
+        "answer": "Angular supports multiple injectors arranged in a hierarchy."
+    },
+    {
+        "id": 124,
+        "question": "What is InjectionToken?",
+        "answer": "InjectionToken is used to inject non-class dependencies."
+    },
+    {
+        "id": 125,
+        "question": "What is @Inject decorator?",
+        "answer": "@Inject explicitly specifies which dependency should be injected."
+    },
+    {
+        "id": 126,
+        "question": "What is @Optional?",
+        "answer": "@Optional allows Angular to inject null if the dependency is unavailable."
+    },
+    {
+        "id": 127,
+        "question": "What is @Self?",
+        "answer": "@Self restricts dependency lookup to the local injector."
+    },
+    {
+        "id": 128,
+        "question": "What is @SkipSelf?",
+        "answer": "@SkipSelf starts dependency lookup from the parent injector."
+    },
+    {
+        "id": 129,
+        "question": "What is @Host?",
+        "answer": "@Host restricts dependency resolution to the host element."
+    },
+    {
+        "id": 130,
+        "question": "What is Standalone Component?",
+        "answer": "A Standalone Component works without being declared inside an NgModule."
+    },
+    {
+        "id": 131,
+        "question": "Why were Standalone Components introduced?",
+        "answer": "To simplify Angular applications and reduce NgModule complexity."
+    },
+    {
+        "id": 132,
+        "question": "How do you create a Standalone Component?",
+        "answer": "By setting standalone: true in the @Component decorator."
+    },
+    {
+        "id": 133,
+        "question": "What are Angular Signals?",
+        "answer": "Signals are reactive primitives introduced in Angular 16 for managing state."
+    },
+    {
+        "id": 134,
+        "question": "What is a Writable Signal?",
+        "answer": "A signal whose value can be updated using set() or update()."
+    },
+    {
+        "id": 135,
+        "question": "What is a Computed Signal?",
+        "answer": "A derived signal whose value depends on other signals."
+    },
+    {
+        "id": 136,
+        "question": "What is an Effect in Signals?",
+        "answer": "An Effect runs automatically whenever dependent signals change."
+    },
+    {
+        "id": 137,
+        "question": "What problem do Signals solve?",
+        "answer": "They provide efficient fine-grained reactivity without relying heavily on Zone.js."
+    },
+    {
+        "id": 138,
+        "question": "What is Dynamic Component Loading?",
+        "answer": "Creating and rendering components at runtime instead of compile time."
+    },
+    {
+        "id": 139,
+        "question": "How do you dynamically create a component?",
+        "answer": "Using ViewContainerRef.createComponent()."
+    },
+    {
+        "id": 140,
+        "question": "What is ViewContainerRef?",
+        "answer": "A service that acts as a container for dynamically inserted views."
+    },
+    {
+        "id": 141,
+        "question": "What is ComponentRef?",
+        "answer": "A reference to a dynamically created component instance."
+    },
+    {
+        "id": 142,
+        "question": "What is EnvironmentInjector?",
+        "answer": "A modern Angular injector used for dependency resolution in standalone APIs."
+    },
+    {
+        "id": 143,
+        "question": "What is Angular Architecture?",
+        "answer": "Angular architecture consists of components, templates, services, modules, routing, dependency injection, and change detection."
+    },
+    {
+        "id": 144,
+        "question": "What is Smart Component?",
+        "answer": "A Smart Component contains business logic and data handling."
+    },
+    {
+        "id": 145,
+        "question": "What is Dumb Component?",
+        "answer": "A Dumb Component focuses only on presentation and receives data via inputs."
+    },
+    {
+        "id": 146,
+        "question": "What is Feature Module?",
+        "answer": "A Feature Module organizes functionality related to a specific application feature."
+    },
+    {
+        "id": 147,
+        "question": "What is Shared Module?",
+        "answer": "A Shared Module contains reusable components, directives, and pipes."
+    },
+    {
+        "id": 148,
+        "question": "What is Core Module?",
+        "answer": "A Core Module contains singleton services used across the application."
+    },
+    {
+        "id": 149,
+        "question": "What is Barrel File?",
+        "answer": "A barrel file exports multiple modules or components from a single index file."
+    },
+    {
+        "id": 150,
+        "question": "What are Angular best practices for large applications?",
+        "answer": "Use lazy loading, standalone components, OnPush change detection, reusable services, feature modules, and proper state management."
+    },
+    {
+        "id": 151,
+        "question": "What is NgRx?",
+        "answer": "NgRx is a state management library for Angular based on the Redux pattern and RxJS."
+    },
+    {
+        "id": 152,
+        "question": "Why use NgRx?",
+        "answer": "NgRx provides predictable state management, centralized data flow, and easier debugging."
+    },
+    {
+        "id": 153,
+        "question": "What is a Store in NgRx?",
+        "answer": "A Store is a centralized container that holds application state."
+    },
+    {
+        "id": 154,
+        "question": "What is an Action in NgRx?",
+        "answer": "An Action is an event that describes a state change."
+    },
+    {
+        "id": 155,
+        "question": "What is a Reducer in NgRx?",
+        "answer": "A Reducer is a pure function that updates state based on actions."
+    },
+    {
+        "id": 156,
+        "question": "What are Selectors?",
+        "answer": "Selectors are functions used to retrieve specific slices of state from the store."
+    },
+    {
+        "id": 157,
+        "question": "What are Effects in NgRx?",
+        "answer": "Effects handle side effects such as API calls outside reducers."
+    },
+    {
+        "id": 158,
+        "question": "What is Entity State in NgRx?",
+        "answer": "Entity State provides optimized management for collections of data."
+    },
+    {
+        "id": 159,
+        "question": "What is NgRx Component Store?",
+        "answer": "A lightweight local state management solution for Angular components."
+    },
+    {
+        "id": 160,
+        "question": "When should NgRx be used?",
+        "answer": "In large applications with complex shared state and predictable state requirements."
+    },
+    {
+        "id": 161,
+        "question": "What is switchMap and when should it be used?",
+        "answer": "switchMap cancels previous subscriptions and switches to the latest Observable, making it ideal for search requests."
+    },
+    {
+        "id": 162,
+        "question": "What is mergeMap and when should it be used?",
+        "answer": "mergeMap processes multiple Observables concurrently and is useful when all responses are needed."
+    },
+    {
+        "id": 163,
+        "question": "What is concatMap and when should it be used?",
+        "answer": "concatMap executes Observables sequentially, preserving order."
+    },
+    {
+        "id": 164,
+        "question": "What is exhaustMap and when should it be used?",
+        "answer": "exhaustMap ignores new emissions until the current Observable completes, useful for preventing duplicate submissions."
+    },
+    {
+        "id": 165,
+        "question": "What is shareReplay?",
+        "answer": "shareReplay caches and shares the latest emitted values among subscribers."
+    },
+    {
+        "id": 166,
+        "question": "What is takeUntil?",
+        "answer": "takeUntil unsubscribes from an Observable when another Observable emits."
+    },
+    {
+        "id": 167,
+        "question": "What is retry()?",
+        "answer": "retry automatically resubscribes to an Observable when an error occurs."
+    },
+    {
+        "id": 168,
+        "question": "What is finalize()?",
+        "answer": "finalize executes cleanup logic when an Observable completes or errors."
+    },
+    {
+        "id": 169,
+        "question": "What is tap()?",
+        "answer": "tap performs side effects without modifying emitted values."
+    },
+    {
+        "id": 170,
+        "question": "What is combineLatest vs forkJoin?",
+        "answer": "combineLatest emits whenever any source changes, while forkJoin waits for all sources to complete."
+    },
+    {
+        "id": 171,
+        "question": "How does Angular Change Detection work?",
+        "answer": "Angular checks component bindings and updates the view when data changes."
+    },
+    {
+        "id": 172,
+        "question": "What is Default Change Detection?",
+        "answer": "Default strategy checks all components during every change detection cycle."
+    },
+    {
+        "id": 173,
+        "question": "What is OnPush Change Detection?",
+        "answer": "OnPush runs change detection only when input references change, events occur, or observables emit."
+    },
+    {
+        "id": 174,
+        "question": "Why is OnPush important?",
+        "answer": "It improves performance by reducing unnecessary checks."
+    },
+    {
+        "id": 175,
+        "question": "What is ChangeDetectorRef?",
+        "answer": "A service used to manually trigger or control change detection."
+    },
+    {
+        "id": 176,
+        "question": "What is markForCheck()?",
+        "answer": "markForCheck marks a component for checking during the next change detection cycle."
+    },
+    {
+        "id": 177,
+        "question": "What is detectChanges()?",
+        "answer": "detectChanges immediately triggers change detection for a component."
+    },
+    {
+        "id": 178,
+        "question": "What is detach() in ChangeDetectorRef?",
+        "answer": "detach removes a component from Angular's change detection tree."
+    },
+    {
+        "id": 179,
+        "question": "What is Zone.js?",
+        "answer": "Zone.js intercepts asynchronous operations and triggers Angular change detection."
+    },
+    {
+        "id": 180,
+        "question": "What is zone-less Angular?",
+        "answer": "An Angular approach that removes Zone.js and uses signals or manual change detection."
+    },
+    {
+        "id": 181,
+        "question": "What is Angular Universal?",
+        "answer": "Angular Universal enables Server-Side Rendering (SSR) for Angular applications."
+    },
+    {
+        "id": 182,
+        "question": "Why use Angular Universal?",
+        "answer": "To improve SEO, initial page load speed, and user experience."
+    },
+    {
+        "id": 183,
+        "question": "What is SSR?",
+        "answer": "Server-Side Rendering generates HTML on the server before sending it to the browser."
+    },
+    {
+        "id": 184,
+        "question": "What is Hydration?",
+        "answer": "Hydration attaches Angular functionality to server-rendered HTML on the client."
+    },
+    {
+        "id": 185,
+        "question": "What is Prerendering?",
+        "answer": "Generating static HTML pages at build time."
+    },
+    {
+        "id": 186,
+        "question": "What is TransferState?",
+        "answer": "TransferState shares server-fetched data with the browser to avoid duplicate API calls."
+    },
+    {
+        "id": 187,
+        "question": "What are Angular security features?",
+        "answer": "Sanitization, XSS protection, CSP support, and secure template rendering."
+    },
+    {
+        "id": 188,
+        "question": "How does Angular prevent XSS attacks?",
+        "answer": "Angular automatically sanitizes untrusted values before rendering."
+    },
+    {
+        "id": 189,
+        "question": "What is DomSanitizer?",
+        "answer": "DomSanitizer allows controlled bypassing of Angular's built-in sanitization."
+    },
+    {
+        "id": 190,
+        "question": "What is Content Security Policy (CSP)?",
+        "answer": "A browser security mechanism that restricts resource loading and script execution."
+    },
+    {
+        "id": 191,
+        "question": "What is Unit Testing in Angular?",
+        "answer": "Testing individual components, services, and functions in isolation."
+    },
+    {
+        "id": 192,
+        "question": "What is Jasmine?",
+        "answer": "A behavior-driven JavaScript testing framework commonly used with Angular."
+    },
+    {
+        "id": 193,
+        "question": "What is Karma?",
+        "answer": "A test runner used to execute Angular unit tests."
+    },
+    {
+        "id": 194,
+        "question": "What is TestBed?",
+        "answer": "Angular's primary utility for configuring and testing Angular components and services."
+    },
+    {
+        "id": 195,
+        "question": "What is Component Testing?",
+        "answer": "Testing Angular components, templates, and interactions."
+    },
+    {
+        "id": 196,
+        "question": "How do you test an Angular Service?",
+        "answer": "By injecting the service into a test and verifying expected behavior."
+    },
+    {
+        "id": 197,
+        "question": "What is HttpTestingController?",
+        "answer": "A utility used to mock and verify HTTP requests during testing."
+    },
+    {
+        "id": 198,
+        "question": "What is End-to-End Testing?",
+        "answer": "Testing complete application workflows from the user's perspective."
+    },
+    {
+        "id": 199,
+        "question": "What is Cypress?",
+        "answer": "A modern end-to-end testing framework for web applications."
+    },
+    {
+        "id": 200,
+        "question": "What are Angular performance optimization best practices?",
+        "answer": "Use OnPush, lazy loading, trackBy, standalone components, signals, caching, and optimized RxJS operators."
+    },
+    {
+        "id": 201,
+        "question": "What is a Micro Frontend architecture?",
+        "answer": "Micro Frontends split a frontend application into independently deployable and maintainable modules owned by different teams."
+    },
+    {
+        "id": 202,
+        "question": "What are the benefits of Micro Frontends?",
+        "answer": "Independent deployment, team autonomy, technology flexibility, and improved scalability."
+    },
+    {
+        "id": 203,
+        "question": "What is Module Federation?",
+        "answer": "Module Federation is a Webpack feature that enables applications to share modules at runtime."
+    },
+    {
+        "id": 204,
+        "question": "How is Module Federation used in Angular?",
+        "answer": "It allows Angular applications to dynamically load remote modules from other Angular applications."
+    },
+    {
+        "id": 205,
+        "question": "What challenges exist in Micro Frontends?",
+        "answer": "Shared dependencies, routing, authentication, state synchronization, and performance."
+    },
+    {
+        "id": 206,
+        "question": "What is Nx?",
+        "answer": "Nx is a monorepo development toolkit for managing large Angular and TypeScript applications."
+    },
+    {
+        "id": 207,
+        "question": "What are the advantages of Nx?",
+        "answer": "Code sharing, dependency graph analysis, faster builds, caching, and scalable project structure."
+    },
+    {
+        "id": 208,
+        "question": "What is a Monorepo?",
+        "answer": "A repository containing multiple applications and libraries managed together."
+    },
+    {
+        "id": 209,
+        "question": "Monorepo vs Polyrepo?",
+        "answer": "Monorepo stores multiple projects in one repository, while Polyrepo uses separate repositories."
+    },
+    {
+        "id": 210,
+        "question": "When should a Monorepo be used?",
+        "answer": "When multiple applications share common libraries, components, and development workflows."
+    },
+    {
+        "id": 211,
+        "question": "How would you structure a large Angular enterprise application?",
+        "answer": "Using feature-based modules, shared libraries, core services, lazy loading, and clear separation of concerns."
+    },
+    {
+        "id": 212,
+        "question": "What is a Domain-Driven Design approach in Angular?",
+        "answer": "Organizing Angular applications around business domains instead of technical layers."
+    },
+    {
+        "id": 213,
+        "question": "What is a Feature Library?",
+        "answer": "A reusable library containing components, services, and logic for a specific business feature."
+    },
+    {
+        "id": 214,
+        "question": "What is a Shared Library?",
+        "answer": "A library containing reusable UI components, pipes, and utilities."
+    },
+    {
+        "id": 215,
+        "question": "How do you handle versioning in large Angular applications?",
+        "answer": "Using semantic versioning, release pipelines, and dependency management strategies."
+    },
+    {
+        "id": 216,
+        "question": "How do you optimize Angular bundle size?",
+        "answer": "Using lazy loading, tree shaking, standalone components, AOT compilation, and code splitting."
+    },
+    {
+        "id": 217,
+        "question": "What is Tree Shaking?",
+        "answer": "Removing unused code during the build process."
+    },
+    {
+        "id": 218,
+        "question": "What is Code Splitting?",
+        "answer": "Breaking application code into smaller chunks loaded on demand."
+    },
+    {
+        "id": 219,
+        "question": "What tools analyze Angular bundle size?",
+        "answer": "Webpack Bundle Analyzer, Source Map Explorer, and Angular Build Stats."
+    },
+    {
+        "id": 220,
+        "question": "What is Differential Loading?",
+        "answer": "Serving different JavaScript bundles for modern and legacy browsers."
+    },
+    {
+        "id": 221,
+        "question": "What is a Progressive Web App (PWA)?",
+        "answer": "A web application that provides app-like experiences using modern browser capabilities."
+    },
+    {
+        "id": 222,
+        "question": "How does Angular support PWAs?",
+        "answer": "Through Angular Service Workers, caching, offline support, and installable web applications."
+    },
+    {
+        "id": 223,
+        "question": "What is a Service Worker?",
+        "answer": "A script running in the background that enables offline functionality and caching."
+    },
+    {
+        "id": 224,
+        "question": "What is App Shell architecture?",
+        "answer": "Rendering the minimal UI shell first and loading application content afterward."
+    },
+    {
+        "id": 225,
+        "question": "What caching strategies can be used in Angular?",
+        "answer": "Memory cache, browser cache, service worker cache, and API response caching."
+    },
+    {
+        "id": 226,
+        "question": "What is stale-while-revalidate caching?",
+        "answer": "Serving cached content immediately while fetching fresh content in the background."
+    },
+    {
+        "id": 227,
+        "question": "How do you implement API caching in Angular?",
+        "answer": "Using RxJS shareReplay, interceptors, or state management solutions."
+    },
+    {
+        "id": 228,
+        "question": "What is a Web Worker?",
+        "answer": "A background thread used for CPU-intensive tasks without blocking the UI."
+    },
+    {
+        "id": 229,
+        "question": "When should Web Workers be used?",
+        "answer": "For heavy calculations, data processing, image manipulation, or large datasets."
+    },
+    {
+        "id": 230,
+        "question": "What are Angular Elements?",
+        "answer": "Angular components packaged as reusable Web Components."
+    },
+    {
+        "id": 231,
+        "question": "When should Angular Elements be used?",
+        "answer": "For integrating Angular components into non-Angular applications."
+    },
+    {
+        "id": 232,
+        "question": "What is authentication in Angular?",
+        "answer": "The process of verifying user identity before granting access."
+    },
+    {
+        "id": 233,
+        "question": "What is authorization in Angular?",
+        "answer": "The process of determining what authenticated users are allowed to access."
+    },
+    {
+        "id": 234,
+        "question": "How is JWT authentication implemented?",
+        "answer": "Store JWT securely, attach it through interceptors, and validate user permissions."
+    },
+    {
+        "id": 235,
+        "question": "Where should JWT tokens be stored?",
+        "answer": "Prefer secure HTTP-only cookies; avoid exposing sensitive tokens to JavaScript when possible."
+    },
+    {
+        "id": 236,
+        "question": "What security risks exist in Angular applications?",
+        "answer": "XSS, CSRF, insecure storage, exposed APIs, and improper authorization."
+    },
+    {
+        "id": 237,
+        "question": "How do you secure Angular applications?",
+        "answer": "Use HTTPS, secure authentication, sanitization, CSP, route guards, and server-side validation."
+    },
+    {
+        "id": 238,
+        "question": "How would you design role-based access control (RBAC)?",
+        "answer": "Define roles and permissions on the server and enforce them through route guards and UI restrictions."
+    },
+    {
+        "id": 239,
+        "question": "What is CI/CD?",
+        "answer": "Continuous Integration and Continuous Delivery automate building, testing, and deploying applications."
+    },
+    {
+        "id": 240,
+        "question": "How do you implement CI/CD for Angular?",
+        "answer": "Using Git workflows, automated tests, build pipelines, artifact storage, and deployment automation."
+    },
+    {
+        "id": 241,
+        "question": "What deployment strategies are common for Angular?",
+        "answer": "Blue-green deployment, canary releases, rolling deployments, and feature flags."
+    },
+    {
+        "id": 242,
+        "question": "What are Feature Flags?",
+        "answer": "Feature Flags enable controlled rollout of features without redeploying the application."
+    },
+    {
+        "id": 243,
+        "question": "How would you monitor Angular applications in production?",
+        "answer": "Using logging, error tracking, performance monitoring, and analytics tools."
+    },
+    {
+        "id": 244,
+        "question": "How do you handle production errors in Angular?",
+        "answer": "Using a global ErrorHandler, centralized logging, monitoring systems, and proper fallback mechanisms."
+    },
+    {
+        "id": 245,
+        "question": "How would you debug performance issues in Angular?",
+        "answer": "Analyze bundle size, profile rendering, inspect change detection cycles, and optimize data flows."
+    },
+    {
+        "id": 246,
+        "question": "How would you design a scalable Angular application?",
+        "answer": "Use modular architecture, lazy loading, state management, caching, performance optimization, and automation."
+    },
+    {
+        "id": 247,
+        "question": "What are the responsibilities of an Angular Architect?",
+        "answer": "Define architecture standards, scalability strategies, coding guidelines, security, and performance practices."
+    },
+    {
+        "id": 248,
+        "question": "How do you manage technical debt in Angular projects?",
+        "answer": "Through refactoring, code reviews, architecture governance, automated testing, and documentation."
+    },
+    {
+        "id": 249,
+        "question": "How would you migrate a large Angular application to newer versions?",
+        "answer": "Perform incremental upgrades, address deprecations, run automated tests, and validate performance and functionality."
+    },
+    {
+        "id": 250,
+        "question": "What are the key considerations when building enterprise Angular applications?",
+        "answer": "Scalability, maintainability, security, performance, accessibility, testing, monitoring, and deployment automation."
+    },
+    {
+        "id": 251,
+        "question": "A component is re-rendering frequently and affecting performance. How would you investigate and fix it?",
+        "answer": "Analyze change detection cycles, use Angular DevTools, implement OnPush strategy, optimize bindings, and avoid unnecessary object recreation."
+    },
+    {
+        "id": 252,
+        "question": "How would you display 100,000 records in an Angular table?",
+        "answer": "Use virtual scrolling, pagination, lazy loading, trackBy functions, and optimized change detection."
+    },
+    {
+        "id": 253,
+        "question": "Users report slow page loading. What steps would you take?",
+        "answer": "Analyze bundle size, implement lazy loading, optimize images, enable compression, and review network requests."
+    },
+    {
+        "id": 254,
+        "question": "How would you implement infinite scrolling?",
+        "answer": "Detect scroll position, load data in chunks, use virtual scrolling, and cache previously loaded data."
+    },
+    {
+        "id": 255,
+        "question": "How would you optimize API-heavy Angular applications?",
+        "answer": "Use caching, request deduplication, pagination, lazy loading, and efficient RxJS operators."
+    },
+    {
+        "id": 256,
+        "question": "How would you prevent duplicate API requests?",
+        "answer": "Use shareReplay, caching services, request interceptors, or centralized state management."
+    },
+    {
+        "id": 257,
+        "question": "How would you handle API failures globally?",
+        "answer": "Implement HTTP interceptors, centralized error handling, retry mechanisms, and user-friendly error messages."
+    },
+    {
+        "id": 258,
+        "question": "How would you implement request retry logic?",
+        "answer": "Use RxJS retry or retryWhen operators with exponential backoff."
+    },
+    {
+        "id": 259,
+        "question": "How would you handle slow network conditions?",
+        "answer": "Show loading indicators, cache responses, use skeleton loaders, and optimize API payloads."
+    },
+    {
+        "id": 260,
+        "question": "How would you design a reusable data table component?",
+        "answer": "Support dynamic columns, sorting, filtering, pagination, templates, and configurable actions."
+    },
+    {
+        "id": 261,
+        "question": "How would you implement role-based access control?",
+        "answer": "Store permissions on the server, validate them in route guards, and conditionally render UI elements."
+    },
+    {
+        "id": 262,
+        "question": "How would you secure API calls in Angular?",
+        "answer": "Use HTTPS, JWT authentication, interceptors, secure token storage, and server-side validation."
+    },
+    {
+        "id": 263,
+        "question": "How would you implement Single Sign-On (SSO)?",
+        "answer": "Integrate OAuth2 or OpenID Connect providers and manage authentication tokens securely."
+    },
+    {
+        "id": 264,
+        "question": "How would you handle token expiration?",
+        "answer": "Use refresh tokens and interceptors to automatically renew access tokens."
+    },
+    {
+        "id": 265,
+        "question": "How would you prevent unauthorized route access?",
+        "answer": "Use route guards such as CanActivate and validate permissions before navigation."
+    },
+    {
+        "id": 266,
+        "question": "How would you share data between unrelated components?",
+        "answer": "Use services with RxJS Subjects, Signals, or state management libraries."
+    },
+    {
+        "id": 267,
+        "question": "When would you use NgRx instead of services?",
+        "answer": "For large applications with complex shared state and predictable state transitions."
+    },
+    {
+        "id": 268,
+        "question": "How would you manage application-wide state?",
+        "answer": "Using NgRx, Signals, Akita, or service-based state management depending on complexity."
+    },
+    {
+        "id": 269,
+        "question": "How would you avoid prop drilling?",
+        "answer": "Use shared services, Signals, or centralized state management."
+    },
+    {
+        "id": 270,
+        "question": "How would you synchronize state across multiple browser tabs?",
+        "answer": "Use localStorage events, BroadcastChannel API, or backend synchronization."
+    },
+    {
+        "id": 271,
+        "question": "How would you build a reusable modal framework?",
+        "answer": "Use dynamic component loading, centralized modal service, and configurable templates."
+    },
+    {
+        "id": 272,
+        "question": "How would you implement drag-and-drop functionality?",
+        "answer": "Use Angular CDK DragDrop module with proper state updates."
+    },
+    {
+        "id": 273,
+        "question": "How would you implement dynamic forms?",
+        "answer": "Generate Reactive Forms from configuration metadata."
+    },
+    {
+        "id": 274,
+        "question": "How would you support multiple themes?",
+        "answer": "Use CSS variables, theme services, and dynamic stylesheet switching."
+    },
+    {
+        "id": 275,
+        "question": "How would you implement localization?",
+        "answer": "Use Angular i18n or translation libraries such as ngx-translate."
+    },
+    {
+        "id": 276,
+        "question": "How would you handle memory leaks?",
+        "answer": "Unsubscribe from Observables, clean up listeners, and use Async Pipe when possible."
+    },
+    {
+        "id": 277,
+        "question": "How would you debug a memory leak?",
+        "answer": "Use browser profiling tools, heap snapshots, and subscription analysis."
+    },
+    {
+        "id": 278,
+        "question": "How would you identify performance bottlenecks?",
+        "answer": "Use Angular DevTools, browser performance profiling, and bundle analysis tools."
+    },
+    {
+        "id": 279,
+        "question": "How would you optimize change detection?",
+        "answer": "Use OnPush, immutable data patterns, Signals, and trackBy functions."
+    },
+    {
+        "id": 280,
+        "question": "How would you optimize large forms?",
+        "answer": "Split forms into smaller sections, lazy load controls, and minimize validation overhead."
+    },
+    {
+        "id": 281,
+        "question": "How would you migrate AngularJS to Angular?",
+        "answer": "Use a hybrid approach with ngUpgrade and gradually replace AngularJS components."
+    },
+    {
+        "id": 282,
+        "question": "How would you upgrade Angular 12 to Angular 18?",
+        "answer": "Perform incremental upgrades, resolve breaking changes, run tests, and update dependencies."
+    },
+    {
+        "id": 283,
+        "question": "How would you handle deprecated APIs?",
+        "answer": "Review migration guides, refactor affected code, and validate functionality."
+    },
+    {
+        "id": 284,
+        "question": "How would you introduce Signals into an existing application?",
+        "answer": "Gradually replace local state and selected RxJS-based state where appropriate."
+    },
+    {
+        "id": 285,
+        "question": "How would you implement SSR?",
+        "answer": "Use Angular Universal to render pages on the server before sending HTML to clients."
+    },
+    {
+        "id": 286,
+        "question": "How would you improve SEO in Angular?",
+        "answer": "Use SSR, dynamic meta tags, structured data, and optimized routing."
+    },
+    {
+        "id": 287,
+        "question": "How would you optimize Core Web Vitals?",
+        "answer": "Reduce bundle size, improve rendering speed, optimize images, and minimize blocking scripts."
+    },
+    {
+        "id": 288,
+        "question": "How would you implement caching?",
+        "answer": "Use service workers, API caching, browser caching, and state persistence."
+    },
+    {
+        "id": 289,
+        "question": "How would you design an offline-capable Angular application?",
+        "answer": "Use PWA features, service workers, local storage, and background synchronization."
+    },
+    {
+        "id": 290,
+        "question": "How would you implement Micro Frontends?",
+        "answer": "Use Module Federation, shared libraries, and independent deployment pipelines."
+    },
+    {
+        "id": 291,
+        "question": "How would you structure a large enterprise Angular project?",
+        "answer": "Use feature modules, shared libraries, domain-driven organization, and clear boundaries."
+    },
+    {
+        "id": 292,
+        "question": "How would you design a component library?",
+        "answer": "Create reusable, configurable, documented components with versioning support."
+    },
+    {
+        "id": 293,
+        "question": "How would you enforce coding standards across teams?",
+        "answer": "Use ESLint, Prettier, code reviews, architecture guidelines, and CI validation."
+    },
+    {
+        "id": 294,
+        "question": "How would you monitor Angular applications in production?",
+        "answer": "Use centralized logging, error tracking, performance monitoring, and analytics."
+    },
+    {
+        "id": 295,
+        "question": "How would you implement feature flags?",
+        "answer": "Use configuration services or feature management platforms to control feature availability."
+    },
+    {
+        "id": 296,
+        "question": "How would you deploy Angular applications safely?",
+        "answer": "Use CI/CD pipelines, automated testing, canary releases, and rollback mechanisms."
+    },
+    {
+        "id": 297,
+        "question": "How would you handle a production outage caused by a frontend deployment?",
+        "answer": "Rollback immediately, identify root cause, monitor systems, and implement preventive measures."
+    },
+    {
+        "id": 298,
+        "question": "How would you reduce technical debt in a large Angular codebase?",
+        "answer": "Refactor incrementally, improve test coverage, enforce standards, and document architecture."
+    },
+    {
+        "id": 299,
+        "question": "How would you mentor junior Angular developers?",
+        "answer": "Provide code reviews, architectural guidance, pair programming, and knowledge-sharing sessions."
+    },
+    {
+        "id": 300,
+        "question": "What would be your approach to architecting a new enterprise Angular application?",
+        "answer": "Define architecture standards, scalability requirements, security practices, state management strategy, testing approach, and deployment processes before development begins."
+    }
+]

@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function PrivacyPolicy() {
+  const navigate = useNavigate();
   return (
     <div className="page-container">
       <h1>Privacy Policy</h1>
@@ -33,6 +36,9 @@ function PrivacyPolicy() {
       <p>
         We reserve the right to update this Privacy Policy at any time.
       </p>
+      <button onClick={() => navigate("/")}>
+        Back
+      </button>
     </div>
   );
 }

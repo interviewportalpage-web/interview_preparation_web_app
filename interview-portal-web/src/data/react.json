@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "answer": "React is an open-source JavaScript library developed by Meta for building user interfaces using reusable components."
+  },
+  {
+    "id": 2,
+    "question": "What are the main features of React?",
+    "answer": "React provides component-based architecture, virtual DOM, one-way data flow, reusable UI components, and declarative rendering."
+  },
+  {
+    "id": 3,
+    "question": "What is JSX?",
+    "answer": "JSX is a syntax extension for JavaScript that allows developers to write HTML-like code inside JavaScript."
+  },
+  {
+    "id": 4,
+    "question": "Why do we use JSX?",
+    "answer": "JSX makes UI code easier to read, write, and maintain by allowing HTML-like syntax within JavaScript."
+  },
+  {
+    "id": 5,
+    "question": "Can React work without JSX?",
+    "answer": "Yes. React can use React.createElement() directly, but JSX is preferred because it is more readable."
+  },
+  {
+    "id": 6,
+    "question": "What is a React component?",
+    "answer": "A React component is an independent and reusable piece of UI that returns React elements."
+  },
+  {
+    "id": 7,
+    "question": "What are functional components?",
+    "answer": "Functional components are JavaScript functions that accept props and return JSX."
+  },
+  {
+    "id": 8,
+    "question": "What are class components?",
+    "answer": "Class components are ES6 classes that extend React.Component and contain a render method."
+  },
+  {
+    "id": 9,
+    "question": "What are props in React?",
+    "answer": "Props are read-only inputs passed from a parent component to a child component."
+  },
+  {
+    "id": 10,
+    "question": "What is state in React?",
+    "answer": "State is a built-in object that stores component-specific data and controls component behavior."
+  },
+  {
+    "id": 11,
+    "question": "Difference between props and state?",
+    "answer": "Props are passed from parent components and are immutable, while state is managed within a component and can change over time."
+  },
+  {
+    "id": 12,
+    "question": "What is the Virtual DOM?",
+    "answer": "Virtual DOM is a lightweight in-memory representation of the real DOM used to improve rendering performance."
+  },
+  {
+    "id": 13,
+    "question": "How does Virtual DOM work?",
+    "answer": "React creates a virtual representation of the UI, compares changes using a diffing algorithm, and updates only the necessary parts of the real DOM."
+  },
+  {
+    "id": 14,
+    "question": "What is reconciliation?",
+    "answer": "Reconciliation is React's process of comparing Virtual DOM trees to determine the most efficient updates to the real DOM."
+  },
+  {
+    "id": 15,
+    "question": "What is one-way data binding?",
+    "answer": "One-way data binding means data flows from parent to child components through props."
+  },
+  {
+    "id": 16,
+    "question": "What is a key in React?",
+    "answer": "A key is a unique identifier used by React to track elements in a list during re-rendering."
+  },
+  {
+    "id": 17,
+    "question": "Why should keys be unique?",
+    "answer": "Unique keys help React efficiently identify which items have changed, been added, or removed."
+  },
+  {
+    "id": 18,
+    "question": "What happens if keys are not unique?",
+    "answer": "React may incorrectly update UI elements, leading to rendering issues and performance problems."
+  },
+  {
+    "id": 19,
+    "question": "What is conditional rendering?",
+    "answer": "Conditional rendering allows components to render different UI elements based on specific conditions."
+  },
+  {
+    "id": 20,
+    "question": "How do you render lists in React?",
+    "answer": "Lists are rendered using JavaScript methods like map() and assigning unique keys to each item."
+  },
+  {
+    "id": 21,
+    "question": "What is a React Fragment?",
+    "answer": "A Fragment lets you group multiple elements without adding extra nodes to the DOM."
+  },
+  {
+    "id": 22,
+    "question": "Why use React Fragments?",
+    "answer": "Fragments reduce unnecessary DOM elements and keep the DOM structure cleaner."
+  },
+  {
+    "id": 23,
+    "question": "What is an event in React?",
+    "answer": "An event is a user interaction such as a click, change, submit, or keyboard action handled by React."
+  },
+  {
+    "id": 24,
+    "question": "How are React events different from DOM events?",
+    "answer": "React uses Synthetic Events, which provide a consistent interface across browsers."
+  },
+  {
+    "id": 25,
+    "question": "What is a Synthetic Event?",
+    "answer": "A Synthetic Event is a wrapper around native browser events that normalizes behavior across browsers."
+  },
+  {
+    "id": 26,
+    "question": "What is controlled component?",
+    "answer": "A controlled component is a form element whose value is controlled by React state."
+  },
+  {
+    "id": 27,
+    "question": "What is uncontrolled component?",
+    "answer": "An uncontrolled component stores form data in the DOM and is accessed using refs."
+  },
+  {
+    "id": 28,
+    "question": "What are refs in React?",
+    "answer": "Refs provide a way to access DOM elements or React component instances directly."
+  },
+  {
+    "id": 29,
+    "question": "When should refs be used?",
+    "answer": "Refs are useful for managing focus, text selection, animations, and integrating third-party libraries."
+  },
+  {
+    "id": 30,
+    "question": "What is React Hook?",
+    "answer": "Hooks are functions that allow functional components to use state and lifecycle features."
+  },
+  {
+    "id": 31,
+    "question": "What is useState?",
+    "answer": "useState is a Hook that allows functional components to manage local state."
+  },
+  {
+    "id": 32,
+    "question": "What is useEffect?",
+    "answer": "useEffect is a Hook used for side effects such as API calls, subscriptions, and DOM manipulation."
+  },
+  {
+    "id": 33,
+    "question": "What is dependency array in useEffect?",
+    "answer": "The dependency array determines when the effect should re-run based on changes to specific values."
+  },
+  {
+    "id": 34,
+    "question": "What happens if dependency array is empty?",
+    "answer": "The effect runs only once after the component mounts."
+  },
+  {
+    "id": 35,
+    "question": "What happens if dependency array is omitted?",
+    "answer": "The effect runs after every render."
+  },
+  {
+    "id": 36,
+    "question": "What is useContext?",
+    "answer": "useContext is a Hook that allows components to consume context values without prop drilling."
+  },
+  {
+    "id": 37,
+    "question": "What is prop drilling?",
+    "answer": "Prop drilling occurs when data is passed through multiple intermediate components unnecessarily."
+  },
+  {
+    "id": 38,
+    "question": "What is Context API?",
+    "answer": "Context API is a React feature that enables sharing data globally across components."
+  },
+  {
+    "id": 39,
+    "question": "What is useRef?",
+    "answer": "useRef creates a mutable reference that persists across renders without causing re-renders."
+  },
+  {
+    "id": 40,
+    "question": "What is useMemo?",
+    "answer": "useMemo memoizes computed values to avoid unnecessary recalculations."
+  },
+  {
+    "id": 41,
+    "question": "What is useCallback?",
+    "answer": "useCallback memoizes functions to prevent unnecessary re-creation on each render."
+  },
+  {
+    "id": 42,
+    "question": "Difference between useMemo and useCallback?",
+    "answer": "useMemo memoizes values, while useCallback memoizes functions."
+  },
+  {
+    "id": 43,
+    "question": "What is React.memo?",
+    "answer": "React.memo is a higher-order component that prevents unnecessary re-renders of functional components."
+  },
+  {
+    "id": 44,
+    "question": "What is lifting state up?",
+    "answer": "Lifting state up means moving shared state to the closest common parent component."
+  },
+  {
+    "id": 45,
+    "question": "What is component composition?",
+    "answer": "Component composition is the practice of building complex UIs by combining smaller reusable components."
+  },
+  {
+    "id": 46,
+    "question": "What is children prop?",
+    "answer": "The children prop represents nested content passed between a component's opening and closing tags."
+  },
+  {
+    "id": 47,
+    "question": "What is defaultProps?",
+    "answer": "defaultProps define default values for component props when no value is provided."
+  },
+  {
+    "id": 48,
+    "question": "What is StrictMode?",
+    "answer": "StrictMode is a development tool that highlights potential issues and unsafe lifecycle methods."
+  },
+  {
+    "id": 49,
+    "question": "What is React Developer Tools?",
+    "answer": "React Developer Tools is a browser extension used to inspect React component trees and state."
+  },
+  {
+    "id": 50,
+    "question": "What is hydration in React?",
+    "answer": "Hydration is the process of attaching React event handlers to server-rendered HTML."
+  },
+  {
+    "id": 51,
+    "question": "What is React Router?",
+    "answer": "React Router is a library used to handle routing and navigation in React applications."
+  },
+  {
+    "id": 52,
+    "question": "What are Routes in React Router?",
+    "answer": "Routes define the mapping between URL paths and React components."
+  },
+  {
+    "id": 53,
+    "question": "What is BrowserRouter?",
+    "answer": "BrowserRouter uses the HTML5 history API to keep UI in sync with the URL."
+  },
+  {
+    "id": 54,
+    "question": "What is a Link in React Router?",
+    "answer": "Link is used to navigate between routes without reloading the page."
+  },
+  {
+    "id": 55,
+    "question": "What is useNavigate?",
+    "answer": "useNavigate is a hook used to programmatically navigate between routes."
+  },
+  {
+    "id": 56,
+    "question": "What is lazy loading in React?",
+    "answer": "Lazy loading is a technique to load components only when they are needed."
+  },
+  {
+    "id": 57,
+    "question": "What is React Suspense?",
+    "answer": "Suspense allows components to wait for something like lazy-loaded components before rendering."
+  },
+  {
+    "id": 58,
+    "question": "What is code splitting?",
+    "answer": "Code splitting breaks large bundles into smaller chunks loaded on demand."
+  },
+  {
+    "id": 59,
+    "question": "What is error boundary?",
+    "answer": "Error boundaries are components that catch JavaScript errors in their child component tree."
+  },
+  {
+    "id": 60,
+    "question": "What is state lifting?",
+    "answer": "State lifting means moving shared state to a common parent component."
+  },
+  {
+    "id": 61,
+    "question": "What is prop drilling problem?",
+    "answer": "Prop drilling occurs when props are passed through multiple nested components unnecessarily."
+  },
+  {
+    "id": 62,
+    "question": "How to avoid prop drilling?",
+    "answer": "You can avoid prop drilling using Context API, Redux, or state management libraries."
+  },
+  {
+    "id": 63,
+    "question": "What is Redux?",
+    "answer": "Redux is a state management library used to manage global application state."
+  },
+  {
+    "id": 64,
+    "question": "What are Redux actions?",
+    "answer": "Actions are plain JavaScript objects that describe what happened in the application."
+  },
+  {
+    "id": 65,
+    "question": "What is a reducer in Redux?",
+    "answer": "A reducer is a pure function that updates state based on actions."
+  },
+  {
+    "id": 66,
+    "question": "What is Redux store?",
+    "answer": "The store holds the entire state of the application."
+  },
+  {
+    "id": 67,
+    "question": "What is middleware in Redux?",
+    "answer": "Middleware allows handling asynchronous logic and side effects in Redux."
+  },
+  {
+    "id": 68,
+    "question": "What is Redux Thunk?",
+    "answer": "Redux Thunk is middleware that allows writing async logic in Redux actions."
+  },
+  {
+    "id": 69,
+    "question": "What is Redux Toolkit?",
+    "answer": "Redux Toolkit is the official recommended way to write Redux logic with less boilerplate."
+  },
+  {
+    "id": 70,
+    "question": "What is RTK Query?",
+    "answer": "RTK Query is a data fetching and caching tool built into Redux Toolkit."
+  },
+  {
+    "id": 71,
+    "question": "What is Context API used for?",
+    "answer": "Context API is used for sharing global state across components without prop drilling."
+  },
+  {
+    "id": 72,
+    "question": "What is useReducer?",
+    "answer": "useReducer is a hook used for complex state logic in functional components."
+  },
+  {
+    "id": 73,
+    "question": "Difference between useState and useReducer?",
+    "answer": "useState is simpler for basic state, while useReducer is better for complex state logic."
+  },
+  {
+    "id": 74,
+    "question": "What is reconciliation algorithm?",
+    "answer": "It is the process React uses to compare old and new Virtual DOM trees."
+  },
+  {
+    "id": 75,
+    "question": "What is fiber in React?",
+    "answer": "Fiber is the reconciliation engine that enables incremental rendering."
+  },
+  {
+    "id": 76,
+    "question": "What is hydration in SSR?",
+    "answer": "Hydration attaches event listeners to server-rendered HTML."
+  },
+  {
+    "id": 77,
+    "question": "What is Server-Side Rendering (SSR)?",
+    "answer": "SSR renders React components on the server before sending HTML to the browser."
+  },
+  {
+    "id": 78,
+    "question": "What is Next.js?",
+    "answer": "Next.js is a React framework for SSR, SSG, and full-stack applications."
+  },
+  {
+    "id": 79,
+    "question": "What is Static Site Generation (SSG)?",
+    "answer": "SSG pre-renders pages at build time for better performance."
+  },
+  {
+    "id": 80,
+    "question": "What is Incremental Static Regeneration (ISR)?",
+    "answer": "ISR allows updating static pages after build time."
+  },
+  {
+    "id": 81,
+    "question": "What is useLayoutEffect?",
+    "answer": "useLayoutEffect runs synchronously after DOM mutations."
+  },
+  {
+    "id": 82,
+    "question": "Difference between useEffect and useLayoutEffect?",
+    "answer": "useEffect runs asynchronously, while useLayoutEffect runs synchronously before painting."
+  },
+  {
+    "id": 83,
+    "question": "What is memoization?",
+    "answer": "Memoization is optimizing performance by caching expensive function results."
+  },
+  {
+    "id": 84,
+    "question": "What is pure component?",
+    "answer": "A pure component only re-renders when props or state change."
+  },
+  {
+    "id": 85,
+    "question": "What is React lifecycle?",
+    "answer": "Lifecycle refers to phases like mount, update, and unmount of a component."
+  },
+  {
+    "id": 86,
+    "question": "What is mounting phase?",
+    "answer": "Mounting is when a component is created and inserted into the DOM."
+  },
+  {
+    "id": 87,
+    "question": "What is updating phase?",
+    "answer": "Updating occurs when props or state change and component re-renders."
+  },
+  {
+    "id": 88,
+    "question": "What is unmounting phase?",
+    "answer": "Unmounting is when a component is removed from the DOM."
+  },
+  {
+    "id": 89,
+    "question": "What is useId hook?",
+    "answer": "useId generates unique IDs for accessibility and form elements."
+  },
+  {
+    "id": 90,
+    "question": "What is useTransition?",
+    "answer": "useTransition allows marking state updates as non-urgent."
+  },
+  {
+    "id": 91,
+    "question": "What is useDeferredValue?",
+    "answer": "useDeferredValue defers updating a value to improve UI responsiveness."
+  },
+  {
+    "id": 92,
+    "question": "What is concurrent rendering?",
+    "answer": "Concurrent rendering allows React to interrupt rendering for better responsiveness."
+  },
+  {
+    "id": 93,
+    "question": "What is batching in React?",
+    "answer": "Batching groups multiple state updates into a single render."
+  },
+  {
+    "id": 94,
+    "question": "What is synthetic event pooling?",
+    "answer": "Synthetic events are reused for performance optimization in React."
+  },
+  {
+    "id": 95,
+    "question": "What is fragment shorthand?",
+    "answer": "Fragment shorthand is <> </> used instead of React.Fragment."
+  },
+  {
+    "id": 96,
+    "question": "What is forwardRef?",
+    "answer": "forwardRef passes refs from parent to child components."
+  },
+  {
+    "id": 97,
+    "question": "What is higher-order component (HOC)?",
+    "answer": "HOC is a function that takes a component and returns an enhanced component."
+  },
+  {
+    "id": 98,
+    "question": "What is render props pattern?",
+    "answer": "Render props is a technique where a component shares logic using a function prop."
+  },
+  {
+    "id": 99,
+    "question": "What are custom hooks?",
+    "answer": "Custom hooks are reusable functions built using React hooks."
+  },
+  {
+    "id": 100,
+    "question": "Why use custom hooks?",
+    "answer": "They help reuse stateful logic across multiple components."
+  },
+  {
+    "id": 101,
+    "question": "What is prop validation in React?",
+    "answer": "Prop validation is a way to check that components receive props of the correct type using tools like PropTypes or TypeScript."
+  },
+  {
+    "id": 102,
+    "question": "What is PropTypes?",
+    "answer": "PropTypes is a library used to enforce type checking on props in React components."
+  },
+  {
+    "id": 103,
+    "question": "What is TypeScript in React?",
+    "answer": "TypeScript is a superset of JavaScript that adds static typing to React applications."
+  },
+  {
+    "id": 104,
+    "question": "Why use TypeScript with React?",
+    "answer": "It improves code reliability, maintainability, and reduces runtime errors."
+  },
+  {
+    "id": 105,
+    "question": "What is JSX transpilation?",
+    "answer": "JSX transpilation is the process of converting JSX into JavaScript using tools like Babel."
+  },
+  {
+    "id": 106,
+    "question": "What is Babel?",
+    "answer": "Babel is a JavaScript compiler that converts modern JS/JSX into backward-compatible JavaScript."
+  },
+  {
+    "id": 107,
+    "question": "What is Webpack?",
+    "answer": "Webpack is a module bundler used to bundle JavaScript files for deployment."
+  },
+  {
+    "id": 108,
+    "question": "What is Vite?",
+    "answer": "Vite is a fast build tool and development server for modern web projects including React."
+  },
+  {
+    "id": 109,
+    "question": "Difference between Webpack and Vite?",
+    "answer": "Webpack bundles everything before serving, while Vite uses native ES modules for faster development."
+  },
+  {
+    "id": 110,
+    "question": "What is hot module replacement (HMR)?",
+    "answer": "HMR allows updating modules in the browser without full page reload."
+  },
+  {
+    "id": 111,
+    "question": "What is tree shaking?",
+    "answer": "Tree shaking removes unused code during bundling to reduce final bundle size."
+  },
+  {
+    "id": 112,
+    "question": "What is code splitting in React?",
+    "answer": "Code splitting divides the app into smaller chunks loaded on demand."
+  },
+  {
+    "id": 113,
+    "question": "What is dynamic import?",
+    "answer": "Dynamic import allows loading modules only when needed using import()."
+  },
+  {
+    "id": 114,
+    "question": "What is Suspense fallback?",
+    "answer": "Fallback UI shown while lazy-loaded components are loading."
+  },
+  {
+    "id": 115,
+    "question": "What is React hydration mismatch?",
+    "answer": "It occurs when server-rendered HTML differs from client-rendered output."
+  },
+  {
+    "id": 116,
+    "question": "What causes re-render in React?",
+    "answer": "State changes, props changes, or parent re-render can trigger re-render."
+  },
+  {
+    "id": 117,
+    "question": "How to prevent unnecessary re-renders?",
+    "answer": "Use memoization techniques like React.memo, useMemo, and useCallback."
+  },
+  {
+    "id": 118,
+    "question": "What is reconciliation optimization?",
+    "answer": "React minimizes DOM updates by comparing Virtual DOM efficiently using keys."
+  },
+  {
+    "id": 119,
+    "question": "What is React performance optimization?",
+    "answer": "Techniques include memoization, lazy loading, virtualization, and reducing re-renders."
+  },
+  {
+    "id": 120,
+    "question": "What is list virtualization?",
+    "answer": "Rendering only visible items in a large list to improve performance."
+  },
+  {
+    "id": 121,
+    "question": "What is React window?",
+    "answer": "React Window is a library for efficiently rendering large lists."
+  },
+  {
+    "id": 122,
+    "question": "What is React Virtualized?",
+    "answer": "A library for rendering large datasets efficiently using virtualization."
+  },
+  {
+    "id": 123,
+    "question": "What is debouncing?",
+    "answer": "Debouncing delays execution of a function until after a delay period."
+  },
+  {
+    "id": 124,
+    "question": "What is throttling?",
+    "answer": "Throttling limits function execution to once in a fixed interval."
+  },
+  {
+    "id": 125,
+    "question": "Difference between debouncing and throttling?",
+    "answer": "Debouncing waits for inactivity, throttling limits execution frequency."
+  },
+  {
+    "id": 126,
+    "question": "What is event delegation?",
+    "answer": "Event delegation handles events at a higher level instead of individual elements."
+  },
+  {
+    "id": 127,
+    "question": "What is cleanup function in useEffect?",
+    "answer": "A function returned in useEffect to clean up subscriptions or timers."
+  },
+  {
+    "id": 128,
+    "question": "When does cleanup function run?",
+    "answer": "It runs before the component unmounts or before re-running effect."
+  },
+  {
+    "id": 129,
+    "question": "What is stale state in React?",
+    "answer": "Stale state occurs when closures capture outdated state values."
+  },
+  {
+    "id": 130,
+    "question": "How to fix stale state issue?",
+    "answer": "Use functional state updates or include dependencies properly in hooks."
+  },
+  {
+    "id": 131,
+    "question": "What is API integration in React?",
+    "answer": "Fetching and using external data using fetch or axios in components."
+  },
+  {
+    "id": 132,
+    "question": "What is axios?",
+    "answer": "Axios is a promise-based HTTP client for making API requests."
+  },
+  {
+    "id": 133,
+    "question": "Fetch vs Axios?",
+    "answer": "Fetch is native browser API; Axios provides better features like interceptors."
+  },
+  {
+    "id": 134,
+    "question": "What are interceptors in Axios?",
+    "answer": "Functions that intercept requests or responses before they are handled."
+  },
+  {
+    "id": 135,
+    "question": "What is authentication in React?",
+    "answer": "Authentication is verifying user identity using tokens or sessions."
+  },
+  {
+    "id": 136,
+    "question": "What is JWT?",
+    "answer": "JSON Web Token is used for secure authentication between client and server."
+  },
+  {
+    "id": 137,
+    "question": "What is role-based access control?",
+    "answer": "Restricting access to features based on user roles."
+  },
+  {
+    "id": 138,
+    "question": "What is protected route?",
+    "answer": "Routes that require authentication before access."
+  },
+  {
+    "id": 139,
+    "question": "What is session storage?",
+    "answer": "Browser storage that persists data only for a session."
+  },
+  {
+    "id": 140,
+    "question": "What is local storage?",
+    "answer": "Browser storage that persists data even after closing the browser."
+  },
+  {
+    "id": 141,
+    "question": "What is cookies?",
+    "answer": "Small data stored in browser used for authentication and tracking."
+  },
+  {
+    "id": 142,
+    "question": "What is hydration error in React?",
+    "answer": "Mismatch between server-rendered and client-rendered markup."
+  },
+  {
+    "id": 143,
+    "question": "What is Next.js API routes?",
+    "answer": "Backend endpoints inside Next.js application."
+  },
+  {
+    "id": 144,
+    "question": "What is environment variable in React?",
+    "answer": "Variables used to store configuration values securely."
+  },
+  {
+    "id": 145,
+    "question": "What is .env file?",
+    "answer": "File used to store environment variables."
+  },
+  {
+    "id": 146,
+    "question": "What is linting?",
+    "answer": "Linting checks code for errors and style issues."
+  },
+  {
+    "id": 147,
+    "question": "What is ESLint?",
+    "answer": "A tool for identifying and fixing JavaScript code issues."
+  },
+  {
+    "id": 148,
+    "question": "What is Prettier?",
+    "answer": "A code formatter that ensures consistent style."
+  },
+  {
+    "id": 149,
+    "question": "What is CI/CD?",
+    "answer": "Continuous Integration and Continuous Deployment pipeline."
+  },
+  {
+    "id": 150,
+    "question": "What is deployment in React?",
+    "answer": "Process of hosting React app on servers or cloud platforms."
+  },
+  {
+    "id": 151,
+    "question": "What is build process in React?",
+    "answer": "Compiling and bundling React code into production-ready files."
+  },
+  {
+    "id": 152,
+    "question": "What is production build?",
+    "answer": "Optimized version of app for deployment."
+  },
+  {
+    "id": 153,
+    "question": "What is development build?",
+    "answer": "Build used during development with debugging features."
+  },
+  {
+    "id": 154,
+    "question": "What is source map?",
+    "answer": "Maps compiled code back to original source code for debugging."
+  },
+  {
+    "id": 155,
+    "question": "What is bundle size optimization?",
+    "answer": "Reducing size of JavaScript bundles for faster loading."
+  },
+  {
+    "id": 156,
+    "question": "What is CDN?",
+    "answer": "Content Delivery Network used to serve static assets quickly."
+  },
+  {
+    "id": 157,
+    "question": "What is SSR benefit?",
+    "answer": "Improves SEO and initial page load speed."
+  },
+  {
+    "id": 158,
+    "question": "What is hydration performance issue?",
+    "answer": "Delays caused when React attaches event listeners to server HTML."
+  },
+  {
+    "id": 159,
+    "question": "What is frontend architecture?",
+    "answer": "Structure and organization of frontend codebase."
+  },
+  {
+    "id": 160,
+    "question": "What is modular architecture?",
+    "answer": "Breaking application into independent reusable modules."
+  },
+  {
+    "id": 161,
+    "question": "What is monorepo?",
+    "answer": "A single repository containing multiple projects."
+  },
+  {
+    "id": 162,
+    "question": "What is micro frontend?",
+    "answer": "Architecture where frontend is divided into independent apps."
+  },
+  {
+    "id": 163,
+    "question": "What is state management strategy?",
+    "answer": "Approach used to handle application state effectively."
+  },
+  {
+    "id": 164,
+    "question": "What is scalability in React apps?",
+    "answer": "Ability of application to handle growth in users and features."
+  },
+  {
+    "id": 165,
+    "question": "What is maintainability?",
+    "answer": "Ease of updating and managing codebase."
+  },
+  {
+    "id": 166,
+    "question": "What is testability?",
+    "answer": "Ease of writing tests for application components."
+  },
+  {
+    "id": 167,
+    "question": "What is unit testing?",
+    "answer": "Testing individual components or functions."
+  },
+  {
+    "id": 168,
+    "question": "What is integration testing?",
+    "answer": "Testing interaction between multiple components."
+  },
+  {
+    "id": 169,
+    "question": "What is end-to-end testing?",
+    "answer": "Testing complete user flow in application."
+  },
+  {
+    "id": 170,
+    "question": "What is Jest?",
+    "answer": "A JavaScript testing framework."
+  },
+  {
+    "id": 171,
+    "question": "What is React Testing Library?",
+    "answer": "A library for testing React components from user perspective."
+  },
+  {
+    "id": 172,
+    "question": "What is mocking in testing?",
+    "answer": "Replacing real dependencies with fake ones for testing."
+  },
+  {
+    "id": 173,
+    "question": "What is snapshot testing?",
+    "answer": "Capturing UI output and comparing with previous snapshots."
+  },
+  {
+    "id": 174,
+    "question": "What is debugging in React?",
+    "answer": "Finding and fixing errors in React applications."
+  },
+  {
+    "id": 175,
+    "question": "What is React Profiler?",
+    "answer": "Tool to measure rendering performance of components."
+  },
+  {
+    "id": 176,
+    "question": "What is memory leak in React?",
+    "answer": "When unused memory is not released, causing performance issues."
+  },
+  {
+    "id": 177,
+    "question": "What is cleanup in memory management?",
+    "answer": "Removing subscriptions, timers, or listeners to avoid leaks."
+  },
+  {
+    "id": 178,
+    "question": "What is accessibility (a11y)?",
+    "answer": "Designing apps usable by people with disabilities."
+  },
+  {
+    "id": 179,
+    "question": "What is ARIA in React?",
+    "answer": "Attributes used to improve accessibility of web apps."
+  },
+  {
+    "id": 180,
+    "question": "Why accessibility is important?",
+    "answer": "It ensures usability for all users including those with disabilities."
+  },
+  {
+    "id": 181,
+    "question": "What is React architecture?",
+    "answer": "React architecture is based on component composition, unidirectional data flow, and a virtual DOM reconciliation system."
+  },
+  {
+    "id": 182,
+    "question": "What is React concurrent rendering?",
+    "answer": "Concurrent rendering allows React to interrupt rendering work to keep the UI responsive."
+  },
+  {
+    "id": 183,
+    "question": "What are React Server Components?",
+    "answer": "Server Components run on the server and send rendered output to the client, reducing bundle size."
+  },
+  {
+    "id": 184,
+    "question": "Difference between Server Components and Client Components?",
+    "answer": "Server Components run on the server without client-side JavaScript, while Client Components run in the browser."
+  },
+  {
+    "id": 185,
+    "question": "What is React Fiber architecture?",
+    "answer": "Fiber is React's reconciliation engine that enables incremental rendering and prioritization of updates."
+  },
+  {
+    "id": 186,
+    "question": "Why was Fiber introduced?",
+    "answer": "To enable asynchronous rendering and improve UI responsiveness."
+  },
+  {
+    "id": 187,
+    "question": "What is scheduling in React?",
+    "answer": "Scheduling determines how and when updates are processed based on priority."
+  },
+  {
+    "id": 188,
+    "question": "What is priority-based rendering?",
+    "answer": "React assigns priorities to updates to ensure important UI updates happen first."
+  },
+  {
+    "id": 189,
+    "question": "What is hydration in modern React?",
+    "answer": "Hydration attaches event listeners to server-rendered HTML in SSR applications."
+  },
+  {
+    "id": 190,
+    "question": "What is partial hydration?",
+    "answer": "Only parts of the UI are hydrated instead of the entire page at once."
+  },
+  {
+    "id": 191,
+    "question": "What is React streaming SSR?",
+    "answer": "Streaming SSR sends HTML to the browser in chunks for faster rendering."
+  },
+  {
+    "id": 192,
+    "question": "What is Suspense for data fetching?",
+    "answer": "Suspense allows components to wait for async data before rendering UI."
+  },
+  {
+    "id": 193,
+    "question": "What is React cache?",
+    "answer": "React cache stores data to avoid redundant fetch operations."
+  },
+  {
+    "id": 194,
+    "question": "What is optimistic UI?",
+    "answer": "UI updates immediately before server confirmation to improve perceived performance."
+  },
+  {
+    "id": 195,
+    "question": "What is state colocation?",
+    "answer": "Placing state as close as possible to where it is used."
+  },
+  {
+    "id": 196,
+    "question": "What is global state vs local state?",
+    "answer": "Global state is shared across the app; local state is confined to a component."
+  },
+  {
+    "id": 197,
+    "question": "What is atomic state management?",
+    "answer": "State is broken into small independent units for better control and performance."
+  },
+  {
+    "id": 198,
+    "question": "What is Recoil?",
+    "answer": "Recoil is a state management library for managing shared state in React apps."
+  },
+  {
+    "id": 199,
+    "question": "What is Zustand?",
+    "answer": "Zustand is a lightweight state management library using hooks."
+  },
+  {
+    "id": 200,
+    "question": "What is Jotai?",
+    "answer": "Jotai is an atomic state management library for React."
+  },
+  {
+    "id": 201,
+    "question": "What is Redux middleware flow?",
+    "answer": "Middleware intercepts actions between dispatch and reducer execution."
+  },
+  {
+    "id": 202,
+    "question": "What is side effect in React?",
+    "answer": "Side effects are operations like API calls, logging, or DOM manipulation."
+  },
+  {
+    "id": 203,
+    "question": "What is pure function in Redux?",
+    "answer": "A function that returns the same output for same input without side effects."
+  },
+  {
+    "id": 204,
+    "question": "Why reducers must be pure?",
+    "answer": "To ensure predictable state updates and avoid bugs."
+  },
+  {
+    "id": 205,
+    "question": "What is action creator?",
+    "answer": "A function that returns a Redux action object."
+  },
+  {
+    "id": 206,
+    "question": "What is Redux devtools?",
+    "answer": "A tool to inspect and debug Redux state changes."
+  },
+  {
+    "id": 207,
+    "question": "What is normalization in Redux?",
+    "answer": "Structuring state to avoid duplication and improve lookup efficiency."
+  },
+  {
+    "id": 208,
+    "question": "What is entity adapter in Redux Toolkit?",
+    "answer": "A utility to manage normalized state easily."
+  },
+  {
+    "id": 209,
+    "question": "What is memoized selector?",
+    "answer": "A selector that caches computed results to avoid recalculation."
+  },
+  {
+    "id": 210,
+    "question": "What is reselect library?",
+    "answer": "A library for creating memoized selectors in Redux."
+  },
+  {
+    "id": 211,
+    "question": "What is code hydration mismatch error?",
+    "answer": "Occurs when server and client render outputs differ."
+  },
+  {
+    "id": 212,
+    "question": "What is suspense boundary?",
+    "answer": "A component that handles loading states for async children."
+  },
+  {
+    "id": 213,
+    "question": "What is error boundary limitation?",
+    "answer": "Error boundaries do not catch errors in event handlers or async code."
+  },
+  {
+    "id": 214,
+    "question": "What is React profiler used for?",
+    "answer": "To measure performance of component rendering."
+  },
+  {
+    "id": 215,
+    "question": "What is render phase vs commit phase?",
+    "answer": "Render phase calculates changes; commit phase applies them to DOM."
+  },
+  {
+    "id": 216,
+    "question": "What is reconciliation diffing algorithm?",
+    "answer": "Algorithm that compares old and new Virtual DOM trees efficiently."
+  },
+  {
+    "id": 217,
+    "question": "What is key reconciliation rule?",
+    "answer": "Keys help React identify which elements changed in lists."
+  },
+  {
+    "id": 218,
+    "question": "Why index as key is bad?",
+    "answer": "It can cause incorrect UI updates when list order changes."
+  },
+  {
+    "id": 219,
+    "question": "What is batching in React 18?",
+    "answer": "React groups multiple updates into a single render for performance."
+  },
+  {
+    "id": 220,
+    "question": "What is automatic batching?",
+    "answer": "React automatically batches state updates inside async events."
+  },
+  {
+    "id": 221,
+    "question": "What is transitions in React?",
+    "answer": "Transitions mark updates as non-urgent to keep UI responsive."
+  },
+  {
+    "id": 222,
+    "question": "What is useTransition used for?",
+    "answer": "To manage UI updates that can be deferred."
+  },
+  {
+    "id": 223,
+    "question": "What is Suspense fallback strategy?",
+    "answer": "Shows fallback UI while waiting for async resources."
+  },
+  {
+    "id": 224,
+    "question": "What is progressive rendering?",
+    "answer": "Rendering UI in stages to improve perceived performance."
+  },
+  {
+    "id": 225,
+    "question": "What is micro frontend architecture?",
+    "answer": "Splitting frontend into independent deployable modules."
+  },
+  {
+    "id": 226,
+    "question": "What is module federation?",
+    "answer": "A Webpack feature for sharing code between apps."
+  },
+  {
+    "id": 227,
+    "question": "What is design system in React?",
+    "answer": "A reusable set of UI components and guidelines."
+  },
+  {
+    "id": 228,
+    "question": "What is component library?",
+    "answer": "A collection of reusable UI components."
+  },
+  {
+    "id": 229,
+    "question": "What is Storybook?",
+    "answer": "A tool for developing and testing UI components in isolation."
+  },
+  {
+    "id": 230,
+    "question": "What is scalability challenge in React apps?",
+    "answer": "Managing performance, state complexity, and maintainability as app grows."
+  },
+  {
+    "id": 231,
+    "question": "What is frontend architecture in large-scale React applications?",
+    "answer": "Frontend architecture defines how components, state, routing, and services are structured to ensure scalability, maintainability, and performance."
+  },
+  {
+    "id": 232,
+    "question": "What is domain-driven design in frontend?",
+    "answer": "It is organizing frontend code based on business domains instead of technical layers."
+  },
+  {
+    "id": 233,
+    "question": "What is feature-based folder structure?",
+    "answer": "A structure where code is organized by features rather than file types."
+  },
+  {
+    "id": 234,
+    "question": "What is monolithic frontend architecture?",
+    "answer": "A single unified frontend codebase handling all features."
+  },
+  {
+    "id": 235,
+    "question": "What is micro frontend architecture?",
+    "answer": "An approach where frontend is split into independent applications that integrate together."
+  },
+  {
+    "id": 236,
+    "question": "What are trade-offs of micro frontends?",
+    "answer": "They increase complexity but improve scalability and team independence."
+  },
+  {
+    "id": 237,
+    "question": "What is module federation?",
+    "answer": "A Webpack feature that enables sharing modules between separate applications at runtime."
+  },
+  {
+    "id": 238,
+    "question": "What is design system governance?",
+    "answer": "Rules and processes for maintaining consistency in UI components across teams."
+  },
+  {
+    "id": 239,
+    "question": "What is state management at scale?",
+    "answer": "A strategy to manage distributed state across large applications efficiently."
+  },
+  {
+    "id": 240,
+    "question": "What is event-driven architecture in frontend?",
+    "answer": "Components communicate via events instead of direct coupling."
+  },
+  {
+    "id": 241,
+    "question": "What is CQRS in frontend?",
+    "answer": "Separating read and write operations for state handling."
+  },
+  {
+    "id": 242,
+    "question": "What is caching strategy in React apps?",
+    "answer": "Techniques to store and reuse data to avoid redundant API calls."
+  },
+  {
+    "id": 243,
+    "question": "What is stale-while-revalidate?",
+    "answer": "A caching strategy that shows cached data while fetching fresh data."
+  },
+  {
+    "id": 244,
+    "question": "What is React Query?",
+    "answer": "A library for managing server state, caching, and synchronization."
+  },
+  {
+    "id": 245,
+    "question": "What is SWR?",
+    "answer": "A React hook library for data fetching with caching and revalidation."
+  },
+  {
+    "id": 246,
+    "question": "What is optimistic concurrency in UI?",
+    "answer": "Updating UI immediately assuming success before server confirmation."
+  },
+  {
+    "id": 247,
+    "question": "What is failure recovery in frontend apps?",
+    "answer": "Handling API or runtime failures gracefully with retries or fallback UI."
+  },
+  {
+    "id": 248,
+    "question": "What is retry strategy in API calls?",
+    "answer": "Automatically reattempting failed requests based on defined rules."
+  },
+  {
+    "id": 249,
+    "question": "What is circuit breaker pattern?",
+    "answer": "Preventing repeated API calls when a service is failing."
+  },
+  {
+    "id": 250,
+    "question": "What is frontend observability?",
+    "answer": "Monitoring frontend performance, errors, and user behavior."
+  },
+  {
+    "id": 251,
+    "question": "What is logging in React applications?",
+    "answer": "Recording events and errors for debugging and monitoring."
+  },
+  {
+    "id": 252,
+    "question": "What is error tracking tools?",
+    "answer": "Tools like Sentry used to track and report runtime errors."
+  },
+  {
+    "id": 253,
+    "question": "What is performance budget?",
+    "answer": "A limit on resource usage like bundle size and load time."
+  },
+  {
+    "id": 254,
+    "question": "What is Web Vitals?",
+    "answer": "Metrics that measure real-world user experience performance."
+  },
+  {
+    "id": 255,
+    "question": "What is LCP?",
+    "answer": "Largest Contentful Paint, measures loading performance."
+  },
+  {
+    "id": 256,
+    "question": "What is FID?",
+    "answer": "First Input Delay, measures interactivity responsiveness."
+  },
+  {
+    "id": 257,
+    "question": "What is CLS?",
+    "answer": "Cumulative Layout Shift, measures visual stability."
+  },
+  {
+    "id": 258,
+    "question": "What is Lighthouse?",
+    "answer": "A tool for auditing performance, accessibility, and SEO."
+  },
+  {
+    "id": 259,
+    "question": "What is bundle splitting strategy?",
+    "answer": "Dividing code into logical chunks for faster loading."
+  },
+  {
+    "id": 260,
+    "question": "What is hydration optimization?",
+    "answer": "Reducing work needed during client-side hydration."
+  },
+  {
+    "id": 261,
+    "question": "What is edge rendering?",
+    "answer": "Rendering content closer to users using edge servers."
+  },
+  {
+    "id": 262,
+    "question": "What is CDN caching strategy?",
+    "answer": "Serving static and dynamic content from distributed servers."
+  },
+  {
+    "id": 263,
+    "question": "What is React compiler optimization?",
+    "answer": "Automatic optimization of React code to reduce re-renders."
+  },
+  {
+    "id": 264,
+    "question": "What is dependency optimization in hooks?",
+    "answer": "Ensuring hooks re-run only when necessary dependencies change."
+  },
+  {
+    "id": 265,
+    "question": "What is closure issue in React hooks?",
+    "answer": "When hooks capture outdated state values due to closures."
+  },
+  {
+    "id": 266,
+    "question": "What is event loop impact on React?",
+    "answer": "React updates are scheduled through the JavaScript event loop."
+  },
+  {
+    "id": 267,
+    "question": "What is memory optimization in React?",
+    "answer": "Reducing memory usage by cleaning up unused references."
+  },
+  {
+    "id": 268,
+    "question": "What is garbage collection in JavaScript?",
+    "answer": "Automatic memory cleanup of unused objects."
+  },
+  {
+    "id": 269,
+    "question": "What is SSR hydration mismatch debugging?",
+    "answer": "Identifying differences between server and client rendered markup."
+  },
+  {
+    "id": 270,
+    "question": "What is incremental adoption strategy for React?",
+    "answer": "Gradually introducing React into existing applications."
+  },
+  {
+    "id": 271,
+    "question": "What is legacy code migration strategy?",
+    "answer": "Systematic approach to modernize old frontend codebases."
+  },
+  {
+    "id": 272,
+    "question": "What is technical debt in frontend?",
+    "answer": "Accumulated shortcuts in code that reduce maintainability."
+  },
+  {
+    "id": 273,
+    "question": "What is code quality enforcement?",
+    "answer": "Using linting, formatting, and testing to maintain standards."
+  },
+  {
+    "id": 274,
+    "question": "What is CI/CD pipeline in React?",
+    "answer": "Automated process for testing, building, and deploying apps."
+  },
+  {
+    "id": 275,
+    "question": "What is blue-green deployment?",
+    "answer": "Deploying new version alongside old one to reduce downtime."
+  },
+  {
+    "id": 276,
+    "question": "What is canary deployment?",
+    "answer": "Rolling out updates to a small subset of users first."
+  },
+  {
+    "id": 277,
+    "question": "What is feature flagging?",
+    "answer": "Turning features on/off without redeploying code."
+  },
+  {
+    "id": 278,
+    "question": "What is rollback strategy?",
+    "answer": "Reverting to previous stable version in case of failure."
+  },
+  {
+    "id": 279,
+    "question": "What is A/B testing in frontend?",
+    "answer": "Comparing two UI versions to measure user engagement."
+  },
+  {
+    "id": 280,
+    "question": "What is user experience (UX) optimization?",
+    "answer": "Improving usability, performance, and accessibility of applications."
+  },
+  {
+    "id": 281,
+    "question": "What is design to code workflow?",
+    "answer": "Converting UI designs into reusable React components."
+  },
+  {
+    "id": 282,
+    "question": "What is atomic design system?",
+    "answer": "A methodology for building UI from atoms, molecules, and organisms."
+  },
+  {
+    "id": 283,
+    "question": "What is reusable component strategy?",
+    "answer": "Designing components that can be used across multiple features."
+  },
+  {
+    "id": 284,
+    "question": "What is accessibility-first design?",
+    "answer": "Designing applications with accessibility as a primary requirement."
+  },
+  {
+    "id": 285,
+    "question": "What is internationalization (i18n)?",
+    "answer": "Supporting multiple languages and regions in applications."
+  },
+  {
+    "id": 286,
+    "question": "What is localization (l10n)?",
+    "answer": "Adapting application content for specific languages or regions."
+  },
+  {
+    "id": 287,
+    "question": "What is security in frontend applications?",
+    "answer": "Protecting apps from vulnerabilities like XSS and CSRF."
+  },
+  {
+    "id": 288,
+    "question": "What is XSS attack?",
+    "answer": "Cross-site scripting where malicious scripts are injected into web pages."
+  },
+  {
+    "id": 289,
+    "question": "What is CSRF attack?",
+    "answer": "Cross-site request forgery where unauthorized actions are performed."
+  },
+  {
+    "id": 290,
+    "question": "How to prevent XSS in React?",
+    "answer": "React automatically escapes content, reducing XSS risks."
+  },
+  {
+    "id": 291,
+    "question": "What is content security policy (CSP)?",
+    "answer": "A security layer that restricts resources the browser can load."
+  },
+  {
+    "id": 292,
+    "question": "What is dependency injection in frontend?",
+    "answer": "Providing dependencies to components instead of hardcoding them."
+  },
+  {
+    "id": 293,
+    "question": "What is inversion of control?",
+    "answer": "Delegating control of dependencies to external systems."
+  },
+  {
+    "id": 294,
+    "question": "What is clean architecture in React?",
+    "answer": "Separating business logic from UI and infrastructure concerns."
+  },
+  {
+    "id": 295,
+    "question": "What is hexagonal architecture?",
+    "answer": "Architecture that isolates core logic from external systems."
+  },
+  {
+    "id": 296,
+    "question": "What is test pyramid?",
+    "answer": "Strategy emphasizing more unit tests than integration and E2E tests."
+  },
+  {
+    "id": 297,
+    "question": "What is chaos testing?",
+    "answer": "Introducing failures to test system resilience."
+  },
+  {
+    "id": 298,
+    "question": "What is frontend scalability engineering?",
+    "answer": "Designing systems to handle growth in users and features efficiently."
+  },
+  {
+    "id": 299,
+    "question": "What is system design for frontend interviews?",
+    "answer": "Designing scalable UI architectures and data flow systems."
+  },
+  {
+    "id": 300,
+    "question": "What makes a senior React engineer?",
+    "answer": "Strong understanding of architecture, performance optimization, scalability, and team-level decision making."
+  }
+]
